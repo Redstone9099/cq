@@ -1,0 +1,42 @@
+name: R6.9 ground loot Windows verification
+on:
+  push:
+    branches: [fix/r69-loot-feedback-20261024]
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      DOTNET_CLI_TELEMETRY_OPTOUT: 1
+      DOTNET_NOLOGO: 1
+      LOOT_RENDER_CAPTURE: ${{ github.workspace }}/package/Mir2_R6_8/build-logs/loot-render-samples.json
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Fetch R6.8 baseline and apply R6.9
+        shell: pwsh
+        run: |
+          Invoke-WebRequest 'https://github.com/Redstone9099/cq/releases/download/v1/Mir2_R6_8_Ground_Loot_Fixed_20261024.zip' -OutFile base.zip
+          if ((Get-FileHash base.zip -Algorithm SHA256).Hash -ne '670bb725d8ef5d2fca86105daeec6ce9248ae01c163b587950afec8f5a3ebe18') { throw 'Baseline ZIP mismatch' }
+          Expand-Archive base.zip -DestinationPath package
+          Copy-Item ./r69/* ./package/Mir2_R6_8 -Recurse -Force
+      - name: Client full build and all regression gates
+        shell: pwsh
+        run: ./package/Mir2_R6_8/Build-R6.ps1 -BuildOnly
+      - name: Server full build and reward gate
+        shell: pwsh
+        run: ./package/Mir2_R6_8/Build-Server-R6.8.ps1
+      - name: Regression output isolation
+        shell: pwsh
+        run: ./package/Mir2_R6_8/Verification/Test-RegressionBuildIsolation.ps1
+      - name: Archive logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: r69-windows-build-logs
+          path: package/Mir2_R6_8/build-logs/
+          retention-days: 30
