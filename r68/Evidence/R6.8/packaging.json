@@ -1,0 +1,16 @@
+{
+  "kind": "R6.8 full and R6.7 upgrade packaging verification",
+  "method": "Read every final ZIP entry, validate CRC and SHA256; merge the actual upgrade ZIP with each original baseline and compare all file paths and bytes to the full ZIP.",
+  "base_r67_sha256": "0ea4f3e860ad425eeace3bdd8dab76ab9e5533a499cdf11aab44b16fe6b332cb",
+  "full_zip": "Mir2_R6_8_Ground_Loot_Fixed_20261024.zip",
+  "upgrade_zip": "Mir2_R6_8_R67_Upgrade_20261024.zip",
+  "full_file_count": 1181,
+  "upgrade_file_count": 33,
+  "r67_resource_files_retained": 84,
+  "r67_upgrade_identical_to_full": true,
+  "zip_crc_passed": true,
+  "package_manifest_passed": true,
+  "skill_manifest_passed": true,
+  "no_removed_files": true,
+  "credential_scan_passed": true
+}

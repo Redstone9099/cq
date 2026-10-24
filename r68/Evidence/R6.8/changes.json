@@ -1,0 +1,132 @@
+[
+  {
+    "path": "00-README-R6.8.md",
+    "before_sha256": null,
+    "after_sha256": "d7129b985987b99c736bc9c4b5cb116576c60890eead65f3a0bd669ba35fba58"
+  },
+  {
+    "path": "AUDIT-R6.8.md",
+    "before_sha256": null,
+    "after_sha256": "417a0a47b6c2fb41b4a3f4f9aae5f3dc4f31f066cbcaa30f88cc5f72eb9378bd"
+  },
+  {
+    "path": "Build-R6.ps1",
+    "before_sha256": "93a06ab26aa58fa7b1d99390cae524ca15b9586ced6928e3d015e5b507dfc455",
+    "after_sha256": "195f4df5a2e534a4257487547a69c8c06630c9b0d64972c04b69156a4c6ea297"
+  },
+  {
+    "path": "Build-Server-R6.5.ps1",
+    "before_sha256": "26b7d7799f2e040f37fb6876872b7baee5afd41fc1e2a1d23afa10c656438fbd",
+    "after_sha256": "df9b5542364bd90015054fea29a082f2f95160120245f550ece0f7160a2b99b9"
+  },
+  {
+    "path": "Build-Server-R6.7.ps1",
+    "before_sha256": "26b7d7799f2e040f37fb6876872b7baee5afd41fc1e2a1d23afa10c656438fbd",
+    "after_sha256": "df9b5542364bd90015054fea29a082f2f95160120245f550ece0f7160a2b99b9"
+  },
+  {
+    "path": "Build-Server-R6.8.cmd",
+    "before_sha256": null,
+    "after_sha256": "c2584e85d2bb77dcbf18a68d6beb1364d4587f6503b61ef6d9965f480d0cb550"
+  },
+  {
+    "path": "Build-Server-R6.8.ps1",
+    "before_sha256": null,
+    "after_sha256": "df9b5542364bd90015054fea29a082f2f95160120245f550ece0f7160a2b99b9"
+  },
+  {
+    "path": "README-R6.md",
+    "before_sha256": "327c5251d64cf63a918b887857d4eb10c3bdb5269c8ed79448b9f6e8b3b754ba",
+    "after_sha256": "f6326aec85c814be86a8a66df7c6ea03832081da2eef5d41ef88eba4e2c35cbd"
+  },
+  {
+    "path": "Source/Client/MirGraphics/LootEffectRenderer.cs",
+    "before_sha256": "5643ad006e49f8ac9bf9b745b271561bbaa98d2b90671301517ef2368ce399e1",
+    "after_sha256": "b8742b68e98c20729222339b9d2e7441f71acae124436acaac44a9b708cc44b1"
+  },
+  {
+    "path": "Source/Client/MirObjects/ItemObject.cs",
+    "before_sha256": "332895ae01ee74f6049eaedb9fbac76d78cf19cb8c79ddcec90e9e4c1f5597b7",
+    "after_sha256": "d31fbab82b2ad2a5dcfcb545cad8becf27a110f1c1367082f85e53e5ac940f64"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/IntelligentCreatureDialogs.cs",
+    "before_sha256": "c5c0a79ea82aa06f08d8f175a02a46c329fcdfa7f07b6641045a378c1e25d834",
+    "after_sha256": "0be4f8f78d4bc3bb951b2c386f6a9d2c20aaf7331c96d1c171a0a79ae76066f4"
+  },
+  {
+    "path": "Source/Client/MirScenes/GameScene.cs",
+    "before_sha256": "1a622030858a7e411b25aa043bae2e0696c61ccc2b499d0bd3c2d0e261d8f02b",
+    "after_sha256": "2014becdfd972806649dd052fac8e1a29d8950d00075ecb792b3ac88810faba5"
+  },
+  {
+    "path": "Source/Client/MirScenes/MapControl.LootLabels.cs",
+    "before_sha256": null,
+    "after_sha256": "c8dfdfb9ac8969f7112d684399a638a028af0c3e7c9f1e8f6badb51b81771455"
+  },
+  {
+    "path": "Source/Client/Performance/LootEffectBudget.cs",
+    "before_sha256": "51d291d5eacb149b76b452d05a07d93016f6dc4df8ec8c7dcf527c499a8681af",
+    "after_sha256": "b74218fbb7cc9f5994b7aa2d4369b34a2691b5417bcf33612a72d49431ee952d"
+  },
+  {
+    "path": "Source/Client/Performance/LootEffectTimeline.cs",
+    "before_sha256": "cd0a49de6f162ec9f46983c78b54016a197722447bb2d1e4cafaeb02515eb0d3",
+    "after_sha256": "5086735afeb4eb7bf1cb7d2c3c8154bbfeb5d26443cc49dcdc128e5024c5e624"
+  },
+  {
+    "path": "Source/Client/Performance/LootLabelLayout.cs",
+    "before_sha256": null,
+    "after_sha256": "244932fb56779628dcad7c2614c6572cb1ad11851946a368d1cba5ff913527d8"
+  },
+  {
+    "path": "Source/Client/Performance/LootPresentation.cs",
+    "before_sha256": null,
+    "after_sha256": "27c3743647b648120f3de5a0e1e82bf8726f9a01473035eeabb060cf3d15b2e6"
+  },
+  {
+    "path": "Source/Server/MirObjects/ItemObject.cs",
+    "before_sha256": "f72afa3c7de916fd1decd4b84d15e1fc3475c281678b0f8227ace976f62f3817",
+    "after_sha256": "2e4fc58acd2d915d7c4178b9aeeb44aca79a506b74d2b3322f8549a70777bde0"
+  },
+  {
+    "path": "Source/Shared/ItemQualityPresentation.cs",
+    "before_sha256": null,
+    "after_sha256": "9b5196c4ed550d2762339141103aa09b2e27f5e3006bfbdebbe4e1fd0356518e"
+  },
+  {
+    "path": "Source/Shared/ServerPackets.cs",
+    "before_sha256": "874bfe2030c0c28a8ed6e6b6ec2f0c2edf47d259f3b17ee0f982ec3e5a404f23",
+    "after_sha256": "2c27e07e9d75c11540b5902b70b0d79b72be2c03ad4465eea8ffec71a1f0d8bf"
+  },
+  {
+    "path": "Verification/Loot/Regression.cs",
+    "before_sha256": "4b0cc2584e19c88bd3c95998957d58698eb8bfa2784adbd6bf1c0df9ab7424f2",
+    "after_sha256": "1efb7a03ac56dca42a2212c32d0f6f44a44a03b296059459db0307abe8647a88"
+  },
+  {
+    "path": "Verification/Loot/Stubs.cs",
+    "before_sha256": "6cc701cb166090da3d45a8f7bcd7459f3bf241bb129ee550de58aa7f919df013",
+    "after_sha256": "656c49fdd3c317b365ed99a01d7d30361eae84fab7b9d35868e0d64ea9a040f8"
+  },
+  {
+    "path": "Verification/LootEffectsRegression.csproj",
+    "before_sha256": "5695f584b88727fd13b75c4cb59fcdc96128626b57a2d17ca48cb1e4806bfc4c",
+    "after_sha256": "2e684656444510ffa7fcc5e9ad77ce02a217392178fd54ac838866b823b55c2e"
+  },
+  {
+    "path": "Verification/RewardsRegression.cs",
+    "before_sha256": "8d0d80badef2561173e8b0c8f91aabed147d65751909a39c7fee534c94a09a57",
+    "after_sha256": "e27a7d18f559dca80c4de8fc2cf0f7ec50344e745f5ff3f104fddf091a4547a7"
+  },
+  {
+    "path": "Verification/verify_r68_review.py",
+    "before_sha256": null,
+    "after_sha256": "1e790ab5350cbd75cb3931d758247a6103527671189a961a06e19ba173a13e2c"
+  },
+  {
+    "path": "skills-sha256.json",
+    "before_sha256": "94d1e2d19b7833c2d33a5d1f38cba8bcb8f0ce78002298bb4ea73ff3bb54f9aa",
+    "after_sha256": "86c573e9dd627ad49760dd5c5815fa2df9dda556be7e99eb0c12ec3a724fb63a"
+  }
+]

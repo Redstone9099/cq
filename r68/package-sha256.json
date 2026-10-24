@@ -48,6 +48,10 @@
     "sha256": "ae60f590b038ba3495aae58a1fba6032e01d8921c15aa2ea57d4ccfda0263c56"
   },
   {
+    "path": "AUDIT-R6.8.md",
+    "sha256": "417a0a47b6c2fb41b4a3f4f9aae5f3dc4f31f066cbcaa30f88cc5f72eb9378bd"
+  },
+  {
     "path": "Assets/R6/generation.json",
     "sha256": "1ba0063fb4108f03f0b1d1fa9d232d4f458e6ded282155cee572ab228423e344"
   },
@@ -506,6 +510,30 @@
   {
     "path": "Evidence/R6.7/windows-ci.json",
     "sha256": "f5d05315c3a9bda78a74fc1bfd5501056a9881fa6b4bee389e4949abe2d37a88"
+  },
+  {
+    "path": "Evidence/R6.8/base-r67-manifest.json",
+    "sha256": "bb9131e92b21ebfce39b5e75b495d875478c4bbbd4202e7e262d41e1121b9686"
+  },
+  {
+    "path": "Evidence/R6.8/changes.json",
+    "sha256": "1a45b77f76e6fdc2271c56060f10c6466c90f5b8fbcc7282e157ecd482dbb4ff"
+  },
+  {
+    "path": "Evidence/R6.8/offline-review.json",
+    "sha256": "a6a751a2313b84524f5a70c88d7f59d24ab0252280f2793fdc8b405adbdcde9e"
+  },
+  {
+    "path": "Evidence/R6.8/packaging.json",
+    "sha256": "8e57cc492f49863e38ad7af96bcb1cf324bbe7775610af30cee90951611e3a1b"
+  },
+  {
+    "path": "Evidence/R6.8/windows-build.log",
+    "sha256": "8f39bbe281ac10d1b8b62513c4361685ff8cde4e638a0fe83efddec6de8b09d8"
+  },
+  {
+    "path": "Evidence/R6.8/windows-ci.json",
+    "sha256": "c3247a770b37fb3620912f5e942771c926ba5e58f2554894a12b0ba5570d3f17"
   },
   {
     "path": "Evidence/cursors-r5.json",
