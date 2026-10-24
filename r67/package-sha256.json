@@ -4261,7 +4261,11 @@
   },
   {
     "path": "Verification/verify_r66_review.py",
-    "sha256": "7bcb35406e301e62ff7695c2d05bddcea42062d56dcd30ef9447f7f29cbfe98f"
+    "sha256": "10e183bc20b14a43c7458b5538c3d63ca12f8dae7fa9875efd1dba28b5c7d1f8"
+  },
+  {
+    "path": "Verification/verify_r67_review.py",
+    "sha256": "a20d587c512db24f7f277d96afa78cae25d633d682656e9b9ef03eb5c8ed3877"
   },
   {
     "path": "Verification/verify_r6_layout.py",
