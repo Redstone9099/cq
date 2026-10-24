@@ -56,6 +56,10 @@
     "sha256": "417a0a47b6c2fb41b4a3f4f9aae5f3dc4f31f066cbcaa30f88cc5f72eb9378bd"
   },
   {
+    "path": "AUDIT-R6.9.md",
+    "sha256": "fe249297f2eef1d3de91025d28a06535ad92f319f93b4f03e24cda66670ddb18"
+  },
+  {
     "path": "Assets/R6/generation.json",
     "sha256": "1ba0063fb4108f03f0b1d1fa9d232d4f458e6ded282155cee572ab228423e344"
   },
@@ -540,6 +544,42 @@
     "sha256": "c3247a770b37fb3620912f5e942771c926ba5e58f2554894a12b0ba5570d3f17"
   },
   {
+    "path": "Evidence/R6.9/base-r68-manifest.json",
+    "sha256": "18f2d989f15b424ae7c674df27a753db4b3aca2b4be8201f1cb5c5ae76522609"
+  },
+  {
+    "path": "Evidence/R6.9/changes.json",
+    "sha256": "42d8926b695fbba2b67277d5ce67e024353654bfdc7ab5ff911f8232ffa1959c"
+  },
+  {
+    "path": "Evidence/R6.9/offline-review.json",
+    "sha256": "1323bcf356d6a3d0472aa0b25f98afff7f73c1d8ffa92bc64eb6b96e537da0b9"
+  },
+  {
+    "path": "Evidence/R6.9/packaging.json",
+    "sha256": "86e0436b5a2e69235b103290d8126e7fbb0a6e014655a5496fce1558c75bc98f"
+  },
+  {
+    "path": "Evidence/R6.9/pixel-review.json",
+    "sha256": "18d29e7e9a4135e30beeb259938b8e2b0485f92ff1e498117e539accab7a93de"
+  },
+  {
+    "path": "Evidence/R6.9/preview-check.json",
+    "sha256": "fe28e3881fc308c45d91338bee385488ef6769e0ba59492aead7a7159221856b"
+  },
+  {
+    "path": "Evidence/R6.9/render-samples.json",
+    "sha256": "164a2cbe7b9e117c8ebbda6f299c3351a8fcdab16c8fd8b0fe9eede9f377dec9"
+  },
+  {
+    "path": "Evidence/R6.9/windows-build.log",
+    "sha256": "ac589ca31583fbf64900d206f7c6075b28dc80c74067e260633fb65a29ff74fb"
+  },
+  {
+    "path": "Evidence/R6.9/windows-ci.json",
+    "sha256": "460f48ee0e65c12dfe63b8aba546a40d0ecb3eeadb11029ff0b635caf909c355"
+  },
+  {
     "path": "Evidence/cursors-r5.json",
     "sha256": "0c53cd33216ad19862062cbac080ad2d77b1fad8394613687b745a52bf48100e"
   },
@@ -710,6 +750,10 @@
   {
     "path": "Preview-Loot-R6.5.html",
     "sha256": "ff10a51438180070ed95cc3e89482028421f48df549f2ee9594c1102d0209d0e"
+  },
+  {
+    "path": "Preview-Loot-R6.9.html",
+    "sha256": "0b5fb6e9c187a60636c449fcd3d876c49498b206a12873a335ff05cf34d55d11"
   },
   {
     "path": "Preview-R6.html",
@@ -4370,6 +4414,10 @@
   {
     "path": "Verification/verify_r68_review.py",
     "sha256": "1e790ab5350cbd75cb3931d758247a6103527671189a961a06e19ba173a13e2c"
+  },
+  {
+    "path": "Verification/verify_r69_review.py",
+    "sha256": "8d33f168de644864fb41d5e55c48565e40d20a229eb2cd121971cae0bcc641e1"
   },
   {
     "path": "Verification/verify_r6_layout.py",

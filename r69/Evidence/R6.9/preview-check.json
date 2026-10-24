@@ -1,0 +1,15 @@
+{
+  "script": "shipped Preview-Loot-R6.9.html",
+  "engine": "Node VM with native Canvas and DOM adapters",
+  "frames": 73,
+  "controls": [
+    "seek",
+    "replay",
+    "pause",
+    "resume",
+    "day/night"
+  ],
+  "passed": true,
+  "browser_executed": false,
+  "game_renderer_executed": false
+}

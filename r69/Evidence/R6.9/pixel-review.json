@@ -1,0 +1,66 @@
+{
+  "kind": "Offline composition of real C# renderer calls and shipped atlas primitives",
+  "source": {
+    "run_id": 40093546578,
+    "commit": "d56d340ae92a2afca324aedfd4e55d301fd29258",
+    "artifact_id": 12559967513
+  },
+  "samples": 365,
+  "grades": 5,
+  "graphics_device": "adapter; no Direct3D",
+  "body": "opaque placeholder, not original FloorItems",
+  "checks": [
+    {
+      "dark": false,
+      "grade": 2,
+      "min_visible_pixels": 330,
+      "min_peak_delta": 66.6627450980392
+    },
+    {
+      "dark": false,
+      "grade": 3,
+      "min_visible_pixels": 332,
+      "min_peak_delta": 71.89411764705883
+    },
+    {
+      "dark": false,
+      "grade": 4,
+      "min_visible_pixels": 365,
+      "min_peak_delta": 76.34117647058824
+    },
+    {
+      "dark": false,
+      "grade": 5,
+      "min_visible_pixels": 385,
+      "min_peak_delta": 82.27058823529414
+    },
+    {
+      "dark": true,
+      "grade": 2,
+      "min_visible_pixels": 193,
+      "min_peak_delta": 25.320155475646622
+    },
+    {
+      "dark": true,
+      "grade": 3,
+      "min_visible_pixels": 206,
+      "min_peak_delta": 28.161430038220598
+    },
+    {
+      "dark": true,
+      "grade": 4,
+      "min_visible_pixels": 222,
+      "min_peak_delta": 30.643850826605146
+    },
+    {
+      "dark": true,
+      "grade": 5,
+      "min_visible_pixels": 247,
+      "min_peak_delta": 35.13277902164327
+    }
+  ],
+  "atlas_sha256": "506fc914ee2b04a0dc36f0da1ead31d31bc27cbacf5636a27bfd3cb67df6ba26",
+  "capture_sha256": "164a2cbe7b9e117c8ebbda6f299c3351a8fcdab16c8fd8b0fe9eede9f377dec9",
+  "gameplay_executed": false,
+  "fps_measured": false
+}

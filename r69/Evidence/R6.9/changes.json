@@ -1,0 +1,67 @@
+[
+  {
+    "path": "00-README-R6.9.md",
+    "before_sha256": null,
+    "after_sha256": "1ae442d5696447c95a2837cff19e05e83b52814dba3848d984836a5c13e9e70a"
+  },
+  {
+    "path": "AUDIT-R6.9.md",
+    "before_sha256": null,
+    "after_sha256": "fe249297f2eef1d3de91025d28a06535ad92f319f93b4f03e24cda66670ddb18"
+  },
+  {
+    "path": "Build-R6.ps1",
+    "before_sha256": "195f4df5a2e534a4257487547a69c8c06630c9b0d64972c04b69156a4c6ea297",
+    "after_sha256": "aa0bbcc845b5f590b1d62a812f60b7a1991cbce9bfbb563f138d2167389c49d9"
+  },
+  {
+    "path": "Preview-Loot-R6.9.html",
+    "before_sha256": null,
+    "after_sha256": "0b5fb6e9c187a60636c449fcd3d876c49498b206a12873a335ff05cf34d55d11"
+  },
+  {
+    "path": "Source/Client/MirGraphics/LootEffectRenderer.cs",
+    "before_sha256": "b8742b68e98c20729222339b9d2e7441f71acae124436acaac44a9b708cc44b1",
+    "after_sha256": "97ef8639ac9319caf9c7e3aa8ea318e69ef8ee704b014f015e7e21151cd7c472"
+  },
+  {
+    "path": "Source/Client/MirObjects/ItemObject.cs",
+    "before_sha256": "d31fbab82b2ad2a5dcfcb545cad8becf27a110f1c1367082f85e53e5ac940f64",
+    "after_sha256": "6cf4fe4daad67f1b41277bf92fd48d16a024c05663be3394ec10d8a3ed801e65"
+  },
+  {
+    "path": "Source/Client/MirScenes/GameScene.cs",
+    "before_sha256": "2014becdfd972806649dd052fac8e1a29d8950d00075ecb792b3ac88810faba5",
+    "after_sha256": "3d2725bbda809043c97baf9b2b9ae6d5ed9d0ddb48c5747c58a9188e5a14830b"
+  },
+  {
+    "path": "Source/Client/Performance/LootEffectBudget.cs",
+    "before_sha256": "b74218fbb7cc9f5994b7aa2d4369b34a2691b5417bcf33612a72d49431ee952d",
+    "after_sha256": "60da70879a9d622771a26ffb4b71e500ca25176495d84d50ac8599e5bbcb2f43"
+  },
+  {
+    "path": "Source/Client/Performance/LootEffectTimeline.cs",
+    "before_sha256": "5086735afeb4eb7bf1cb7d2c3c8154bbfeb5d26443cc49dcdc128e5024c5e624",
+    "after_sha256": "da1601f0f01b71d469cb07216c2540a20a5d1dc523488c110aebcc7e21576386"
+  },
+  {
+    "path": "Verification/Loot/Regression.cs",
+    "before_sha256": "1efb7a03ac56dca42a2212c32d0f6f44a44a03b296059459db0307abe8647a88",
+    "after_sha256": "46c8e0aa44fab9e252b07334c39740f374614badf612febfe1c5230541122fdc"
+  },
+  {
+    "path": "Verification/Loot/Stubs.cs",
+    "before_sha256": "656c49fdd3c317b365ed99a01d7d30361eae84fab7b9d35868e0d64ea9a040f8",
+    "after_sha256": "06cd6cf69ec07710f728a83d75f53c5d9cd6045b83c2b3d148d5d00d7d7a1e2b"
+  },
+  {
+    "path": "Verification/verify_r69_review.py",
+    "before_sha256": null,
+    "after_sha256": "8d33f168de644864fb41d5e55c48565e40d20a229eb2cd121971cae0bcc641e1"
+  },
+  {
+    "path": "skills-sha256.json",
+    "before_sha256": "86c573e9dd627ad49760dd5c5815fa2df9dda556be7e99eb0c12ec3a724fb63a",
+    "after_sha256": "e09a40beabe5940915f551659ec39388b96fbb04e9069ac2f4a8abcc5bf647f2"
+  }
+]
