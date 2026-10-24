@@ -32,6 +32,10 @@ for script in ['Build-R6.ps1','Build-Server-R6.7.ps1']:
     text=read(script)
     check('Reward gate before publish: '+script,text.index('RewardsRegression')<text.index('dotnet publish'))
     check('Build fails on regression exit code: '+script,'$LASTEXITCODE -ne 0' in text)
+    check('Fresh compilation precedes regression run: '+script,text.index('--no-incremental')<text.index('dotnet run --no-build'))
+check('Legacy server entry uses current guarded build',read('Build-Server-R6.5.ps1')==read('Build-Server-R6.7.ps1'))
+check('Standalone startup test not duplicated in UI executable','<Compile Remove="DirectLaunchRegression.cs" />' in read('Verification/UiRegression.csproj'))
+check('Standalone startup test still executes after publish',read('Build-R6.ps1').index('Verification\\DirectLaunchRegression.csproj')>read('Build-R6.ps1').index('dotnet publish'))
 for script in ['Source/Client/MirScenes/Dialogs/InventoryDialog.cs','Source/Client/MirScenes/Dialogs/HeroDialogs.cs']:
     text=read(script)
     check('Rotation control and method removed: '+script,'RotateButton' not in text and 'void Flip()' not in text)

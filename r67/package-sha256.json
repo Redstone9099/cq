@@ -9,7 +9,7 @@
   },
   {
     "path": "00-README-R6.7.md",
-    "sha256": "4431ecdf81115f678e94d3b8a86410ad597156975981037a57649579bdda3f59"
+    "sha256": "11b1e6699c8f1b720d8f192922b787e0146b874739cbf1ca46c0766ed81fc1e5"
   },
   {
     "path": "00-README-R63-to-R64-COMPLETE-PATCH.md",
@@ -1269,7 +1269,7 @@
   },
   {
     "path": "Source/Client/MirObjects/MonsterObject.cs",
-    "sha256": "553357b1f1f2d5c9a8e2b0f93b2d78b133c450d70fb80f03970812912340a6b5"
+    "sha256": "21122f632443dae8a463a10ea60abc0a6f4b263de4879d5efe2f65af3d26093c"
   },
   {
     "path": "Source/Client/MirObjects/NPCObject.cs",
@@ -4285,7 +4285,7 @@
   },
   {
     "path": "Verification/verify_r67_review.py",
-    "sha256": "a20d587c512db24f7f277d96afa78cae25d633d682656e9b9ef03eb5c8ed3877"
+    "sha256": "9940ffbf804f9a79621ed899082890d5ee40c15cdb283415bc6c464e5b06d473"
   },
   {
     "path": "Verification/verify_r6_layout.py",
