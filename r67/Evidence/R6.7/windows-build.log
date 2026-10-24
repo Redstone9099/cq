@@ -1,0 +1,447 @@
+2026-10-24T10:26:52.1183974Z Current runner version: '2.338.0'
+2026-10-24T10:26:52.1212810Z ##[group]Runner Image Provisioner
+2026-10-24T10:26:52.1213590Z Hosted Compute Agent
+2026-10-24T10:26:52.1214187Z Version: 20261021.618
+2026-10-24T10:26:52.1214790Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-10-24T10:26:52.1215453Z Build Date: 2026-10-21T00:45:21Z
+2026-10-24T10:26:52.1216119Z Worker ID: {275ab1b2-7f8b-43e0-a784-753468b1d025}
+2026-10-24T10:26:52.1216798Z Region: eastus
+2026-10-24T10:26:52.1217565Z Cloud: Azure
+2026-10-24T10:26:52.1218128Z ##[endgroup]
+2026-10-24T10:26:52.1219566Z ##[group]Operating System
+2026-10-24T10:26:52.1220238Z Microsoft Windows Server 2025
+2026-10-24T10:26:52.1220820Z 10.0.26100
+2026-10-24T10:26:52.1221311Z Datacenter
+2026-10-24T10:26:52.1221817Z ##[endgroup]
+2026-10-24T10:26:52.1222598Z ##[group]Runner Image
+2026-10-24T10:26:52.1223300Z Image: windows-2025-vs2026
+2026-10-24T10:26:52.1223866Z Version: 20261021.278.1
+2026-10-24T10:26:52.1225408Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20261021.278/images/windows/Windows2025-VS2026-Readme.md
+2026-10-24T10:26:52.1227026Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20261021.278
+2026-10-24T10:26:52.1227997Z ##[endgroup]
+2026-10-24T10:26:52.1229158Z ##[group]GITHUB_TOKEN Permissions
+2026-10-24T10:26:52.1230964Z Contents: read
+2026-10-24T10:26:52.1231555Z Metadata: read
+2026-10-24T10:26:52.1232241Z ##[endgroup]
+2026-10-24T10:26:52.1234425Z Secret source: Actions
+2026-10-24T10:26:52.1235299Z Cache mode: write
+2026-10-24T10:26:52.1235961Z Prepare workflow directory
+2026-10-24T10:26:52.1631713Z Prepare all required actions
+2026-10-24T10:26:52.1678940Z Getting action download info
+2026-10-24T10:26:52.3187465Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-10-24T10:26:52.4613464Z Download action repository 'actions/setup-dotnet@v4' (SHA:67a3573c9a986a3f9c594539f4ab511d57bb3ce9)
+2026-10-24T10:26:52.6994420Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-10-24T10:26:53.0401887Z Complete job name: windows
+2026-10-24T10:26:53.2057727Z ##[group]Run actions/checkout@v4
+2026-10-24T10:26:53.2058774Z with:
+2026-10-24T10:26:53.2059194Z   repository: Redstone9099/cq
+2026-10-24T10:26:53.2062996Z   token: ***
+2026-10-24T10:26:53.2063393Z   ssh-strict: true
+2026-10-24T10:26:53.2063795Z   ssh-user: git
+2026-10-24T10:26:53.2064213Z   persist-credentials: true
+2026-10-24T10:26:53.2064668Z   clean: true
+2026-10-24T10:26:53.2065081Z   sparse-checkout-cone-mode: true
+2026-10-24T10:26:53.2065573Z   fetch-depth: 1
+2026-10-24T10:26:53.2066460Z   fetch-tags: false
+2026-10-24T10:26:53.2066907Z   show-progress: true
+2026-10-24T10:26:53.2067317Z   lfs: false
+2026-10-24T10:26:53.2067689Z   submodules: false
+2026-10-24T10:26:53.2068153Z   set-safe-directory: true
+2026-10-24T10:26:53.2068617Z   allow-unsafe-pr-checkout: false
+2026-10-24T10:26:53.2069355Z env:
+2026-10-24T10:26:53.2069778Z   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+2026-10-24T10:26:53.2070252Z   DOTNET_NOLOGO: 1
+2026-10-24T10:26:53.2070647Z ##[endgroup]
+2026-10-24T10:26:53.3519326Z Syncing repository: Redstone9099/cq
+2026-10-24T10:26:53.3521181Z ##[group]Getting Git version info
+2026-10-24T10:26:53.3521772Z Working directory is 'D:\a\cq\cq'
+2026-10-24T10:26:53.4762536Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-24T10:26:53.8340556Z git version 2.56.0.windows.2
+2026-10-24T10:26:53.8396576Z ##[endgroup]
+2026-10-24T10:26:53.8416816Z Temporarily overriding HOME='D:\a\_temp\59b64030-d93d-4047-adf2-fe971ca8804a' before making global git config changes
+2026-10-24T10:26:53.8419017Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-24T10:26:53.8428625Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\cq\cq
+2026-10-24T10:26:53.9120975Z Deleting the contents of 'D:\a\cq\cq'
+2026-10-24T10:26:53.9128318Z ##[group]Initializing the repository
+2026-10-24T10:26:53.9137662Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\cq\cq
+2026-10-24T10:26:54.0160090Z Initialized empty Git repository in D:/a/cq/cq/.git/
+2026-10-24T10:26:54.0210335Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/Redstone9099/cq
+2026-10-24T10:26:54.0883812Z ##[endgroup]
+2026-10-24T10:26:54.0885262Z ##[group]Disabling automatic garbage collection
+2026-10-24T10:26:54.0892679Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+2026-10-24T10:26:54.1275414Z ##[endgroup]
+2026-10-24T10:26:54.1277440Z ##[group]Setting up auth
+2026-10-24T10:26:54.1286088Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-24T10:26:54.1695230Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-24T10:26:55.7304928Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-24T10:26:55.7693279Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-24T10:26:56.3347456Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-24T10:26:56.3760470Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-24T10:26:56.9261551Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2026-10-24T10:26:56.9684445Z ##[endgroup]
+2026-10-24T10:26:56.9685908Z ##[group]Fetching the repository
+2026-10-24T10:26:56.9707235Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b38f93846402977ddf5fe0b23eb7f1afe10d6c14:refs/remotes/origin/fix/r67-rewards-hotbar-20261024
+2026-10-24T10:26:57.9426680Z From https://github.com/Redstone9099/cq
+2026-10-24T10:26:57.9427683Z  * [new ref]         b38f93846402977ddf5fe0b23eb7f1afe10d6c14 -> origin/fix/r67-rewards-hotbar-20261024
+2026-10-24T10:26:57.9469639Z ##[endgroup]
+2026-10-24T10:26:57.9470059Z ##[group]Determining the checkout info
+2026-10-24T10:26:57.9473101Z ##[endgroup]
+2026-10-24T10:26:57.9488363Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+2026-10-24T10:26:58.0018399Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+2026-10-24T10:26:58.0409784Z ##[group]Checking out the ref
+2026-10-24T10:26:58.0420559Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force -B fix/r67-rewards-hotbar-20261024 refs/remotes/origin/fix/r67-rewards-hotbar-20261024
+2026-10-24T10:26:58.1286047Z Switched to a new branch 'fix/r67-rewards-hotbar-20261024'
+2026-10-24T10:26:58.1310243Z branch 'fix/r67-rewards-hotbar-20261024' set up to track 'origin/fix/r67-rewards-hotbar-20261024'.
+2026-10-24T10:26:58.1361289Z ##[endgroup]
+2026-10-24T10:26:58.1828650Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+2026-10-24T10:26:58.2170725Z b38f93846402977ddf5fe0b23eb7f1afe10d6c14
+2026-10-24T10:26:58.2671624Z ##[group]Run actions/setup-dotnet@v4
+2026-10-24T10:26:58.2672061Z with:
+2026-10-24T10:26:58.2672676Z   dotnet-version: 8.0.x
+2026-10-24T10:26:58.2673032Z   cache: false
+2026-10-24T10:26:58.2673235Z env:
+2026-10-24T10:26:58.2673448Z   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+2026-10-24T10:26:58.2673723Z   DOTNET_NOLOGO: 1
+2026-10-24T10:26:58.2673941Z ##[endgroup]
+2026-10-24T10:26:58.4396269Z (node:8604) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-24T10:26:58.5655698Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-24T10:26:58.5657034Z [command]"C:\Program Files\PowerShell\7\pwsh.exe" -NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command & 'D:\a\_actions\actions\setup-dotnet\v4\externals\install-dotnet.ps1' -SkipNonVersionedFiles -Runtime dotnet -Channel LTS
+2026-10-24T10:26:59.8130090Z dotnet-install: .NET Core Runtime with version '10.0.13' is already installed.
+2026-10-24T10:26:59.9793967Z [command]"C:\Program Files\PowerShell\7\pwsh.exe" -NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command & 'D:\a\_actions\actions\setup-dotnet\v4\externals\install-dotnet.ps1' -SkipNonVersionedFiles -Channel 8.0
+2026-10-24T10:27:00.7836533Z dotnet-install: .NET Core SDK with version '8.0.426' is already installed.
+2026-10-24T10:27:00.8923137Z ##[group]Run Invoke-WebRequest 'https://github.com/Redstone9099/cq/releases/download/v1/Mir2_R6_6_Skills_Hotbar_Fixed_20261024.zip' -OutFile base.zip
+2026-10-24T10:27:00.8924332Z [36;1mInvoke-WebRequest 'https://github.com/Redstone9099/cq/releases/download/v1/Mir2_R6_6_Skills_Hotbar_Fixed_20261024.zip' -OutFile base.zip[0m
+2026-10-24T10:27:00.8925420Z [36;1mif ((Get-FileHash base.zip -Algorithm SHA256).Hash -ne '56218c7e1fefc299eff6b2dc8a1e84abdf168d812442820056625790a1fbf758') { throw 'Baseline ZIP mismatch' }[0m
+2026-10-24T10:27:00.8926179Z [36;1mExpand-Archive base.zip -DestinationPath baseline[0m
+2026-10-24T10:27:00.9358337Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-24T10:27:00.9358798Z env:
+2026-10-24T10:27:00.9359040Z   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+2026-10-24T10:27:00.9359354Z   DOTNET_NOLOGO: 1
+2026-10-24T10:27:00.9359635Z   DOTNET_ROOT: C:\Program Files\dotnet
+2026-10-24T10:27:00.9359952Z ##[endgroup]
+2026-10-24T10:27:05.0117990Z ##[group]Run ./r67/Verification/Reproduce-R65.ps1 -BaseRoot ./baseline/Mir2_R6_6
+2026-10-24T10:27:05.0118654Z [36;1m./r67/Verification/Reproduce-R65.ps1 -BaseRoot ./baseline/Mir2_R6_6[0m
+2026-10-24T10:27:05.0189741Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-24T10:27:05.0190071Z env:
+2026-10-24T10:27:05.0190253Z   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+2026-10-24T10:27:05.0190483Z   DOTNET_NOLOGO: 1
+2026-10-24T10:27:05.0190681Z   DOTNET_ROOT: C:\Program Files\dotnet
+2026-10-24T10:27:05.0190916Z ##[endgroup]
+2026-10-24T10:27:32.3133212Z BASELINE CONFIRMED: CS0747 in RewardsRegression.cs.
+2026-10-24T10:27:38.4048458Z BASELINE AREA: rate=0, dealt=0, HP=1000
+2026-10-24T10:27:38.4219184Z BASELINE POISON: HP=600, dead=False, owner=none
+2026-10-24T10:27:38.4238323Z Unhandled exception. System.Exception: Owned area spell damage or poison lost attribution
+2026-10-24T10:27:38.4245151Z    at RewardsRegression.Check(Boolean condition, String message) in D:\a\cq\cq\baseline\Mir2_R6_6\Verification\RewardsRegression.cs:line 14
+2026-10-24T10:27:38.4251521Z    at RewardsRegression.Main() in D:\a\cq\cq\baseline\Mir2_R6_6\Verification\RewardsRegression.cs:line 133
+2026-10-24T10:27:38.4290954Z BASELINE CONFIRMED: A dealt zero, B dealt 400; monster remained alive with no settled owner.
+2026-10-24T10:27:38.4744225Z ##[group]Run Expand-Archive base.zip -DestinationPath package
+2026-10-24T10:27:38.4744749Z [36;1mExpand-Archive base.zip -DestinationPath package[0m
+2026-10-24T10:27:38.4745156Z [36;1mCopy-Item ./r67/* ./package/Mir2_R6_6 -Recurse -Force[0m
+2026-10-24T10:27:38.4814108Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-24T10:27:38.4814441Z env:
+2026-10-24T10:27:38.4814617Z   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+2026-10-24T10:27:38.4814839Z   DOTNET_NOLOGO: 1
+2026-10-24T10:27:38.4815035Z   DOTNET_ROOT: C:\Program Files\dotnet
+2026-10-24T10:27:38.4815273Z ##[endgroup]
+2026-10-24T10:27:42.4054484Z ##[group]Run ./package/Mir2_R6_6/Build-R6.ps1 -BuildOnly
+2026-10-24T10:27:42.4054947Z [36;1m./package/Mir2_R6_6/Build-R6.ps1 -BuildOnly[0m
+2026-10-24T10:27:42.4128080Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-24T10:27:42.4128642Z env:
+2026-10-24T10:27:42.4128824Z   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+2026-10-24T10:27:42.4129049Z   DOTNET_NOLOGO: 1
+2026-10-24T10:27:42.4129247Z   DOTNET_ROOT: C:\Program Files\dotnet
+2026-10-24T10:27:42.4129486Z ##[endgroup]
+2026-10-24T10:27:44.2330000Z Patch integrity verified: 1160 files.
+2026-10-24T10:27:44.2687464Z Skill package verified: 14 files.
+2026-10-24T10:27:45.1163640Z   Determining projects to restore...
+2026-10-24T10:27:45.7570556Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\Shared.csproj (in 162 ms).
+2026-10-24T10:27:45.9965631Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Source\Server\Server.Library.csproj (in 448 ms).
+2026-10-24T10:27:45.9970354Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Verification\RewardsRegression.csproj (in 448 ms).
+2026-10-24T10:27:47.3925864Z   Shared -> D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\bin\Release\Shared.dll
+2026-10-24T10:27:50.8414133Z   Server.Library -> D:\a\cq\cq\package\Mir2_R6_6\Source\Server\bin\Release\Server.Library.dll
+2026-10-24T10:27:51.1695779Z   RewardsRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\RewardsRegression\Release\net8.0\RewardsRegression.dll
+2026-10-24T10:27:51.1855869Z 
+2026-10-24T10:27:51.1865752Z Build succeeded.
+2026-10-24T10:27:51.1867132Z     0 Warning(s)
+2026-10-24T10:27:51.1867606Z     0 Error(s)
+2026-10-24T10:27:51.1869801Z 
+2026-10-24T10:27:51.1870398Z Time Elapsed 00:00:06.65
+2026-10-24T10:27:52.6042940Z Area/poison (after tick=False): A=600, B=400, HP=0, owner=P1
+2026-10-24T10:27:52.6068005Z Area/poison (after tick=True): A=600, B=400, HP=0, owner=P1
+2026-10-24T10:27:53.0211308Z Rewards regression passed: 77 assertions. Real server classes; no live server or renderer started.
+2026-10-24T10:27:53.8140771Z   Determining projects to restore...
+2026-10-24T10:27:54.1823679Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Verification\LootEffectsRegression.csproj (in 97 ms).
+2026-10-24T10:27:54.8310317Z   LootEffectsRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\LootEffectsRegression\Release\net8.0\LootEffectsRegression.dll
+2026-10-24T10:27:54.8450722Z 
+2026-10-24T10:27:54.8459155Z Build succeeded.
+2026-10-24T10:27:54.8460538Z     0 Warning(s)
+2026-10-24T10:27:54.8461027Z     0 Error(s)
+2026-10-24T10:27:54.8462741Z 
+2026-10-24T10:27:54.8463005Z Time Elapsed 00:00:01.51
+2026-10-24T10:27:56.1486856Z Loot effect regression: 7857 assertions; production timeline, budget and renderer with graphics adapters.
+2026-10-24T10:27:56.9118682Z   Determining projects to restore...
+2026-10-24T10:27:57.4093449Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Verification\SkillArtworkRegression.csproj (in 150 ms).
+2026-10-24T10:27:57.4145131Z   1 of 2 projects are up-to-date for restore.
+2026-10-24T10:27:58.6751482Z   Shared -> D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\bin\Release\Shared.dll
+2026-10-24T10:27:58.8639766Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Verification\SkillArtwork\Stubs.cs(6,56): warning CS0649: Field 'CMain.Time' is never assigned to, and will always have its default value 0 [D:\a\cq\cq\package\Mir2_R6_6\Verification\SkillArtworkRegression.csproj]
+2026-10-24T10:27:58.9865794Z   SkillArtworkRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\SkillArtworkRegression\Release\net8.0\SkillArtworkRegression.dll
+2026-10-24T10:27:58.9988506Z 
+2026-10-24T10:27:58.9997051Z Build succeeded.
+2026-10-24T10:27:58.9997468Z 
+2026-10-24T10:27:59.0000641Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Verification\SkillArtwork\Stubs.cs(6,56): warning CS0649: Field 'CMain.Time' is never assigned to, and will always have its default value 0 [D:\a\cq\cq\package\Mir2_R6_6\Verification\SkillArtworkRegression.csproj]
+2026-10-24T10:27:59.0003212Z     1 Warning(s)
+2026-10-24T10:27:59.0006427Z     0 Error(s)
+2026-10-24T10:27:59.0006645Z 
+2026-10-24T10:27:59.0006756Z Time Elapsed 00:00:02.57
+2026-10-24T10:28:00.2828897Z PASS: 47 actual artwork-router/bar-collapse checks with graphics doubles; no Direct3D/game execution.
+2026-10-24T10:28:01.0414941Z   Determining projects to restore...
+2026-10-24T10:28:01.4376323Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Verification\PresentationRegression.csproj (in 107 ms).
+2026-10-24T10:28:02.0630482Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirGraphics\Particles\Particle.cs(161,17): warning CA2200: Re-throwing caught exception changes stack information (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2200) [D:\a\cq\cq\package\Mir2_R6_6\Verification\PresentationRegression.csproj]
+2026-10-24T10:28:02.1471050Z   PresentationRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\PresentationRegression\Release\net8.0\PresentationRegression.dll
+2026-10-24T10:28:02.1607454Z 
+2026-10-24T10:28:02.1614950Z Build succeeded.
+2026-10-24T10:28:02.1615246Z 
+2026-10-24T10:28:02.1620169Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirGraphics\Particles\Particle.cs(161,17): warning CA2200: Re-throwing caught exception changes stack information (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2200) [D:\a\cq\cq\package\Mir2_R6_6\Verification\PresentationRegression.csproj]
+2026-10-24T10:28:02.1623048Z     1 Warning(s)
+2026-10-24T10:28:02.1623403Z     0 Error(s)
+2026-10-24T10:28:02.1623588Z 
+2026-10-24T10:28:02.1623760Z Time Elapsed 00:00:01.59
+2026-10-24T10:28:03.5505063Z Presentation/headless regression checks passed: 12165. GPU, Windows input and gameplay integration require runtime verification.
+2026-10-24T10:28:04.3451831Z   Determining projects to restore...
+2026-10-24T10:28:04.7169716Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Verification\ServiceFlowRegression.csproj (in 98 ms).
+2026-10-24T10:28:05.4035580Z   ServiceFlowRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\ServiceFlowRegression\Release\net8.0\ServiceFlowRegression.dll
+2026-10-24T10:28:05.4173957Z 
+2026-10-24T10:28:05.4181460Z Build succeeded.
+2026-10-24T10:28:05.4182816Z     0 Warning(s)
+2026-10-24T10:28:05.4205822Z     0 Error(s)
+2026-10-24T10:28:05.4206047Z 
+2026-10-24T10:28:05.4207100Z Time Elapsed 00:00:01.59
+2026-10-24T10:28:06.7434696Z R6 service/layout/cursor checks passed: 11788
+2026-10-24T10:28:07.5058167Z   Determining projects to restore...
+2026-10-24T10:28:07.8710001Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Verification\CursorLogicRegression.csproj (in 97 ms).
+2026-10-24T10:28:08.5248135Z   CursorLogicRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\CursorLogicRegression\Release\net8.0\CursorLogicRegression.dll
+2026-10-24T10:28:08.5380850Z 
+2026-10-24T10:28:08.5389185Z Build succeeded.
+2026-10-24T10:28:08.5390331Z     0 Warning(s)
+2026-10-24T10:28:08.5391188Z     0 Error(s)
+2026-10-24T10:28:08.5392460Z 
+2026-10-24T10:28:08.5392706Z Time Elapsed 00:00:01.51
+2026-10-24T10:28:09.7765340Z Cursor timing/routing passed: 169 checks.
+2026-10-24T10:28:10.4745981Z   Determining projects to restore...
+2026-10-24T10:28:10.9183508Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Verification\UiRegression.csproj (in 137 ms).
+2026-10-24T10:28:10.9228316Z   1 of 2 projects are up-to-date for restore.
+2026-10-24T10:28:12.0126206Z   Shared -> D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\bin\Release\Shared.dll
+2026-10-24T10:28:12.3874599Z   UiRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\UiRegression\Release\net8.0\UiRegression.dll
+2026-10-24T10:28:12.3994419Z 
+2026-10-24T10:28:12.4001880Z Build succeeded.
+2026-10-24T10:28:12.4002951Z     0 Warning(s)
+2026-10-24T10:28:12.4004024Z     0 Error(s)
+2026-10-24T10:28:12.4005059Z 
+2026-10-24T10:28:12.4005398Z Time Elapsed 00:00:02.37
+2026-10-24T10:28:13.9293706Z PASS: 39289 assertions against actual linked C# layout, ghosts, categories and buff overlays.
+2026-10-24T10:28:20.2512092Z   Determining projects to restore...
+2026-10-24T10:28:31.6066506Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\Shared.csproj (in 10.87 sec).
+2026-10-24T10:28:31.7165670Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj (in 11 sec).
+2026-10-24T10:28:37.6046171Z   Shared -> D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\bin\Release\Shared.dll
+2026-10-24T10:28:37.6959740Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277: Found conflicts between different versions of "WindowsBase" that could not be resolved. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6964675Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277: There was a conflict between "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" and "WindowsBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35". [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6968557Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:     "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" was chosen because it was primary and "WindowsBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" was not. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6972289Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:     References which depend on "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" [C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref\net8.0\WindowsBase.dll]. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6975310Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:         C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref\net8.0\WindowsBase.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6978329Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:           Project file item includes which caused reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref\net8.0\WindowsBase.dll". [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6981482Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref/net8.0/WindowsBase.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6984272Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:     References which depend on or have been unified to "WindowsBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" []. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6986452Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:         C:\Users\runneradmin\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net5.0-windows10.0.17763.0\Microsoft.Web.WebView2.Wpf.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6989416Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:           Project file item includes which caused reference "C:\Users\runneradmin\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net5.0-windows10.0.17763.0\Microsoft.Web.WebView2.Wpf.dll". [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:37.6992168Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:             C:\Users\runneradmin\.nuget\packages\microsoft.web.webview2\1.0.2903.40\buildTransitive\..\\lib_manual\net5.0-windows10.0.17763.0\Microsoft.Web.WebView2.Wpf.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1288312Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\BuffDialog.cs(459,33): warning CS0169: The field 'PoisonBuffDialog._fadedIn' is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1293291Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\QuestDialogs.cs(725,43): warning CS0169: The field 'QuestTrackingDialog._questTaskLabel' is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1299063Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirObjects\MonsterObject.cs(66,28): warning CS0649: Field 'MonsterObject.CurrentEffect' is never assigned to, and will always have its default value [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1302702Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\BuffDialog.cs(461,22): warning CS0169: The field 'PoisonBuffDialog._nextFadeTime' is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1305234Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Program.cs(11,29): warning CS0649: Field 'Program.PForm' is never assigned to, and will always have its default value null [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1307836Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirObjects\MonsterObject.cs(52,47): warning CS0649: Field 'MonsterObject.EffectFrameIndex' is never assigned to, and will always have its default value 0 [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1310669Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirObjects\MonsterObject.cs(55,22): warning CS0649: Field 'MonsterObject.TargetPoint' is never assigned to, and will always have its default value [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1313066Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\QuestDialogs.cs(725,26): warning CS0169: The field 'QuestTrackingDialog._questNameLabel' is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1316583Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\BuffDialog.cs(459,22): warning CS0414: The field 'PoisonBuffDialog._fadedOut' is assigned but its value is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1319154Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\NPCDialogs.cs(2682,22): warning CS0414: The field 'StorageDialog._forcingPasswordSetup' is assigned but its value is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1322162Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\ItemRentDialog.cs(204,22): warning CS0414: The field 'GuestItemRentDialog._guestGoldLocked' is assigned but its value is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.1325342Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirGraphics\Particles\Particle.cs(161,17): warning CA2200: Re-throwing caught exception changes stack information (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2200) [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5080800Z   Client -> D:\a\cq\cq\package\Mir2_R6_6\Source\Build\Client\Release\Client.dll
+2026-10-24T10:28:44.5143242Z 
+2026-10-24T10:28:44.5149497Z Build succeeded.
+2026-10-24T10:28:44.5149733Z 
+2026-10-24T10:28:44.5151962Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277: Found conflicts between different versions of "WindowsBase" that could not be resolved. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5156346Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277: There was a conflict between "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" and "WindowsBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35". [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5161313Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:     "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" was chosen because it was primary and "WindowsBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" was not. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5166552Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:     References which depend on "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" [C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref\net8.0\WindowsBase.dll]. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5170964Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:         C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref\net8.0\WindowsBase.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5174478Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:           Project file item includes which caused reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref\net8.0\WindowsBase.dll". [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5178104Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref/net8.0/WindowsBase.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5181742Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:     References which depend on or have been unified to "WindowsBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" []. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5185751Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:         C:\Users\runneradmin\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net5.0-windows10.0.17763.0\Microsoft.Web.WebView2.Wpf.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5191230Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:           Project file item includes which caused reference "C:\Users\runneradmin\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net5.0-windows10.0.17763.0\Microsoft.Web.WebView2.Wpf.dll". [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5195832Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:             C:\Users\runneradmin\.nuget\packages\microsoft.web.webview2\1.0.2903.40\buildTransitive\..\\lib_manual\net5.0-windows10.0.17763.0\Microsoft.Web.WebView2.Wpf.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5201522Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\BuffDialog.cs(459,33): warning CS0169: The field 'PoisonBuffDialog._fadedIn' is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5206960Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\QuestDialogs.cs(725,43): warning CS0169: The field 'QuestTrackingDialog._questTaskLabel' is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5214599Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirObjects\MonsterObject.cs(66,28): warning CS0649: Field 'MonsterObject.CurrentEffect' is never assigned to, and will always have its default value [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5219377Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\BuffDialog.cs(461,22): warning CS0169: The field 'PoisonBuffDialog._nextFadeTime' is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5224042Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Program.cs(11,29): warning CS0649: Field 'Program.PForm' is never assigned to, and will always have its default value null [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5229584Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirObjects\MonsterObject.cs(52,47): warning CS0649: Field 'MonsterObject.EffectFrameIndex' is never assigned to, and will always have its default value 0 [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5234642Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirObjects\MonsterObject.cs(55,22): warning CS0649: Field 'MonsterObject.TargetPoint' is never assigned to, and will always have its default value [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5239961Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\QuestDialogs.cs(725,26): warning CS0169: The field 'QuestTrackingDialog._questNameLabel' is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5245089Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\BuffDialog.cs(459,22): warning CS0414: The field 'PoisonBuffDialog._fadedOut' is assigned but its value is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5250547Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\NPCDialogs.cs(2682,22): warning CS0414: The field 'StorageDialog._forcingPasswordSetup' is assigned but its value is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5254093Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirScenes\Dialogs\ItemRentDialog.cs(204,22): warning CS0414: The field 'GuestItemRentDialog._guestGoldLocked' is assigned but its value is never used [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5257755Z ##[warning]D:\a\cq\cq\package\Mir2_R6_6\Source\Client\MirGraphics\Particles\Particle.cs(161,17): warning CA2200: Re-throwing caught exception changes stack information (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2200) [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:44.5259592Z     13 Warning(s)
+2026-10-24T10:28:44.5259911Z     0 Error(s)
+2026-10-24T10:28:44.5260099Z 
+2026-10-24T10:28:44.5260208Z Time Elapsed 00:00:29.04
+2026-10-24T10:28:45.1845953Z   Determining projects to restore...
+2026-10-24T10:28:45.5427205Z   All projects are up-to-date for restore.
+2026-10-24T10:28:46.0054725Z   Shared -> D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\bin\Release\Shared.dll
+2026-10-24T10:28:46.0542655Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277: Found conflicts between different versions of "WindowsBase" that could not be resolved. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0546855Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277: There was a conflict between "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" and "WindowsBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35". [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0552038Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:     "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" was chosen because it was primary and "WindowsBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" was not. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0556935Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:     References which depend on "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" [C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref\net8.0\WindowsBase.dll]. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0562756Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:         C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref\net8.0\WindowsBase.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0566500Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:           Project file item includes which caused reference "C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref\net8.0\WindowsBase.dll". [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0570199Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:             C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.32\ref/net8.0/WindowsBase.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0573948Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:     References which depend on or have been unified to "WindowsBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" []. [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0577959Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:         C:\Users\runneradmin\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net5.0-windows10.0.17763.0\Microsoft.Web.WebView2.Wpf.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0582890Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:           Project file item includes which caused reference "C:\Users\runneradmin\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net5.0-windows10.0.17763.0\Microsoft.Web.WebView2.Wpf.dll". [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.0587493Z C:\Program Files\dotnet\sdk\8.0.426\Microsoft.Common.CurrentVersion.targets(2412,5): warning MSB3277:             C:\Users\runneradmin\.nuget\packages\microsoft.web.webview2\1.0.2903.40\buildTransitive\..\\lib_manual\net5.0-windows10.0.17763.0\Microsoft.Web.WebView2.Wpf.dll [D:\a\cq\cq\package\Mir2_R6_6\Source\Client\Client.csproj]
+2026-10-24T10:28:46.2089334Z   Client -> D:\a\cq\cq\package\Mir2_R6_6\Source\Build\Client\Release\Client.dll
+2026-10-24T10:28:46.8917377Z   Client -> D:\a\cq\cq\package\Mir2_R6_6\r6-publish-088a244cadcf4953891ae4bd45a8bd3a\
+2026-10-24T10:28:47.5119402Z   Determining projects to restore...
+2026-10-24T10:28:47.8291861Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Verification\DirectLaunchRegression.csproj (in 90 ms).
+2026-10-24T10:28:48.4348863Z   DirectLaunchRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\DirectLaunchRegression\Release\net8.0\DirectLaunchRegression.dll
+2026-10-24T10:28:48.4436651Z 
+2026-10-24T10:28:48.4442666Z Build succeeded.
+2026-10-24T10:28:48.4443840Z     0 Warning(s)
+2026-10-24T10:28:48.4444166Z     0 Error(s)
+2026-10-24T10:28:48.4450168Z 
+2026-10-24T10:28:48.4450518Z Time Elapsed 00:00:01.32
+2026-10-24T10:28:49.0525598Z Published entry point verified: Client.Program.Main -> CMain; no AMain or UpdatePatcher call.
+2026-10-24T10:28:49.7842536Z R6 compiled and prepared: D:\a\cq\cq\package\Mir2_R6_6\r6-publish-088a244cadcf4953891ae4bd45a8bd3a
+2026-10-24T10:28:49.7845289Z Windows gameplay checks are still required; see README-R6.md.
+2026-10-24T10:28:49.9310235Z ##[group]Run ./package/Mir2_R6_6/Build-Server-R6.7.ps1
+2026-10-24T10:28:49.9310717Z [36;1m./package/Mir2_R6_6/Build-Server-R6.7.ps1[0m
+2026-10-24T10:28:49.9383886Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-24T10:28:49.9384226Z env:
+2026-10-24T10:28:49.9384617Z   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+2026-10-24T10:28:49.9384851Z   DOTNET_NOLOGO: 1
+2026-10-24T10:28:49.9385051Z   DOTNET_ROOT: C:\Program Files\dotnet
+2026-10-24T10:28:49.9385295Z ##[endgroup]
+2026-10-24T10:28:51.5701485Z Patch integrity verified: 1160 files.
+2026-10-24T10:28:52.4536535Z   Determining projects to restore...
+2026-10-24T10:28:53.0538215Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\Shared.csproj (in 145 ms).
+2026-10-24T10:28:53.0583478Z   2 of 3 projects are up-to-date for restore.
+2026-10-24T10:28:54.1384163Z   Shared -> D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\bin\Release\Shared.dll
+2026-10-24T10:28:56.5181083Z   Server.Library -> D:\a\cq\cq\package\Mir2_R6_6\Source\Server\bin\Release\Server.Library.dll
+2026-10-24T10:28:56.7787742Z   RewardsRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\RewardsRegression\Release\net8.0\RewardsRegression.dll
+2026-10-24T10:28:56.7904959Z 
+2026-10-24T10:28:56.7912957Z Build succeeded.
+2026-10-24T10:28:56.7913484Z     0 Warning(s)
+2026-10-24T10:28:56.7914750Z     0 Error(s)
+2026-10-24T10:28:56.7915714Z 
+2026-10-24T10:28:56.7916082Z Time Elapsed 00:00:04.93
+2026-10-24T10:28:58.1388110Z Area/poison (after tick=False): A=600, B=400, HP=0, owner=P1
+2026-10-24T10:28:58.1397563Z Area/poison (after tick=True): A=600, B=400, HP=0, owner=P1
+2026-10-24T10:28:58.2348552Z Rewards regression passed: 77 assertions. Real server classes; no live server or renderer started.
+2026-10-24T10:28:58.9974249Z   Determining projects to restore...
+2026-10-24T10:28:59.6907321Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\Shared.csproj (in 329 ms).
+2026-10-24T10:28:59.7237773Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Source\Server\Server.Library.csproj (in 371 ms).
+2026-10-24T10:28:59.7240669Z   Restored D:\a\cq\cq\package\Mir2_R6_6\Source\Server.MirForms\Server.csproj (in 371 ms).
+2026-10-24T10:29:00.8687979Z   Shared -> D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\bin\Release\Shared.dll
+2026-10-24T10:29:03.1028653Z   Server.Library -> D:\a\cq\cq\package\Mir2_R6_6\Source\Server\bin\Release\Server.Library.dll
+2026-10-24T10:29:04.7075692Z   Server -> D:\a\cq\cq\package\Mir2_R6_6\Source\Build\Server\Release\Server.dll
+2026-10-24T10:29:04.7201868Z 
+2026-10-24T10:29:04.7209974Z Build succeeded.
+2026-10-24T10:29:04.7211365Z     0 Warning(s)
+2026-10-24T10:29:04.7211692Z     0 Error(s)
+2026-10-24T10:29:04.7213586Z 
+2026-10-24T10:29:04.7213797Z Time Elapsed 00:00:06.21
+2026-10-24T10:29:05.7869560Z   Determining projects to restore...
+2026-10-24T10:29:06.2140635Z   All projects are up-to-date for restore.
+2026-10-24T10:29:06.7040933Z   Shared -> D:\a\cq\cq\package\Mir2_R6_6\Source\Shared\bin\Release\Shared.dll
+2026-10-24T10:29:06.9325241Z   Server.Library -> D:\a\cq\cq\package\Mir2_R6_6\Source\Server\bin\Release\Server.Library.dll
+2026-10-24T10:29:07.2778673Z   Server -> D:\a\cq\cq\package\Mir2_R6_6\Source\Build\Server\Release\Server.dll
+2026-10-24T10:29:07.6814636Z   Server -> D:\a\cq\cq\package\Mir2_R6_6\server-r67-publish-00a2da15eeaf43558798eecc7a84a740\
+2026-10-24T10:29:08.3455104Z Server build prepared: D:\a\cq\cq\package\Mir2_R6_6\server-r67-publish-00a2da15eeaf43558798eecc7a84a740
+2026-10-24T10:29:08.3460923Z Existing server was not modified or started. Follow 00-README-R6.7.md for backup, installation and gameplay checks.
+2026-10-24T10:29:08.4982797Z ##[group]Run ./package/Mir2_R6_6/Verification/Test-RegressionBuildIsolation.ps1
+2026-10-24T10:29:08.4983456Z [36;1m./package/Mir2_R6_6/Verification/Test-RegressionBuildIsolation.ps1[0m
+2026-10-24T10:29:08.5052634Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-24T10:29:08.5052991Z env:
+2026-10-24T10:29:08.5053385Z   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+2026-10-24T10:29:08.5053623Z   DOTNET_NOLOGO: 1
+2026-10-24T10:29:08.5053834Z   DOTNET_ROOT: C:\Program Files\dotnet
+2026-10-24T10:29:08.5054084Z ##[endgroup]
+2026-10-24T10:29:09.5215810Z Isolated regression: RewardsRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\RewardsRegression\Release\net8.0\RewardsRegression.dll
+2026-10-24T10:29:10.1415769Z Isolated regression: LootEffectsRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\LootEffectsRegression\Release\net8.0\LootEffectsRegression.dll
+2026-10-24T10:29:10.7600067Z Isolated regression: SkillArtworkRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\SkillArtworkRegression\Release\net8.0\SkillArtworkRegression.dll
+2026-10-24T10:29:11.4079126Z Isolated regression: PresentationRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\PresentationRegression\Release\net8.0\PresentationRegression.dll
+2026-10-24T10:29:11.9935064Z Isolated regression: ServiceFlowRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\ServiceFlowRegression\Release\net8.0\ServiceFlowRegression.dll
+2026-10-24T10:29:12.5909263Z Isolated regression: CursorLogicRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\CursorLogicRegression\Release\net8.0\CursorLogicRegression.dll
+2026-10-24T10:29:13.1916706Z Isolated regression: UiRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\UiRegression\Release\net8.0\UiRegression.dll
+2026-10-24T10:29:13.8033562Z Isolated regression: NativeFontRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\NativeFontRegression\Release\net8.0-windows7.0\NativeFontRegression.dll
+2026-10-24T10:29:14.4041130Z Isolated regression: PortraitDisposalRegression -> D:\a\cq\cq\package\Mir2_R6_6\build-verification\bin\PortraitDisposalRegression\Release\net8.0-windows7.0\PortraitDisposalRegression.dll
+2026-10-24T10:29:14.4046389Z Regression build isolation passed: 9 projects, bin/obj/NuGet assets and entry assemblies are distinct.
+2026-10-24T10:29:14.4811539Z ##[group]Run actions/upload-artifact@v4
+2026-10-24T10:29:14.4811869Z with:
+2026-10-24T10:29:14.4812065Z   name: r67-windows-build-logs
+2026-10-24T10:29:14.4812405Z   path: baseline/Mir2_R6_6/build-logs/
+package/Mir2_R6_6/build-logs/
+
+2026-10-24T10:29:14.4812761Z   retention-days: 30
+2026-10-24T10:29:14.4812984Z   if-no-files-found: warn
+2026-10-24T10:29:14.4813190Z   compression-level: 6
+2026-10-24T10:29:14.4813377Z   overwrite: false
+2026-10-24T10:29:14.4813562Z   include-hidden-files: false
+2026-10-24T10:29:14.4813767Z env:
+2026-10-24T10:29:14.4813939Z   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+2026-10-24T10:29:14.4814160Z   DOTNET_NOLOGO: 1
+2026-10-24T10:29:14.4814360Z   DOTNET_ROOT: C:\Program Files\dotnet
+2026-10-24T10:29:14.4814612Z ##[endgroup]
+2026-10-24T10:29:14.6710774Z (node:3132) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-24T10:29:14.6711581Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-24T10:29:14.6801567Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-10-24T10:29:14.6805080Z The least common ancestor is D:\a\cq\cq. This will be the root directory of the artifact
+2026-10-24T10:29:14.6805923Z With the provided path, there will be 4 files uploaded
+2026-10-24T10:29:14.6813878Z Artifact name is valid!
+2026-10-24T10:29:14.6815804Z Root directory input is valid!
+2026-10-24T10:29:14.8979159Z Beginning upload of artifact content to blob storage
+2026-10-24T10:29:14.9228031Z (node:3132) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-24T10:29:14.9454810Z Uploaded bytes 2539
+2026-10-24T10:29:14.9601640Z Finished uploading artifact content to blob storage!
+2026-10-24T10:29:14.9603509Z SHA256 digest of uploaded artifact zip is 5b65946363d3b2cdacf47f427846a30b42dce91eff2d5a3aceffb6322c439338
+2026-10-24T10:29:14.9606043Z Finalizing artifact upload
+2026-10-24T10:29:15.3377428Z Artifact r67-windows-build-logs.zip successfully finalized. Artifact ID 12557515534
+2026-10-24T10:29:15.3378914Z Artifact r67-windows-build-logs has been successfully uploaded! Final size is 2539 bytes. Artifact ID is 12557515534
+2026-10-24T10:29:15.3390675Z Artifact download URL: https://github.com/Redstone9099/cq/actions/runs/40085940283/artifacts/12557515534
+2026-10-24T10:29:15.3727893Z Post job cleanup.
+2026-10-24T10:29:15.5210885Z (node:3996) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-24T10:29:15.5211837Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-24T10:29:15.5508329Z Post job cleanup.
+2026-10-24T10:29:15.7631018Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-24T10:29:15.8003594Z git version 2.56.0.windows.2
+2026-10-24T10:29:15.8084165Z Temporarily overriding HOME='D:\a\_temp\3ed8d4f0-0e33-4d50-b436-4958b46d8106' before making global git config changes
+2026-10-24T10:29:15.8085472Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-24T10:29:15.8096973Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\cq\cq
+2026-10-24T10:29:15.8547048Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-24T10:29:15.9049264Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-24T10:29:16.4872012Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-24T10:29:16.5213744Z http.https://github.com/.extraheader
+2026-10-24T10:29:16.5256177Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+2026-10-24T10:29:16.5639068Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-24T10:29:17.1318454Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-24T10:29:17.1681446Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-24T10:29:17.7425151Z Cleaning up orphan processes
+2026-10-24T10:29:17.7715927Z Terminate orphan process: pid (6444) (dotnet)
+2026-10-24T10:29:17.7792307Z Terminate orphan process: pid (904) (conhost)
+2026-10-24T10:29:17.7971396Z Terminate orphan process: pid (8220) (VBCSCompiler)
+2026-10-24T10:29:17.8051806Z Terminate orphan process: pid (6984) (conhost)
+2026-10-24T10:29:17.8210120Z Terminate orphan process: pid (3212) (dotnet)
+2026-10-24T10:29:17.8277654Z Terminate orphan process: pid (1144) (conhost)
+2026-10-24T10:29:17.8373709Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-dotnet@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

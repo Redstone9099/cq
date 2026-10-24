@@ -9,7 +9,7 @@
   },
   {
     "path": "00-README-R6.7.md",
-    "sha256": "11b1e6699c8f1b720d8f192922b787e0146b874739cbf1ca46c0766ed81fc1e5"
+    "sha256": "cf7647e60eb71fc82e21a2c3f9a30d4f6d64fe1592bc80f4361234e9af8cccdd"
   },
   {
     "path": "00-README-R63-to-R64-COMPLETE-PATCH.md",
@@ -38,6 +38,10 @@
   {
     "path": "AUDIT-R6.6.md",
     "sha256": "8e3aeb0319ac856c6086ee4637fe0e9cb33fe567346dc07fd6bf2375e09bd819"
+  },
+  {
+    "path": "AUDIT-R6.7.md",
+    "sha256": "ae60f590b038ba3495aae58a1fba6032e01d8921c15aa2ea57d4ccfda0263c56"
   },
   {
     "path": "Assets/R6/generation.json",
@@ -465,15 +469,31 @@
   },
   {
     "path": "Evidence/R6.7/changes-since-r64.json",
-    "sha256": "4317ec00323f0a7645fb8c701cac592b2b7b72f1f31dcc8db057f6e0b50273e2"
+    "sha256": "6eaa2cafb8cb6be2c58493781b29070dd221e548fd9141583208404c811b90f7"
   },
   {
     "path": "Evidence/R6.7/changes-since-r65.json",
-    "sha256": "c3d107f6909e4e31d236633993e36b78fa45a0d27b7acf0110e792d9f0809845"
+    "sha256": "a82d2a6189e4082f1af26b379869f5cef6bc68106e5ea36982fcc1dab41782da"
   },
   {
     "path": "Evidence/R6.7/changes.json",
-    "sha256": "f893bca1228371dc2735f9e58c8a2e04433a9013b8d34554536ae1d87fc35bf3"
+    "sha256": "91bb2cadb54c084b0a4c24c87d8ff8bb874d5a0651ace65b9d76f3c85b58ecba"
+  },
+  {
+    "path": "Evidence/R6.7/offline-review.json",
+    "sha256": "d81db09c4f1fc78a82796a58619511be03f46c8d0642f3da78773beb8a8fac9f"
+  },
+  {
+    "path": "Evidence/R6.7/packaging.json",
+    "sha256": "1a4dee28a17aaf9f80a12da6e2dce3c5c113abcfcd2a91288bcb07f5ea76b98f"
+  },
+  {
+    "path": "Evidence/R6.7/windows-build.log",
+    "sha256": "92a622ec82002746fa1b7420e4b5577a3dd7750dcf63c48cb137e9edb35ccaf6"
+  },
+  {
+    "path": "Evidence/R6.7/windows-ci.json",
+    "sha256": "f5d05315c3a9bda78a74fc1bfd5501056a9881fa6b4bee389e4949abe2d37a88"
   },
   {
     "path": "Evidence/cursors-r5.json",

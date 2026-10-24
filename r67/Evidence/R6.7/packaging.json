@@ -1,0 +1,18 @@
+{
+  "kind": "R6.7 full and cumulative upgrade packaging verification",
+  "method": "Read every final ZIP entry, validate CRC and SHA256; merge the actual upgrade ZIP with each original baseline and compare all file paths and bytes to the full ZIP.",
+  "base_r65_sha256": "dec2f7ea0170330a767845781d46c8c2445db9c79fdedc4b5d4b1b558cea88a0",
+  "base_r66_sha256": "56218c7e1fefc299eff6b2dc8a1e84abdf168d812442820056625790a1fbf758",
+  "full_zip": "Mir2_R6_7_Rewards_Hotbar_Fixed_20261024.zip",
+  "upgrade_zip": "Mir2_R6_7_R65_R66_Upgrade_20261024.zip",
+  "full_file_count": 1166,
+  "upgrade_file_count": 54,
+  "r66_resource_files_retained": 84,
+  "r65_upgrade_identical_to_full": true,
+  "r66_upgrade_identical_to_full": true,
+  "zip_crc_passed": true,
+  "package_manifest_passed": true,
+  "skill_manifest_passed": true,
+  "no_removed_files": true,
+  "credential_scan_passed": true
+}
