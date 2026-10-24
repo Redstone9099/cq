@@ -12,9 +12,11 @@ namespace Client.MirGraphics
             Color colour,float opacity)
         {
             if(opacity<=0 || width<=0 || height<=0)return;
+            int alpha=(int)(255*Math.Clamp(opacity,0,1));
+            if(alpha==0)return;
             var size=new Size(Math.Max(1,(int)MathF.Round(width)),Math.Max(1,(int)MathF.Round(height)));
             var at=new Point(anchor.X-size.Width/2,anchor.Y-size.Height/2);
-            Atlas.DrawScaled(frame,at,size,Color.FromArgb((int)(255*Math.Clamp(opacity,0,1)),colour),1,false);
+            Atlas.DrawScaled(frame,at,size,Color.FromArgb(alpha,colour),1,false);
         }
         internal static void DrawShadow(ItemObject item)
         {

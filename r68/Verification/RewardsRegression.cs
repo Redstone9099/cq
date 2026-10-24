@@ -323,6 +323,16 @@ internal static class RewardsRegression
             scatterMap.RemoveObject(physical);physical.Despawn();
         }
         Check(locations.Count>=5,"Drops are still biased to a fixed scan direction");
+        var dragonLocations=new HashSet<Point>();
+        for(int i=0;i<80;i++)
+        {
+            var physical=new ItemObject(origin,1U);
+            Check(physical.DragonDrop(2),"Dragon drop rectangle has no usable placement");
+            Check(physical.CurrentLocation.Y>=7 && physical.CurrentLocation.Y<=8,"Dragon drop left its existing region");
+            dragonLocations.Add(physical.CurrentLocation);
+            scatterMap.RemoveObject(physical);physical.Despawn();
+        }
+        Check(dragonLocations.Count>=5,"Dragon drops retain fixed scan placement");
         Check(!new ItemObject(origin,1U).Drop(0),"Drop ignored a blocking actor");
         // Stack fallback remains legal only below its configured cap.
         for(int y=3;y<=5;y++)for(int x=3;x<=5;x++)scatterMap.Cells[x,y].Attribute=CellAttribute.HighWall;

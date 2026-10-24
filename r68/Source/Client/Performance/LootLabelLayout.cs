@@ -19,7 +19,7 @@ namespace Client
             {
                 int x=Math.Clamp(anchor.X-size.Width/2,viewport.Left,viewport.Right-size.Width);
                 int y=anchor.Y-14-size.Height-row*(size.Height+3);
-                if(y<viewport.Top) { if(row==0)y=viewport.Top;else break; }
+                if(y<viewport.Top) y=row==0 ? viewport.Top : anchor.Y+8+(row-1)*(size.Height+3);
                 var rect=new Rectangle(x,y,size.Width,size.Height);
                 if(!viewport.Contains(rect))continue;
                 var padded=Rectangle.Inflate(rect,3,2);

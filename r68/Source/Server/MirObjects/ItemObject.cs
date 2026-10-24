@@ -223,6 +223,8 @@ namespace Server.MirObjects
 
             for (int d = 0; d <= distance; d++)
             {
+                Point empty = Point.Empty;
+                int emptyCount = 0;
                 for (int y = CurrentLocation.Y + 3; y <= CurrentLocation.Y + (d * 2); y++)
                 {
                     if (y < 0) continue;
@@ -249,10 +251,8 @@ namespace Server.MirObjects
 
                         if (cell.Objects == null)
                         {
-                            CurrentLocation = new Point(x, y);
-                            CurrentMap.AddObject(this);
-                            Spawned();
-                            return true;
+                            if (Envir.Random.Next(++emptyCount) == 0) empty = new Point(x,y);
+                            continue;
                         }
 
                         int count = 0;
@@ -274,10 +274,8 @@ namespace Server.MirObjects
 
                         if (count == 0)
                         {
-                            CurrentLocation = new Point(x, y);
-                            CurrentMap.AddObject(this);
-                            Spawned();
-                            return true;
+                            if (Envir.Random.Next(++emptyCount) == 0) empty = new Point(x,y);
+                            continue;
                         }
 
                         if (best == null || count < bestCount)
@@ -287,6 +285,13 @@ namespace Server.MirObjects
                             bestLocation = new Point(x, y);
                         }
                     }
+                }
+                if (emptyCount > 0)
+                {
+                    CurrentLocation=empty;
+                    CurrentMap.AddObject(this);
+                    Spawned();
+                    return true;
                 }
             }
 

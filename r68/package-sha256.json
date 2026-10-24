@@ -1237,7 +1237,7 @@
   },
   {
     "path": "Source/Client/MirGraphics/LootEffectRenderer.cs",
-    "sha256": "6f0e03545dc47825e8b007b5d69171682451e60f2d9e2a64f481d4ae4538b169"
+    "sha256": "121678db29c05eeec14ca80670ed019cfdfed2cb7f4a0c56f6bba016f2286df4"
   },
   {
     "path": "Source/Client/MirGraphics/MLibrary.cs",
@@ -1781,7 +1781,7 @@
   },
   {
     "path": "Source/Client/Performance/LootLabelLayout.cs",
-    "sha256": "3a4f5c128afe04e5da87efd7c1a4dc80b04f8b85b999d97f6f919b7c8047af77"
+    "sha256": "244932fb56779628dcad7c2614c6572cb1ad11851946a368d1cba5ff913527d8"
   },
   {
     "path": "Source/Client/Performance/LootPresentation.cs",
@@ -2429,7 +2429,7 @@
   },
   {
     "path": "Source/Server/MirObjects/ItemObject.cs",
-    "sha256": "7a0f327d2ff09d6ba8fb34d10ca8ee1885da64d2088044e52a714fbedf6317f1"
+    "sha256": "3f103bfca794ef9754e4bee23b3b407d3f28e5597ff8252d159c48071b0457ee"
   },
   {
     "path": "Source/Server/MirObjects/LinkFormatter.cs",
@@ -4221,7 +4221,7 @@
   },
   {
     "path": "Verification/RewardsRegression.cs",
-    "sha256": "4fadb1e096f04a7a118627b7b8255348a86a3567d45d04eabc2654e5860aab11"
+    "sha256": "e27a7d18f559dca80c4de8fc2cf0f7ec50344e745f5ff3f104fddf091a4547a7"
   },
   {
     "path": "Verification/RewardsRegression.csproj",
