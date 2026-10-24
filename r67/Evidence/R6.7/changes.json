@@ -1,0 +1,122 @@
+[
+  {
+    "path": "00-README-R6.7.md",
+    "before_sha256": null,
+    "after_sha256": "4431ecdf81115f678e94d3b8a86410ad597156975981037a57649579bdda3f59"
+  },
+  {
+    "path": "Build-R6.ps1",
+    "before_sha256": "c1c97209fa0155c714236e66662bb8390c8492bbc49ce202f9deaf23a48752dd",
+    "after_sha256": "93a06ab26aa58fa7b1d99390cae524ca15b9586ced6928e3d015e5b507dfc455"
+  },
+  {
+    "path": "Build-Server-R6.5.ps1",
+    "before_sha256": "2e7e4647a3918c21f559003caa18934fde64371a2404f9a21ca34a6b4d991991",
+    "after_sha256": "26b7d7799f2e040f37fb6876872b7baee5afd41fc1e2a1d23afa10c656438fbd"
+  },
+  {
+    "path": "Build-Server-R6.7.cmd",
+    "before_sha256": null,
+    "after_sha256": "c037959be6c12937fa1c9bb882db0e317cd0b0ed1c5074b3e6a89fc785571600"
+  },
+  {
+    "path": "Build-Server-R6.7.ps1",
+    "before_sha256": null,
+    "after_sha256": "26b7d7799f2e040f37fb6876872b7baee5afd41fc1e2a1d23afa10c656438fbd"
+  },
+  {
+    "path": "README-R6.md",
+    "before_sha256": "de8b5cbfb344c438835156b810f5b2fe51376510e57700a4864359bda7a29353",
+    "after_sha256": "327c5251d64cf63a918b887857d4eb10c3bdb5269c8ed79448b9f6e8b3b754ba"
+  },
+  {
+    "path": "README-技能轻量包.md",
+    "before_sha256": "1dffd5893c4e0b5fb88877519bafa95b307ed62191c60086415b62534f070918",
+    "after_sha256": "25e21fc843c183425b0215fd5e525339c9abf3fcdcaa3ab02dc4b5c9b99ee35d"
+  },
+  {
+    "path": "Source/Client/KeyBindSettings.cs",
+    "before_sha256": "fa681a68cc2563cd59ddae1f661704c0debbb5d749e7f4036f5930940600bee6",
+    "after_sha256": "efa1a6380938fae04d1a6d4e6247ecf0eec620e6a744ea27bc0654b54d6c19b1"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/HeroDialogs.cs",
+    "before_sha256": "8849149396869d4d7ae66db859e087631b1e6d87bf1ff8ba44bdaad682e60ab2",
+    "after_sha256": "edcb809bc0c7bd8eda626e82b16f45e11bc2438d0d143be3016c814e20f1345f"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/InventoryDialog.cs",
+    "before_sha256": "12fedfb1995c4dc372a3775fed7e44ab1b5edaaaf856d5bf952da8a13e028505",
+    "after_sha256": "054ac742c107d999db83dc52f4bc379afecf422bfe89488192b168a2b43c6fff"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/MainDialogs.cs",
+    "before_sha256": "662a921a41c3801bf40b2983df97ba5303bd7b36190cb0cdc873c340aecdad1a",
+    "after_sha256": "f0bab325d88b7d637653914c83b41204504d6d23af08c6037004fc5d44314676"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalDialogs.cs",
+    "before_sha256": "664ca961e41b7591c87443289f7d7eba65fc73844441495ce303c31077b884e6",
+    "after_sha256": "f27e18bf8d6543634a1811ad734c6c1c249ca5945e8486bb7fea1b12443ea177"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalHeroDialogs.cs",
+    "before_sha256": "c17b86d8f092c830ef97b323039eccafa2f15f0a4b9fdd97ea3e9f9d3ac8a443",
+    "after_sha256": "b98c02591d40d531f90d36b6e9ae1834c36ea6719073351d0d1d2fa44b4ab78e"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalSkillBarControls.cs",
+    "before_sha256": "e917b7816cfa2844ed63d8ff8823f9eb6fc56d969e74ce9daf36676507bc1374",
+    "after_sha256": "b0992905390ccaee90350768b6cc25353e55d8cbc408479844e95085337d84ab"
+  },
+  {
+    "path": "Source/Client/MirScenes/GameScene.cs",
+    "before_sha256": "6ced322cf508939748dee7173600ddf7d4084e8f958478c391481f87419b7f21",
+    "after_sha256": "1a622030858a7e411b25aa043bae2e0696c61ccc2b499d0bd3c2d0e261d8f02b"
+  },
+  {
+    "path": "Source/Server/MirObjects/MapObject.cs",
+    "before_sha256": "3db75ef507e832fe6d1db97a7f51dd057dc189863a828893d2d75437a81817df",
+    "after_sha256": "e27c2023b4c4662f4d5bcee7fda46eb2632e03a66391bc11e975d82620b4a835"
+  },
+  {
+    "path": "Verification/Reproduce-R65.ps1",
+    "before_sha256": null,
+    "after_sha256": "8641466e70e2b6c86c5738e6315c058baf2edc2b20aa28641164e3da68928333"
+  },
+  {
+    "path": "Verification/RewardsRegression.cs",
+    "before_sha256": "6fd1f9a1a17037067d60b1ca0dea7ac6c2e407ae66de94c4e54bffbb7405b45b",
+    "after_sha256": "564a90a50ce0875485bfd30c9025858c5f684ba5955e932a3a03e273a192d1ef"
+  },
+  {
+    "path": "Verification/SkillArtwork/Regression.cs",
+    "before_sha256": "92f701724ca61aa81339d76e2defd71fa3dfafb33cafd485dfc01280d8aa421a",
+    "after_sha256": "731459094c2e6523fb81fecc7d90bda8c81573c5239b826a91544b34708691e5"
+  },
+  {
+    "path": "Verification/SkillArtwork/Stubs.cs",
+    "before_sha256": "05932e08ec3f5a0d99db6f78f5d6f9fb1c84c121e4d0af488f8d054bc1ea165b",
+    "after_sha256": "666a3ff5de77d2638e800e5d5d63eb6402426b2fa490d02a0b2d7950ce86e985"
+  },
+  {
+    "path": "Verification/SkillArtworkRegression.csproj",
+    "before_sha256": "d1f9d4a9b615e81332bc88da2c77821d79688fe572b5c7cd23d1e541ad8611ab",
+    "after_sha256": "1832485c1d605c299336b9d75c332cb4b2798730367edffb02b4e0d91182881b"
+  },
+  {
+    "path": "Verification/verify_r66_review.py",
+    "before_sha256": "7bcb35406e301e62ff7695c2d05bddcea42062d56dcd30ef9447f7f29cbfe98f",
+    "after_sha256": "10e183bc20b14a43c7458b5538c3d63ca12f8dae7fa9875efd1dba28b5c7d1f8"
+  },
+  {
+    "path": "Verification/verify_r67_review.py",
+    "before_sha256": null,
+    "after_sha256": "a20d587c512db24f7f277d96afa78cae25d633d682656e9b9ef03eb5c8ed3877"
+  },
+  {
+    "path": "skills-sha256.json",
+    "before_sha256": "69a9209d964f95e337d8744e8d13a488a3df52032bd55ea732275c1f2a28961f",
+    "after_sha256": "94d1e2d19b7833c2d33a5d1f38cba8bcb8f0ce78002298bb4ea73ff3bb54f9aa"
+  }
+]

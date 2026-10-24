@@ -144,6 +144,18 @@ internal static class RewardsRegression
             Check(prize.CanBePickedUpBy(a) && !prize.CanBePickedUpBy(b),"Lower poison damage stole actual loot protection");
             Console.WriteLine($"Area/poison (after tick={afterTick}): A={dealt}, B=400, HP={monster.HP}, owner={monster.EXPOwner.Name}");
         }
+        foreach(var poisonType in new[]{PoisonType.Green,PoisonType.Bleeding})
+        {
+            monster=new TestMonster(map);
+            Check(monster.StruckAttributed(600,a,DefenceType.MAC)==600 && monster.HP==400,
+                "Poison tick setup did not remove actual area damage");
+            monster.PoisonList.Add(new Poison { Owner=b,PType=poisonType,Value=400,Duration=2,TickTime=-1,TickSpeed=1000 });
+            monster.TickPoison();
+            Check(monster.Dead && monster.HP==0 && monster.EXPOwner==a,
+                "Real poison processing retained its provisional owner over the damage winner");
+            monster.TickPoison();
+            Check(monster.EXPOwner==a,"Post-death poison processing changed settled ownership");
+        }
         monster=new TestMonster(map);monster.PoisonDamage(-600,a);
         Check(monster.HP==400,"Leading poison damage was not applied");
         Check(monster.StruckAttributed(400,b,DefenceType.MAC)==400 && monster.Dead && monster.EXPOwner==a,

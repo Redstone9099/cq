@@ -460,6 +460,22 @@
     "sha256": "da91f1afebcf8eca6cab26f64c444afa8043550434719ca1c7eb0617be3299df"
   },
   {
+    "path": "Evidence/R6.7/base-r66-manifest.json",
+    "sha256": "5328e76905ee31ca5fbf3b065f1ea867f27c59dfa449cf80709fe6fd793abd37"
+  },
+  {
+    "path": "Evidence/R6.7/changes-since-r64.json",
+    "sha256": "4317ec00323f0a7645fb8c701cac592b2b7b72f1f31dcc8db057f6e0b50273e2"
+  },
+  {
+    "path": "Evidence/R6.7/changes-since-r65.json",
+    "sha256": "c3d107f6909e4e31d236633993e36b78fa45a0d27b7acf0110e792d9f0809845"
+  },
+  {
+    "path": "Evidence/R6.7/changes.json",
+    "sha256": "f893bca1228371dc2735f9e58c8a2e04433a9013b8d34554536ae1d87fc35bf3"
+  },
+  {
     "path": "Evidence/cursors-r5.json",
     "sha256": "0c53cd33216ad19862062cbac080ad2d77b1fad8394613687b745a52bf48100e"
   },
@@ -4161,7 +4177,7 @@
   },
   {
     "path": "Verification/RewardsRegression.cs",
-    "sha256": "564a90a50ce0875485bfd30c9025858c5f684ba5955e932a3a03e273a192d1ef"
+    "sha256": "8d0d80badef2561173e8b0c8f91aabed147d65751909a39c7fee534c94a09a57"
   },
   {
     "path": "Verification/RewardsRegression.csproj",
@@ -4209,7 +4225,7 @@
   },
   {
     "path": "Verification/UiRegression.csproj",
-    "sha256": "50bd9aa5dec6005d637aa6f002ba0a002a1a0fb11174e20bef69d35f5ca05c6d"
+    "sha256": "ddfc29b08d819ee060171ad0769de86bf90753adc75a3bcbf33de7da5fe99f19"
   },
   {
     "path": "Verification/Windows/CursorAssetRegression.cs",

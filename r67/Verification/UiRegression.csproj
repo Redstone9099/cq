@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Windows/**/*.cs" />
+    <Compile Remove="Loot/**/*.cs" />
+    <Compile Remove="SkillArtwork/**/*.cs" />
+    <Compile Remove="ServiceFlowRegression.cs" />
+    <Compile Remove="DirectLaunchRegression.cs" />
+    <Compile Remove="PresentationRegression.cs;Fixtures/PresentationStubs.cs" />
+    <Compile Remove="PresentationFollowupRegression.cs;RewardsRegression.cs" />
+    <Compile Include="../Source/Client/MirControls/CursorAnimation.cs" Link="CursorAnimation.cs" />
+    <Compile Include="../Source/Client/MirGraphics/SpriteBatchLifetime.cs" Link="SpriteBatchLifetime.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalInteractionState.cs" Link="OriginalInteractionState.cs" />
+    <Compile Include="../Source/Client/MirControls/NpcDialogueLayout.cs" Link="NpcDialogueLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/QuestJournalLayout.cs" Link="QuestJournalLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/WindowCloseLayout.cs" Link="WindowCloseLayout.cs" />
+    <None Include="../client/Data/UI/WindowCloseR3.Lib" Link="Fixtures/WindowCloseR3.Lib" CopyToOutputDirectory="PreserveNewest" />
+
+    <ProjectReference Include="../Source/Shared/Shared.csproj" />
+    <Compile Include="../Source/Client/MirControls/OriginalMapViewport.cs" Link="OriginalMapViewport.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalUILayout.cs" Link="OriginalUILayout.cs" />
+    <Compile Include="../Source/Client/MirControls/ClassicCharacterLayout.cs" Link="ClassicCharacterLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/CompanionLayout.cs" Link="CompanionLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/InventoryActionLayout.cs" Link="InventoryActionLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalPortraitLayout.cs" Link="OriginalPortraitLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/PortraitPixels.cs" Link="PortraitPixels.cs" />
+    <Compile Include="../Source/Client/MirControls/PortraitCompositePixels.cs" Link="PortraitCompositePixels.cs" />
+    <Compile Include="../Source/Client/MirControls/PortraitMattePolicy.cs" Link="PortraitMattePolicy.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalUI.PortraitRendering.cs" Link="OriginalUI.PortraitRendering.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalUI.PortraitGeometry.cs" Link="OriginalUI.PortraitGeometry.cs" />
+    <Compile Include="../Source/Client/MirScenes/Dialogs/OriginalCharacterPortrait.Rendering.cs" Link="OriginalCharacterPortrait.Rendering.cs" />
+    <Compile Include="../Source/Client/MirControls/TextPixelComposition.cs" Link="TextPixelComposition.cs" />
+    <Compile Include="../Source/Client/Performance/TexturePixels.cs" Link="TexturePixels.cs" />
+    <None Update="Fixtures/Runtime*.Lib" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Fixtures/HairlineStateItem.Lib" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../client/Data/UI/PortraitBody.Lib" Link="Fixtures/PortraitBody.Lib" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../client/Data/UI/InventoryActions.Lib" Link="Fixtures/InventoryActions.Lib" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../client/Data/UI/CompanionUI.Lib" Link="Fixtures/CompanionUI.Lib" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../client/Data/UI/RefinedSkinV5.Lib" Link="Fixtures/RefinedSkinV5.Lib" CopyToOutputDirectory="PreserveNewest" />
+    <Compile Include="../Source/Client/MirControls/OriginalShopCategory.cs" Link="OriginalShopCategory.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalEquipmentGhostLayout.cs" Link="OriginalEquipmentGhostLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalBuffOverlayLayout.cs" Link="OriginalBuffOverlayLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalQuickbarLayout.cs" Link="OriginalQuickbarLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalWindowPacking.cs" Link="OriginalWindowPacking.cs" />
+    <Compile Include="../Source/Client/MirControls/LabelTextLayout.cs" Link="LabelTextLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/ControlDrawTraversal.cs" Link="ControlDrawTraversal.cs" />
+    <Compile Include="../Source/Client/MirControls/OriginalListTextLayout.cs" Link="OriginalListTextLayout.cs" />
+    <Compile Include="../Source/Client/MirControls/ChatLineLayout.cs" Link="ChatLineLayout.cs" />
+    <Compile Include="../Source/Client/Performance/ChatTextWrapping.cs" Link="ChatTextWrapping.cs" />
+    <Compile Include="../Source/Client/MirControls/RankingRequestTracker.cs" Link="RankingRequestTracker.cs" />
+    <Compile Include="../Source/Server/MirEnvir/RankingPage.cs" Link="RankingPage.cs" />
+  </ItemGroup>
+</Project>
