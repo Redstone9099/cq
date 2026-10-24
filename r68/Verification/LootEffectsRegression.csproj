@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Loot/Regression.cs" />
+    <Compile Include="Loot/Stubs.cs" />
+    <ProjectReference Include="../Source/Shared/Shared.csproj" />
+    <Compile Include="../Source/Client/MirObjects/ItemObject.cs" />
+    <Compile Include="../Source/Client/Performance/LootPresentation.cs" />
+    <Compile Include="../Source/Client/Performance/LootLabelLayout.cs" />
+    <Compile Include="../Source/Client/Performance/LootEffectTimeline.cs" />
+    <Compile Include="../Source/Client/Performance/LootEffectBudget.cs" />
+    <Compile Include="../Source/Client/MirGraphics/LootEffectRenderer.cs" />
+  </ItemGroup>
+</Project>
