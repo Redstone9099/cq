@@ -21,13 +21,15 @@ jobs:
         run: |
           Invoke-WebRequest 'https://github.com/Redstone9099/cq/releases/download/v1/Mir2_R6_6_Skills_Hotbar_Fixed_20261024.zip' -OutFile base.zip
           if ((Get-FileHash base.zip -Algorithm SHA256).Hash -ne '56218c7e1fefc299eff6b2dc8a1e84abdf168d812442820056625790a1fbf758') { throw 'Baseline ZIP mismatch' }
-          Expand-Archive base.zip -DestinationPath package
+          Expand-Archive base.zip -DestinationPath baseline
       - name: Reproduce original compiler and attribution failures
         shell: pwsh
-        run: ./r67/Verification/Reproduce-R65.ps1 -BaseRoot ./package/Mir2_R6_6
+        run: ./r67/Verification/Reproduce-R65.ps1 -BaseRoot ./baseline/Mir2_R6_6
       - name: Apply the reviewed R6.7 changes
         shell: pwsh
-        run: Copy-Item ./r67/* ./package/Mir2_R6_6 -Recurse -Force
+        run: |
+          Expand-Archive base.zip -DestinationPath package
+          Copy-Item ./r67/* ./package/Mir2_R6_6 -Recurse -Force
       - name: Client full build and all regression gates
         shell: pwsh
         run: ./package/Mir2_R6_6/Build-R6.ps1 -BuildOnly
@@ -42,5 +44,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: r67-windows-build-logs
-          path: package/Mir2_R6_6/build-logs/
+          path: |
+            baseline/Mir2_R6_6/build-logs/
+            package/Mir2_R6_6/build-logs/
           retention-days: 30

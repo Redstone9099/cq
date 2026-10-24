@@ -41,8 +41,8 @@
   },
   {
     "path": "Build-R6.ps1",
-    "bytes": 7674,
-    "sha256": "1cf2034fdf57a42041776ca93a64802073adc2fd2cb0470f1b27fd320217d448"
+    "bytes": 8845,
+    "sha256": "93a06ab26aa58fa7b1d99390cae524ca15b9586ced6928e3d015e5b507dfc455"
   },
   {
     "path": "Verify-SkillPackage.ps1",
@@ -66,7 +66,7 @@
   },
   {
     "path": "README-技能轻量包.md",
-    "bytes": 1171,
-    "sha256": "1dffd5893c4e0b5fb88877519bafa95b307ed62191c60086415b62534f070918"
+    "bytes": 1477,
+    "sha256": "25e21fc843c183425b0215fd5e525339c9abf3fcdcaa3ab02dc4b5c9b99ee35d"
   }
 ]

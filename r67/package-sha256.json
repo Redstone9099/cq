@@ -8,6 +8,10 @@
     "sha256": "f9c86314b3a9199088255868b418830a69db9372937d9c413acc7c528fab3c31"
   },
   {
+    "path": "00-README-R6.7.md",
+    "sha256": "4431ecdf81115f678e94d3b8a86410ad597156975981037a57649579bdda3f59"
+  },
+  {
     "path": "00-README-R63-to-R64-COMPLETE-PATCH.md",
     "sha256": "22ea493d26e59d74d34355c61ddafadb62436b6f5f1215ce274459a1ff2af352"
   },
@@ -221,7 +225,7 @@
   },
   {
     "path": "Build-R6.ps1",
-    "sha256": "1cf2034fdf57a42041776ca93a64802073adc2fd2cb0470f1b27fd320217d448"
+    "sha256": "93a06ab26aa58fa7b1d99390cae524ca15b9586ced6928e3d015e5b507dfc455"
   },
   {
     "path": "Build-Server-R6.4.cmd",
@@ -237,7 +241,7 @@
   },
   {
     "path": "Build-Server-R6.5.ps1",
-    "sha256": "2e7e4647a3918c21f559003caa18934fde64371a2404f9a21ca34a6b4d991991"
+    "sha256": "26b7d7799f2e040f37fb6876872b7baee5afd41fc1e2a1d23afa10c656438fbd"
   },
   {
     "path": "Build-Server-R6.7.cmd",
@@ -245,7 +249,7 @@
   },
   {
     "path": "Build-Server-R6.7.ps1",
-    "sha256": "fa10d94e1942e29ecd70eed6ab5bd156079dc3f57cbc22cfb1eb035267597d8e"
+    "sha256": "26b7d7799f2e040f37fb6876872b7baee5afd41fc1e2a1d23afa10c656438fbd"
   },
   {
     "path": "Cursor-R5-Files.ps1",
@@ -637,7 +641,7 @@
   },
   {
     "path": "README-R6.md",
-    "sha256": "de8b5cbfb344c438835156b810f5b2fe51376510e57700a4864359bda7a29353"
+    "sha256": "327c5251d64cf63a918b887857d4eb10c3bdb5269c8ed79448b9f6e8b3b754ba"
   },
   {
     "path": "README-R63-to-R64-SOURCE-PATCH.md",
@@ -649,7 +653,7 @@
   },
   {
     "path": "README-技能轻量包.md",
-    "sha256": "1dffd5893c4e0b5fb88877519bafa95b307ed62191c60086415b62534f070918"
+    "sha256": "25e21fc843c183425b0215fd5e525339c9abf3fcdcaa3ab02dc4b5c9b99ee35d"
   },
   {
     "path": "Repair-Common.ps1",
@@ -4617,6 +4621,6 @@
   },
   {
     "path": "skills-sha256.json",
-    "sha256": "0a44c724c744295ff9117fcde4b90ad3441ac30cb2bf0e9b8c9b6e1ac22f7900"
+    "sha256": "94d1e2d19b7833c2d33a5d1f38cba8bcb8f0ce78002298bb4ea73ff3bb54f9aa"
   }
 ]

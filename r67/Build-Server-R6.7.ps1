@@ -10,9 +10,13 @@ $log = Join-Path $logDir ('server-r67-' + (Get-Date -Format 'yyyyMMdd-HHmmss-fff
 Start-Transcript -LiteralPath $log | Out-Null
 try {
     & (Join-Path $here 'Verify-Package.ps1')
-    & dotnet run --project (Join-Path $here 'Verification\RewardsRegression.csproj') -c Release
+    & dotnet build (Join-Path $here 'Verification\RewardsRegression.csproj') -c Release --no-incremental
+    if ($LASTEXITCODE -ne 0) { throw 'Rewards regression compilation failed. Existing server was not changed.' }
+    & dotnet run --no-build --project (Join-Path $here 'Verification\RewardsRegression.csproj') -c Release
     if ($LASTEXITCODE -ne 0) { throw 'Rewards regression failed. Existing server was not changed.' }
     $stage = Join-Path $here ('server-r67-publish-' + [Guid]::NewGuid().ToString('N'))
+    & dotnet build (Join-Path $here 'Source\Server.MirForms\Server.csproj') -c Release --runtime win-x64 --self-contained true -p:UseAppHost=true -p:EnableWindowsTargeting=true -p:PlatformTarget=x64 -p:PublishSingleFile=false -p:PublishTrimmed=false --no-incremental
+    if ($LASTEXITCODE -ne 0) { throw 'Server compilation failed. Existing server was not changed.' }
     & dotnet publish (Join-Path $here 'Source\Server.MirForms\Server.csproj') -c Release --runtime win-x64 --self-contained true -p:PublishSelfContained=true -p:UseAppHost=true -p:EnableWindowsTargeting=true -p:PlatformTarget=x64 -p:PublishSingleFile=false -p:PublishTrimmed=false -o $stage
     if ($LASTEXITCODE -ne 0) { throw 'Server publish failed. Existing server was not changed.' }
     foreach ($name in @('Server.exe','Server.dll','Server.Library.dll','Shared.dll','coreclr.dll','Server.runtimeconfig.json')) {

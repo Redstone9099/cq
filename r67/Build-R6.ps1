@@ -13,6 +13,8 @@ if (!((& dotnet --list-sdks) -match '^8\.0\.')) { throw 'The x64 .NET 8 SDK is r
 $target = $null
 if (!$BuildOnly) {
     $target=(Resolve-Path -LiteralPath $ClientRoot).Path.TrimEnd([char[]]'\/')
+    $sourceRoot=[IO.Path]::GetFullPath((Join-Path $here 'Source')).TrimEnd([char[]]'\/')
+    if ($target.StartsWith($sourceRoot + [IO.Path]::DirectorySeparatorChar,[StringComparison]::OrdinalIgnoreCase)) { throw 'Use a game installation outside the source/build directory.' }
     if ($target -eq $here.TrimEnd([char[]]'\/')) { throw 'Select the installed game directory, not this source package.' }
     if (!(Test-Path -LiteralPath (Join-Path $target 'Client.exe') -PathType Leaf) -or
         !(Test-Path -LiteralPath (Join-Path $target 'Data') -PathType Container)) { throw "Installed game not found: $target" }
@@ -37,16 +39,23 @@ try {
     $stage = Join-Path $here ('r6-publish-' + [Guid]::NewGuid().ToString('N'))
     foreach ($project in @('RewardsRegression','LootEffectsRegression','SkillArtworkRegression','PresentationRegression','ServiceFlowRegression','CursorLogicRegression','UiRegression')) {
         $projectPath=Join-Path $here ('Verification\'+$project+'.csproj')
+        # ZIP timestamps can precede old bin/obj files. Rebuild before executing.
+        & dotnet build $projectPath -c Release --no-incremental
+        if ($LASTEXITCODE -ne 0) { throw "Regression compilation failed: $project. Installed game was not changed." }
         if ($project -eq 'CursorLogicRegression') {
-            & dotnet run --project $projectPath -c Release -- (Join-Path $here 'client\Data\UI\CursorsR5')
-        } else { & dotnet run --project $projectPath -c Release }
+            & dotnet run --no-build --project $projectPath -c Release -- (Join-Path $here 'client\Data\UI\CursorsR5')
+        } else { & dotnet run --no-build --project $projectPath -c Release }
         if ($LASTEXITCODE -ne 0) { throw "Regression failed: $project. Installed game was not changed." }
     }
     Push-Location (Join-Path $here 'Source')
     try {
+        & dotnet build (Join-Path $here 'Source\Client\Client.csproj') -c Release --runtime win-x64 --self-contained true -p:UseAppHost=true -p:EnableWindowsTargeting=true -p:PlatformTarget=x64 -p:PublishSingleFile=false -p:PublishTrimmed=false --no-incremental
+        if ($LASTEXITCODE -ne 0) { throw 'Client compilation failed; installed game was not changed.' }
         & dotnet publish (Join-Path $here 'Source\Client\Client.csproj') -c Release --runtime win-x64 --self-contained true -p:PublishSelfContained=true -p:UseAppHost=true -p:EnableWindowsTargeting=true -p:PlatformTarget=x64 -p:PublishSingleFile=false -p:PublishTrimmed=false -p:NoBuild=false -o $stage
         if ($LASTEXITCODE -ne 0) { throw 'Client publish failed; installed game was not changed.' }
-        & dotnet run --project (Join-Path $here 'Verification\DirectLaunchRegression.csproj') -c Release -- (Join-Path $stage 'Client.dll')
+        & dotnet build (Join-Path $here 'Verification\DirectLaunchRegression.csproj') -c Release --no-incremental
+        if ($LASTEXITCODE -ne 0) { throw 'Startup verification compilation failed; installed game was not changed.' }
+        & dotnet run --no-build --project (Join-Path $here 'Verification\DirectLaunchRegression.csproj') -c Release -- (Join-Path $stage 'Client.dll')
         if ($LASTEXITCODE -ne 0) { throw 'Compiled startup verification failed; installed game was not changed.' }
     } finally { Pop-Location }
     Assert-ClientSelfContained $stage
