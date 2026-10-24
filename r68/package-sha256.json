@@ -12,6 +12,10 @@
     "sha256": "cf7647e60eb71fc82e21a2c3f9a30d4f6d64fe1592bc80f4361234e9af8cccdd"
   },
   {
+    "path": "00-README-R6.8.md",
+    "sha256": "b476e1164a668fecd986d6397a1ab13d12164442e6b32e215804eb642a3f077b"
+  },
+  {
     "path": "00-README-R63-to-R64-COMPLETE-PATCH.md",
     "sha256": "22ea493d26e59d74d34355c61ddafadb62436b6f5f1215ce274459a1ff2af352"
   },
@@ -685,7 +689,7 @@
   },
   {
     "path": "README-R6.md",
-    "sha256": "327c5251d64cf63a918b887857d4eb10c3bdb5269c8ed79448b9f6e8b3b754ba"
+    "sha256": "f6326aec85c814be86a8a66df7c6ea03832081da2eef5d41ef88eba4e2c35cbd"
   },
   {
     "path": "README-R63-to-R64-SOURCE-PATCH.md",
@@ -1785,7 +1789,7 @@
   },
   {
     "path": "Source/Client/Performance/LootPresentation.cs",
-    "sha256": "291f1871791567769423b85ce7abd5e6c3a556ee5b377452e0a5a8994552ac2f"
+    "sha256": "27c3743647b648120f3de5a0e1e82bf8726f9a01473035eeabb060cf3d15b2e6"
   },
   {
     "path": "Source/Client/Performance/MapCellScan.cs",
@@ -2429,7 +2433,7 @@
   },
   {
     "path": "Source/Server/MirObjects/ItemObject.cs",
-    "sha256": "3f103bfca794ef9754e4bee23b3b407d3f28e5597ff8252d159c48071b0457ee"
+    "sha256": "2e4fc58acd2d915d7c4178b9aeeb44aca79a506b74d2b3322f8549a70777bde0"
   },
   {
     "path": "Source/Server/MirObjects/LinkFormatter.cs",
@@ -4149,7 +4153,7 @@
   },
   {
     "path": "Verification/Loot/Regression.cs",
-    "sha256": "6a98dc0d81f10225e8920b58bd2d7294f965db4f0b193528e644832a26d888bc"
+    "sha256": "3b96d3ec251de32bc9719b029f0d3520eb465497f98358b5518a42473eb7afe7"
   },
   {
     "path": "Verification/Loot/Stubs.cs",

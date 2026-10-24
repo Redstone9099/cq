@@ -230,7 +230,7 @@ namespace Server.MirObjects
                     if (y < 0) continue;
                     if (y >= CurrentMap.Height) break;
 
-                    for (int x = CurrentLocation.X - d; x <= CurrentLocation.X + d; x += Math.Abs(y - CurrentLocation.Y) == d ? 1 : d * 2)
+                    for (int x = CurrentLocation.X - d; x <= CurrentLocation.X + d; x++)
                     {
                         if (x < 0) continue;
                         if (x >= CurrentMap.Width) break;

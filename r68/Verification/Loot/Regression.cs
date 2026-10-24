@@ -86,7 +86,9 @@ internal static class LootEffectsRegression
         CMain.Time=200;live.Process();
         Check(live.DisplayRectangle!=start && live.LootHeight>0,"Actual ground object did not follow its drop arc");
         Check(!Client.MirScenes.GameScene.Scene.MapControl.TextureValid,"Flight did not invalidate cached map");
+        Client.MirScenes.GameScene.Scene.MapControl.TextureValid=true;
         CMain.Time=2000;live.Process();var final=live.DisplayRectangle;
+        Check(!Client.MirScenes.GameScene.Scene.MapControl.TextureValid,"Landing left the previous airborne sprite cached");
         CMain.Time=9000;live.Process();Check(live.DisplayRectangle==final && live.LootHeight==0,"Settled item keeps floating or changing jitter");
         MLibrary.Calls.Clear();MLibrary.FloorCalls.Clear();live.Draw();
         Check(MLibrary.FloorCalls.Single().Source==MLibrary.VisibleBounds,"Transparent padding was not cropped");
@@ -106,6 +108,8 @@ internal static class LootEffectsRegression
             Check(grade>=ItemGrade.Rare || MLibrary.Calls.Count==0,"White quality received permanent magical effects");
             Check(MLibrary.Calls.All(c=>(c.Colour.ToArgb()&0xFFFFFF)==(item.NameColour.ToArgb()&0xFFFFFF)),"Effect colour differs from item name");
         }
+        Check(LootPresentation.Fit(new(48,48))==new Size(20,20),"Compact bottle/shield art should have a small ground footprint");
+        Check(LootPresentation.Fit(new(8,12))==new Size(8,12),"Tiny original art must not be enlarged");
         var random=new Random(68);
         for(int i=0;i<300;i++)
         {

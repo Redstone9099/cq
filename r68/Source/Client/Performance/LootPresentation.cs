@@ -12,7 +12,10 @@ namespace Client
         internal static Size Fit(Size visible)
         {
             if (visible.Width<=0 || visible.Height<=0) return Size.Empty;
-            float scale=Math.Min(1F,Math.Min(40F/visible.Width,26F/visible.Height));
+            float aspect=visible.Width/(float)visible.Height;
+            bool compact=aspect>=.65F && aspect<=1.5F;
+            float maxWidth=compact?22F:40F, maxHeight=compact?20F:26F;
+            float scale=Math.Min(1F,Math.Min(maxWidth/visible.Width,maxHeight/visible.Height));
             return new(Math.Max(1,(int)MathF.Round(visible.Width*scale)),Math.Max(1,(int)MathF.Round(visible.Height*scale)));
         }
         internal static Point Scatter(uint id, Size size)
