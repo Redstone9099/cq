@@ -1,0 +1,4786 @@
+[
+  {
+    "path": "00-README-R6.10.md",
+    "sha256": "87498b76055cac33106ded5754a29d6f40ca28521edfbb702e34c6683879624a"
+  },
+  {
+    "path": "00-README-R6.5.md",
+    "sha256": "d83daaf5a5622d24f1b66209f4225c3b6cb99a77793e177ae35dcc9cf7860b29"
+  },
+  {
+    "path": "00-README-R6.6.md",
+    "sha256": "f9c86314b3a9199088255868b418830a69db9372937d9c413acc7c528fab3c31"
+  },
+  {
+    "path": "00-README-R6.7.md",
+    "sha256": "cf7647e60eb71fc82e21a2c3f9a30d4f6d64fe1592bc80f4361234e9af8cccdd"
+  },
+  {
+    "path": "00-README-R6.8.md",
+    "sha256": "d7129b985987b99c736bc9c4b5cb116576c60890eead65f3a0bd669ba35fba58"
+  },
+  {
+    "path": "00-README-R6.9.md",
+    "sha256": "1ae442d5696447c95a2837cff19e05e83b52814dba3848d984836a5c13e9e70a"
+  },
+  {
+    "path": "00-README-R63-to-R64-COMPLETE-PATCH.md",
+    "sha256": "22ea493d26e59d74d34355c61ddafadb62436b6f5f1215ce274459a1ff2af352"
+  },
+  {
+    "path": "AUDIT-R6.1.md",
+    "sha256": "3ad9192204054773d368079265186350bb29738a51e287460017ff1dc08fc368"
+  },
+  {
+    "path": "AUDIT-R6.2.md",
+    "sha256": "a177636b92b1aba9a881cb47b3cd75a8c64efc0090e22389bef4c2425d5c3abc"
+  },
+  {
+    "path": "AUDIT-R6.3.md",
+    "sha256": "36c6a274622774db1410e11ca7769898adde4baea48c157fd9559f1b846654b4"
+  },
+  {
+    "path": "AUDIT-R6.4.md",
+    "sha256": "c52bcf97d31ba2cd93ad2491ae3352a917718dd86c7b36ae8703d34f0cd77274"
+  },
+  {
+    "path": "AUDIT-R6.5.md",
+    "sha256": "ba4fede8e4810c1dd05cf9b03d4db6943c8003cd9e439bacd2391f20cf078ef4"
+  },
+  {
+    "path": "AUDIT-R6.6.md",
+    "sha256": "8e3aeb0319ac856c6086ee4637fe0e9cb33fe567346dc07fd6bf2375e09bd819"
+  },
+  {
+    "path": "AUDIT-R6.7.md",
+    "sha256": "ae60f590b038ba3495aae58a1fba6032e01d8921c15aa2ea57d4ccfda0263c56"
+  },
+  {
+    "path": "AUDIT-R6.8.md",
+    "sha256": "417a0a47b6c2fb41b4a3f4f9aae5f3dc4f31f066cbcaa30f88cc5f72eb9378bd"
+  },
+  {
+    "path": "AUDIT-R6.9.md",
+    "sha256": "fe249297f2eef1d3de91025d28a06535ad92f319f93b4f03e24cda66670ddb18"
+  },
+  {
+    "path": "Assets/R6/generation.json",
+    "sha256": "1ba0063fb4108f03f0b1d1fa9d232d4f458e6ded282155cee572ab228423e344"
+  },
+  {
+    "path": "Assets/R6/service-frame-imagegen.png",
+    "sha256": "1b994dab4ed26667221b7c601cf67e2b0cae9e329d76cf7893560492f62d6e92"
+  },
+  {
+    "path": "Assets/R6.4/EDITING.md",
+    "sha256": "95fc541bd17144eb39d80382e1f731a4d9231669eb91f7bed638d8a64f2c1d69"
+  },
+  {
+    "path": "Assets/R6.4/generated-B/common.png",
+    "sha256": "5aa7659def61df7667d96d130ae1fb267377575e4240545d1e0dba91f1ef727c"
+  },
+  {
+    "path": "Assets/R6.4/generated-B/heroic.png",
+    "sha256": "fd374adbb4ea18a5f94cd2b3988b81f9d75fde12f380e7c049223c99ece1914f"
+  },
+  {
+    "path": "Assets/R6.4/generated-B/legendary.png",
+    "sha256": "0112ea2b87b7096565dc9d9012777b8cbf579a7503b6d059e3c836d7e9d16303"
+  },
+  {
+    "path": "Assets/R6.4/generated-B/mythical.png",
+    "sha256": "d39364687a31473b3e89eeb6a279f062e6f8e3d2901ad420be58b04b1cf17fee"
+  },
+  {
+    "path": "Assets/R6.4/generated-B/rare.png",
+    "sha256": "c0354632f9540ed1733343862b96c11530077603be80c7995a1d0cb1aa9cbb6b"
+  },
+  {
+    "path": "Assets/R6.4/generated-C/common.png",
+    "sha256": "f8d57bb3268e9c383b373e9016de7c6375c79b29887a6ebb6397b8dc7eb1670e"
+  },
+  {
+    "path": "Assets/R6.4/generated-C/heroic.png",
+    "sha256": "24889a0b32f4ffe14a9bad5e0cc5c9cefd49ac05e26df60722bf568578e17f6f"
+  },
+  {
+    "path": "Assets/R6.4/generated-C/legendary.png",
+    "sha256": "f9255d99291b46787787824881b3783361e66a90f0d37fccd2e304f449f2234d"
+  },
+  {
+    "path": "Assets/R6.4/generated-C/mythical.png",
+    "sha256": "e7ae569b38a1981b60f7af26eac656daf6c48380c281477c448b8a29bd2f90ea"
+  },
+  {
+    "path": "Assets/R6.4/generated-C/rare.png",
+    "sha256": "df86ed50be5bcf1be4101f841cd32a5579b6013bbc62d5c41c5cc160d1f41ae7"
+  },
+  {
+    "path": "Assets/R6.4/imagegen-B.json",
+    "sha256": "b07e4891f9814ebb6c4043cf01ad9bb0c3537c9cf24186ac076f23144d4424ff"
+  },
+  {
+    "path": "Assets/R6.4/imagegen-C.json",
+    "sha256": "56007ed88f15cb55d01846a98774b1649b08b710d36968cc52ca3bb596540e29"
+  },
+  {
+    "path": "Assets/R6.4/native/A-common.png",
+    "sha256": "37e710ad9d05daee5b4034179ce18b5394c85ffafb0762d007a56f72cfc0076e"
+  },
+  {
+    "path": "Assets/R6.4/native/A-heroic.png",
+    "sha256": "10f7c19bbc99654f865aa3d31fed70d1140d86c7dce79c8b7006aec3fc704a82"
+  },
+  {
+    "path": "Assets/R6.4/native/A-legendary.png",
+    "sha256": "1bfa489adeed8637ce2104b341a32d529c3eb09d47788ee056554b1719ef57cf"
+  },
+  {
+    "path": "Assets/R6.4/native/A-mythical.png",
+    "sha256": "011ac8ce8b4e7899e8f26e5653094d8cf1d23c68c3b0a44fcbdff3bc38227751"
+  },
+  {
+    "path": "Assets/R6.4/native/A-rare.png",
+    "sha256": "6dbcf271bedad0a0e22b727ca963d9e9786ae8ff553768ecabb488492688a905"
+  },
+  {
+    "path": "Assets/R6.4/native/B-common.png",
+    "sha256": "57690b6643a476f97bba53d0bf92acb8a2b34d55ea3ad34409412d4dc1e90de4"
+  },
+  {
+    "path": "Assets/R6.4/native/B-heroic.png",
+    "sha256": "26c0209c54be7a4ae804a643b93590eb07ae467245440c9d8b6a675263d3f8fd"
+  },
+  {
+    "path": "Assets/R6.4/native/B-legendary.png",
+    "sha256": "37d6ea279848e27b4c81e942821191f4b187a0ea7c7534cae571e679cc196419"
+  },
+  {
+    "path": "Assets/R6.4/native/B-mythical.png",
+    "sha256": "5d6e14edfe9553690068300f40982ec17b0c2813516c4cc64c0c9d9cd39fa015"
+  },
+  {
+    "path": "Assets/R6.4/native/B-rare.png",
+    "sha256": "ce10b6319613cb5a8583b314c0108e34c4f2197702af3a785340fdc0de17863f"
+  },
+  {
+    "path": "Assets/R6.4/native/C-common.png",
+    "sha256": "2f8d25103416a483ebfced53156364095877bb0c302349ea087b35171c28018e"
+  },
+  {
+    "path": "Assets/R6.4/native/C-heroic.png",
+    "sha256": "5562ba75485555332907303527b41d0b527d0ead83db47aea1dcf34a64d347a3"
+  },
+  {
+    "path": "Assets/R6.4/native/C-legendary.png",
+    "sha256": "1eee051e4f4bcdc29c10939d0001239cc888257e8d1d64dc596b20ded316e66c"
+  },
+  {
+    "path": "Assets/R6.4/native/C-mythical.png",
+    "sha256": "afb903036a1a00f8eea4e2b1e064e7e7b83817efa5038ca97e7f830609e71bd0"
+  },
+  {
+    "path": "Assets/R6.4/native/C-rare.png",
+    "sha256": "a46b8b29770cc8ce4ecd34ec83d95ee1c4f0d7a5b53bcee250e4be49dd0299d9"
+  },
+  {
+    "path": "Assets/R6.4/sprite-layout.json",
+    "sha256": "6d4b451bc448eae2a8d9e5c9a551d79b61b9e92ad767dbed0c9c9adafe1eb72b"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Compulsion_Atk.CUR",
+    "sha256": "23b808b643a41fa82f60de39e84920a6ba0942f1db016f9e569fbafa146c46c3"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Compulsion_Atk.png",
+    "sha256": "d046b71537f5770f55aff702bbe4018341560253120c9b205d6824bc110ed6af"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Default.CUR",
+    "sha256": "a9608946ad3eccaed904fd853f16d7f0bbd2fad8efcb1af93d0674e82ee88290"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Default.png",
+    "sha256": "81f4efabaab7619bd0fa6473e60071bd33201df21b73bf0f4ebc61c2ec018793"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Normal_Atk.CUR",
+    "sha256": "3bcf772ae901097aefe9b207afe1b2c63feaced56ed01fab90e968cd4998452d"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Normal_Atk.png",
+    "sha256": "0af7c1ef4b35b6ea61352a315a707a0f8e8ddd14fa9e32067aa4daf6ea5be802"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Npc.CUR",
+    "sha256": "1c6b59d16bbc57a1e3286410b1fab6227c6683d53328442c0da4bb9a93bbb466"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Npc.png",
+    "sha256": "c1a957c74dc2b45b0a817ec8df95d632162cd6b0073385f3adc92aeff2b8299f"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_TextPrompt.CUR",
+    "sha256": "303214d2043e4520883a451728e7a32d73b267386cb137f1c3999f1778165631"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_TextPrompt.png",
+    "sha256": "f98e00b07c97f3310ba4959442d24cf1636b25d7beaaa6a1bc189d89ede8ba4f"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Trash.CUR",
+    "sha256": "ed518e3f0bfd8ee4bb3ba6d05e49dc8401d462ef55eb5679ce0ba30ae30dc260"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Trash.png",
+    "sha256": "c0e2b8b7a47098fa44154d63c8e1ab72c963f41ec014ef40e79c923e25c3da5e"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Upgrade.CUR",
+    "sha256": "64425d0f9b19f823f31c7ba1e1761527d3a1d11aa0c0c1974b4c73acd579b93c"
+  },
+  {
+    "path": "Assets/cursors-r5/current-originals/Cursor_Upgrade.png",
+    "sha256": "5e3a23a2c4dc2dace98995a0f0e1275099d72e03fcd9de09a7577976e6585cac"
+  },
+  {
+    "path": "Build-R6.cmd",
+    "sha256": "1d06d1644628799eabc251ec7912cfca2feb60a0da152aeede7ed292023e531b"
+  },
+  {
+    "path": "Build-R6.ps1",
+    "sha256": "6649064e3a8ea983074c97198e6180cb356af424c0ee7b70ca909b146342330a"
+  },
+  {
+    "path": "Build-Server-R6.4.cmd",
+    "sha256": "75a60e8c3f9ea52c12d4462a3754c9640498e1d0f5380815ef1fff70142d340e"
+  },
+  {
+    "path": "Build-Server-R6.4.ps1",
+    "sha256": "dbefc1acfe9042100178ac52f50ccf80d527f6c871b2ab4df2970e8e836c8fe7"
+  },
+  {
+    "path": "Build-Server-R6.5.cmd",
+    "sha256": "9a913654fae2a09f15f2ba5abd842518e6eef4375ccb1269f0d6d9e7f602af58"
+  },
+  {
+    "path": "Build-Server-R6.5.ps1",
+    "sha256": "df9b5542364bd90015054fea29a082f2f95160120245f550ece0f7160a2b99b9"
+  },
+  {
+    "path": "Build-Server-R6.7.cmd",
+    "sha256": "c037959be6c12937fa1c9bb882db0e317cd0b0ed1c5074b3e6a89fc785571600"
+  },
+  {
+    "path": "Build-Server-R6.7.ps1",
+    "sha256": "df9b5542364bd90015054fea29a082f2f95160120245f550ece0f7160a2b99b9"
+  },
+  {
+    "path": "Build-Server-R6.8.cmd",
+    "sha256": "c2584e85d2bb77dcbf18a68d6beb1364d4587f6503b61ef6d9965f480d0cb550"
+  },
+  {
+    "path": "Build-Server-R6.8.ps1",
+    "sha256": "df9b5542364bd90015054fea29a082f2f95160120245f550ece0f7160a2b99b9"
+  },
+  {
+    "path": "Cursor-R5-Files.ps1",
+    "sha256": "22c5b2aa33317487c0405945135f9b2966585f7c160a77fa3d10060acb358f63"
+  },
+  {
+    "path": "Evidence/R6/build-status.json",
+    "sha256": "f62c16246a76f3ceb863cf9a4a6d6203fa1ad5afdc1211e8c30ae1ae5fb63371"
+  },
+  {
+    "path": "Evidence/R6/cursor-and-package.json",
+    "sha256": "031d214a6b5b71ae62ecd39d22235e4ab5facb958bb398dffc7dd8756146f2e8"
+  },
+  {
+    "path": "Evidence/R6/layout-and-skin.json",
+    "sha256": "0a72957163307a05ede657853fcd5263fe5d5b32be7ca97a84c5ab9c01e47201"
+  },
+  {
+    "path": "Evidence/R6/source-changes.json",
+    "sha256": "52e24275803868bff2967aea6281f23a5ed4dec7f71e01844f9f6acf10227772"
+  },
+  {
+    "path": "Evidence/R6/syntax.json",
+    "sha256": "84ac8e07b0384f3cc2d88788cb7dacf2a092c96a3395a4f8c163fc456f7e5a9f"
+  },
+  {
+    "path": "Evidence/R6.1/changed-files.json",
+    "sha256": "f3615f2c934f9c8aadefe46525259588f3a1c9be3fbfd249cc62111836872b54"
+  },
+  {
+    "path": "Evidence/R6.1/cursor-validation.json",
+    "sha256": "f887c5808b527ce85750e58400be27967decabc8eeea7509e862fbc7e8ef8063"
+  },
+  {
+    "path": "Evidence/R6.1/layout-and-skin.json",
+    "sha256": "0a72957163307a05ede657853fcd5263fe5d5b32be7ca97a84c5ab9c01e47201"
+  },
+  {
+    "path": "Evidence/R6.1/syntax.json",
+    "sha256": "79b0559a0fc49f7a9f96a09eeba41dd9f22278430d2e5cf10af4fe09aae4028a"
+  },
+  {
+    "path": "Evidence/R6.2/changed-files.json",
+    "sha256": "c191ab48e9eca8ef9e9ac54668a3981daa7dbf19fba405cd44b7f8ebd1f1750a"
+  },
+  {
+    "path": "Evidence/R6.2/cursor-and-package.json",
+    "sha256": "8fbf418531e6d1840eb0c02eee8a3336cc99a9db4294183314b3b614a832ab2c"
+  },
+  {
+    "path": "Evidence/R6.2/layout-and-skin.json",
+    "sha256": "8b4c50eaa331cf1b21df6e2ccb57218851e6d962241f09326b8c0abc26422c0f"
+  },
+  {
+    "path": "Evidence/R6.2/source-model-and-analyzer.json",
+    "sha256": "f596867d9cbff80fdf4408cc1056fbafbc7b9cbe477c3614f5eee14f76eb7954"
+  },
+  {
+    "path": "Evidence/R6.2/syntax.json",
+    "sha256": "a0d8da16d66ab94cb9fb5a4863bd0f64ef1adbe9f9ac6edd8db1fda8997c523e"
+  },
+  {
+    "path": "Evidence/R6.2/verification-status.json",
+    "sha256": "6c7f66e5b3d93e6bb5dc738462d1db3276042e1a7fb588b7328f00413895174f"
+  },
+  {
+    "path": "Evidence/R6.3/changed-files.json",
+    "sha256": "613c47de3704282aaf83cece0d99595e0dacbcab5b914c68217d4eaf107a568c"
+  },
+  {
+    "path": "Evidence/R6.3/cursor-and-package.json",
+    "sha256": "1766795511331e6c44eabf8212fc5c51fbd269b120daeefa5260154e217a1cfb"
+  },
+  {
+    "path": "Evidence/R6.3/layout-and-skin.json",
+    "sha256": "0a72957163307a05ede657853fcd5263fe5d5b32be7ca97a84c5ab9c01e47201"
+  },
+  {
+    "path": "Evidence/R6.3/loot-baseline.json",
+    "sha256": "aabf4c022b3bd99fde1f2f4ab3db969dcc1c5e713c3194441a3e160bdf5414e8"
+  },
+  {
+    "path": "Evidence/R6.3/source-contracts.json",
+    "sha256": "cb9c3b0bd4094354e8863fc978702bce30ffe61ccf5a0ccdd5489e745a26744a"
+  },
+  {
+    "path": "Evidence/R6.3/syntax.json",
+    "sha256": "edd7ec1abebf684c308540a675238bd4e37b4ef06d0cab23bcd625285675ed19"
+  },
+  {
+    "path": "Evidence/R6.3/timeline-and-analyzer.json",
+    "sha256": "1605febe7b4e0f1ff16d7f294a1d5bdfa7e1c6f3588b731e5d722c1bef1476b6"
+  },
+  {
+    "path": "Evidence/R6.3/verification-status.json",
+    "sha256": "472ebae113a8d6688402da9bb3445394f18685a81a070e5471b45cb6d4f2b427"
+  },
+  {
+    "path": "Evidence/R6.4/CompletePatch/changes.patch",
+    "sha256": "e3fadd6ab52f8e9a086b0b377a3348f9221ce60a59a62bc1dd8fb97b27863e68"
+  },
+  {
+    "path": "Evidence/R6.4/CompletePatch/editable-originals.json",
+    "sha256": "2a659762e861709c6fd19e3fe0dc5bcc4eebaefe1bcd9b2b2ed4494a903ff211"
+  },
+  {
+    "path": "Evidence/R6.4/CompletePatch/files.json",
+    "sha256": "6a83cec01a088574873b7eec84e35bd11ca71f254012cf2418b41a3192150642"
+  },
+  {
+    "path": "Evidence/R6.4/CompletePatch/offline-checks.json",
+    "sha256": "26cee9f5f78c56b325c4f69bb870c89c26c2676187773a96a663318f10594783"
+  },
+  {
+    "path": "Evidence/R6.4/CompletePatch/verification.json",
+    "sha256": "337ccdb6df753617bb5a44e0577545948ddc72a06436f580fe2b55cba1ad2f35"
+  },
+  {
+    "path": "Evidence/R6.4/changed-files.json",
+    "sha256": "ec560a446e43ab253ee1193c7f3f23843feebba868606968b00b07f9d7e2f62c"
+  },
+  {
+    "path": "Evidence/R6.4/color-preview-v3.json",
+    "sha256": "e86d5cd05f71ddee553a61515e10883aa2ce262197542499054a562f806ff4e6"
+  },
+  {
+    "path": "Evidence/R6.4/offline-checks.json",
+    "sha256": "26cee9f5f78c56b325c4f69bb870c89c26c2676187773a96a663318f10594783"
+  },
+  {
+    "path": "Evidence/R6.4/parser-baseline.json",
+    "sha256": "f4e02f9f9abdb5156bfbced02b61ecedaaa4c33c33fad93d6d8aca528225b3b3"
+  },
+  {
+    "path": "Evidence/R6.4/preserved-baseline.json",
+    "sha256": "09fde13875685e40b832acb6104acce7ad2733b9053da34ffb8e4e0e0e7d1d0f"
+  },
+  {
+    "path": "Evidence/R6.4/preview-checks.json",
+    "sha256": "47884ee2ea3d42f558d2c7c2b1c7f207798aaa3a1efcf833b1900b1d5ade2857"
+  },
+  {
+    "path": "Evidence/R6.4/redelivery-checks.json",
+    "sha256": "98b9fc2309ec730ed021a864452e12347857d9eb9f8aa3cc1b367853b29ef681"
+  },
+  {
+    "path": "Evidence/R6.4/runtime-status.json",
+    "sha256": "ad6a9f8a55219e03e5579b4a87ce3c002b015517ccf31ac3c878ecf38cc8c723"
+  },
+  {
+    "path": "Evidence/R6.5/animation-preview.json",
+    "sha256": "3632b81dd8e4458880efb007800e69d9825e53acf498fe4684479c94680ea7aa"
+  },
+  {
+    "path": "Evidence/R6.5/changes.json",
+    "sha256": "51c583f57a4143b5a690dd3bd299f0879f4945171a1ef24549fa69a511859d9c"
+  },
+  {
+    "path": "Evidence/R6.5/effect-assets.json",
+    "sha256": "a9fe2316b01da69fdc7f996d22fe0b814c07fea104ef78b57be4f5572c8403ca"
+  },
+  {
+    "path": "Evidence/R6.5/history-recheck.json",
+    "sha256": "984573fafe148095bccf45f3ef2e4e0141e4f33edfdeebdbedfb6b635d1df7d4"
+  },
+  {
+    "path": "Evidence/R6.5/offline-checks.json",
+    "sha256": "a917b13879b10c458a407f0ff53a56dbf572c7d02a51e0c219bca6eaee51b8f5"
+  },
+  {
+    "path": "Evidence/R6.5/portrait-assets-preserved.json",
+    "sha256": "2a9cc80623198efe8354a6ff4bb0386915e0d6484acdd381789b452783848f6c"
+  },
+  {
+    "path": "Evidence/R6.5/portrait-recheck.json",
+    "sha256": "b77dbe8df472f66ebdcb0e1cd6000496e2056665634171cfd33f10cdf61e74d1"
+  },
+  {
+    "path": "Evidence/R6.5/runtime-status.json",
+    "sha256": "d6c262dfcb59147f543f2a09f35ea1d20cb38de5cf604afb00cf9e9e8c4d405b"
+  },
+  {
+    "path": "Evidence/R6.5/source-changes.patch",
+    "sha256": "3c41cfcb4edc7e1cfb1ea9d1d7403dfe822762c1f2f7e219be896c96660b70c1"
+  },
+  {
+    "path": "Evidence/R6.5/syntax.json",
+    "sha256": "c439b06e0992d3ab23e748afb16d591006c9d3cf10dcf48e81469928b8b7f188"
+  },
+  {
+    "path": "Evidence/R6.6/base-r65-manifest.json",
+    "sha256": "4f8cd3033dc2613881f9c617c9a3646cac881f9ecd351b4e394d0c6d81248a2e"
+  },
+  {
+    "path": "Evidence/R6.6/changes.json",
+    "sha256": "f9453b90496376c503872082a995ce7a1a2c16bcd6c0636445e3b4065c4636ff"
+  },
+  {
+    "path": "Evidence/R6.6/cumulative-changes.json",
+    "sha256": "9274b8e4b50deb54a5f2ec9ec3515b53658ce5ead46fc204c8d1d5e9ad7b33ac"
+  },
+  {
+    "path": "Evidence/R6.6/offline-review.json",
+    "sha256": "717a1767a0512f58b6aa8339a49efe8231fdf471b1431701ab565af16d1539c0"
+  },
+  {
+    "path": "Evidence/R6.6/packaging.json",
+    "sha256": "da91f1afebcf8eca6cab26f64c444afa8043550434719ca1c7eb0617be3299df"
+  },
+  {
+    "path": "Evidence/R6.7/base-r66-manifest.json",
+    "sha256": "5328e76905ee31ca5fbf3b065f1ea867f27c59dfa449cf80709fe6fd793abd37"
+  },
+  {
+    "path": "Evidence/R6.7/changes-since-r64.json",
+    "sha256": "6eaa2cafb8cb6be2c58493781b29070dd221e548fd9141583208404c811b90f7"
+  },
+  {
+    "path": "Evidence/R6.7/changes-since-r65.json",
+    "sha256": "a82d2a6189e4082f1af26b379869f5cef6bc68106e5ea36982fcc1dab41782da"
+  },
+  {
+    "path": "Evidence/R6.7/changes.json",
+    "sha256": "91bb2cadb54c084b0a4c24c87d8ff8bb874d5a0651ace65b9d76f3c85b58ecba"
+  },
+  {
+    "path": "Evidence/R6.7/offline-review.json",
+    "sha256": "d81db09c4f1fc78a82796a58619511be03f46c8d0642f3da78773beb8a8fac9f"
+  },
+  {
+    "path": "Evidence/R6.7/packaging.json",
+    "sha256": "1a4dee28a17aaf9f80a12da6e2dce3c5c113abcfcd2a91288bcb07f5ea76b98f"
+  },
+  {
+    "path": "Evidence/R6.7/windows-build.log",
+    "sha256": "92a622ec82002746fa1b7420e4b5577a3dd7750dcf63c48cb137e9edb35ccaf6"
+  },
+  {
+    "path": "Evidence/R6.7/windows-ci.json",
+    "sha256": "f5d05315c3a9bda78a74fc1bfd5501056a9881fa6b4bee389e4949abe2d37a88"
+  },
+  {
+    "path": "Evidence/R6.8/base-r67-manifest.json",
+    "sha256": "bb9131e92b21ebfce39b5e75b495d875478c4bbbd4202e7e262d41e1121b9686"
+  },
+  {
+    "path": "Evidence/R6.8/changes.json",
+    "sha256": "1a45b77f76e6fdc2271c56060f10c6466c90f5b8fbcc7282e157ecd482dbb4ff"
+  },
+  {
+    "path": "Evidence/R6.8/offline-review.json",
+    "sha256": "a6a751a2313b84524f5a70c88d7f59d24ab0252280f2793fdc8b405adbdcde9e"
+  },
+  {
+    "path": "Evidence/R6.8/packaging.json",
+    "sha256": "8e57cc492f49863e38ad7af96bcb1cf324bbe7775610af30cee90951611e3a1b"
+  },
+  {
+    "path": "Evidence/R6.8/windows-build.log",
+    "sha256": "8f39bbe281ac10d1b8b62513c4361685ff8cde4e638a0fe83efddec6de8b09d8"
+  },
+  {
+    "path": "Evidence/R6.8/windows-ci.json",
+    "sha256": "c3247a770b37fb3620912f5e942771c926ba5e58f2554894a12b0ba5570d3f17"
+  },
+  {
+    "path": "Evidence/R6.9/base-r68-manifest.json",
+    "sha256": "18f2d989f15b424ae7c674df27a753db4b3aca2b4be8201f1cb5c5ae76522609"
+  },
+  {
+    "path": "Evidence/R6.9/changes.json",
+    "sha256": "42d8926b695fbba2b67277d5ce67e024353654bfdc7ab5ff911f8232ffa1959c"
+  },
+  {
+    "path": "Evidence/R6.9/offline-review.json",
+    "sha256": "1323bcf356d6a3d0472aa0b25f98afff7f73c1d8ffa92bc64eb6b96e537da0b9"
+  },
+  {
+    "path": "Evidence/R6.9/packaging.json",
+    "sha256": "86e0436b5a2e69235b103290d8126e7fbb0a6e014655a5496fce1558c75bc98f"
+  },
+  {
+    "path": "Evidence/R6.9/pixel-review.json",
+    "sha256": "18d29e7e9a4135e30beeb259938b8e2b0485f92ff1e498117e539accab7a93de"
+  },
+  {
+    "path": "Evidence/R6.9/preview-check.json",
+    "sha256": "fe28e3881fc308c45d91338bee385488ef6769e0ba59492aead7a7159221856b"
+  },
+  {
+    "path": "Evidence/R6.9/render-samples.json",
+    "sha256": "164a2cbe7b9e117c8ebbda6f299c3351a8fcdab16c8fd8b0fe9eede9f377dec9"
+  },
+  {
+    "path": "Evidence/R6.9/windows-build.log",
+    "sha256": "ac589ca31583fbf64900d206f7c6075b28dc80c74067e260633fb65a29ff74fb"
+  },
+  {
+    "path": "Evidence/R6.9/windows-ci.json",
+    "sha256": "460f48ee0e65c12dfe63b8aba546a40d0ecb3eeadb11029ff0b635caf909c355"
+  },
+  {
+    "path": "Evidence/cursors-r5.json",
+    "sha256": "0c53cd33216ad19862062cbac080ad2d77b1fad8394613687b745a52bf48100e"
+  },
+  {
+    "path": "Evidence/hairline-blue-panels.png",
+    "sha256": "fc9207e34878d6bf7621577e4a6d428b34c633cf222b44f3cf1106ddac20a99f"
+  },
+  {
+    "path": "Evidence/hairline-checks.json",
+    "sha256": "65637d4ec2d2348bd4cef9f80caeb6aaf6021e71f88c22da7ebd019471952818"
+  },
+  {
+    "path": "Evidence/hairline-comparison.png",
+    "sha256": "970c5f0f8a303dd1650875d9f0a2011820f6c024c75d0eec63a2dcb74c0f12ce"
+  },
+  {
+    "path": "Evidence/hairline-hairstyles.png",
+    "sha256": "8e3206a5a3e4e6ee8c966bb968f1416ab75349b7ceaa93ebadb2918fe511bdad"
+  },
+  {
+    "path": "Evidence/native-body-build.json",
+    "sha256": "c3f2dd8d04dca0c9a854a01f6b525905f2ff9f7ce2e407d24400d69d82898b05"
+  },
+  {
+    "path": "Evidence/v6/skills-runtime.json",
+    "sha256": "03ce283ea23f5f9ff022ac6a12f963fc1ec35cbcecaf532f3daaf23f53b19f5e"
+  },
+  {
+    "path": "History/R6.4-Restoration/00-RESTORATION-NOTES.md",
+    "sha256": "10c61baa1073e28ecd2d89971b96443134a84cf462994aca8c60c1aef6a24ec2"
+  },
+  {
+    "path": "History/R6.4-Restoration/Restore-Evidence/offline-recheck.json",
+    "sha256": "a005f07b21bc02b94fc1450f02d1d40d97cc4775f005414241c803c382392af5"
+  },
+  {
+    "path": "History/R6.4-Restoration/Restore-Evidence/preview-recheck.json",
+    "sha256": "47884ee2ea3d42f558d2c7c2b1c7f207798aaa3a1efcf833b1900b1d5ade2857"
+  },
+  {
+    "path": "History/R6.4-Restoration/Restore-Evidence/restoration-verification.json",
+    "sha256": "a9e779bf234212424580f861b6fc9cedf1f22ce1687cc5daab778ee259ad6ab8"
+  },
+  {
+    "path": "LOOT-QUALITY-REVIEW.md",
+    "sha256": "940479fdb1a06f3d464ac513bec5b4a91d3b8fd8bfe19f95d573b9bd2a794cbb"
+  },
+  {
+    "path": "LOOT-RULES-R6.4.md",
+    "sha256": "321b02d16cc233776f6b37e230e7ddd411f2dfa7d65362092c8ab280601345b0"
+  },
+  {
+    "path": "Preview/01-quest.png",
+    "sha256": "d1eff5a5cb5b0ec07ba1efd6e220fab99099422ceb087541a6855adc43c4e9cf"
+  },
+  {
+    "path": "Preview/02-dialogue.png",
+    "sha256": "3b83edc2a8437564d3e488bbd7681863d0d43ecca10503030163e80ac7ead338"
+  },
+  {
+    "path": "Preview/03-shop.png",
+    "sha256": "0e1f615fcef99cc025292287bd16a84360904358e77eaa52408f8fc7b6e61abd"
+  },
+  {
+    "path": "Preview/04-sell.png",
+    "sha256": "27afa82b93dd2d7308bb688b603587cfe84defb4f43e13e00a13fb04d99e8f6b"
+  },
+  {
+    "path": "Preview/Attack.gif",
+    "sha256": "9068163bd5fe999896d358512f7da49cefe899edbaf34c5fb1cb08c9dc233613"
+  },
+  {
+    "path": "Preview/AttackRed.gif",
+    "sha256": "3f0958251baf73eab498e16fe2ec294d1f514c83891532adc59565c539f40bf7"
+  },
+  {
+    "path": "Preview/R6-overview.png",
+    "sha256": "7a0d5b7be0546cf66a514c1441b17f67757ddbbb74a3d0efd21018beec187857"
+  },
+  {
+    "path": "Preview/R6.4/Loot-A-Handmade.jpg",
+    "sha256": "813bf37c0deb7d5b178408d31443df100d15834297e178b673b1679fc7d52190"
+  },
+  {
+    "path": "Preview/R6.4/Loot-A-Handmade.png",
+    "sha256": "cc6784bcf0cc704f3554b46eca056fdaf439b2693286730f56087ee8b33596d2"
+  },
+  {
+    "path": "Preview/R6.4/Loot-B-Image.jpg",
+    "sha256": "574dce89aab856fb544aa42873408eab585be6438fdfca953e78d00ee0213390"
+  },
+  {
+    "path": "Preview/R6.4/Loot-B-Image.png",
+    "sha256": "a07136462f6dcefad8ce7cfdf486ceacafae291d375e7826859876f1a54d3d95"
+  },
+  {
+    "path": "Preview/R6.4/Loot-C-Refined.jpg",
+    "sha256": "16427d2b4fbd51f5e6f7baac69c3ead835ee42886fc1d60fc39696f2ca7a7354"
+  },
+  {
+    "path": "Preview/R6.4/Loot-C-Refined.png",
+    "sha256": "73b92b0cc878dd9ec6f99663d6ededb033e1345f3f7eb90228b6a5ffc87f23b2"
+  },
+  {
+    "path": "Preview/R6.4/Loot-Color-Comparison-v3.jpg",
+    "sha256": "0d0b5285688b6adcccb41f8264f56e5f85c64d9d48a5342e0374e5677362bb6d"
+  },
+  {
+    "path": "Preview/R6.4/Loot-Color-Comparison-v3.png",
+    "sha256": "8245b5ae56834603d18fa05d2f215a0c0575a16b2c18d85d090f56dd23f926cc"
+  },
+  {
+    "path": "Preview/R6.4/Loot-Three-Ways.jpg",
+    "sha256": "ab66f982a6023f91c600b0fe5276072dddbcc95ee6f767fcfa4ff5cab207b065"
+  },
+  {
+    "path": "Preview/R6.4/Loot-Three-Ways.png",
+    "sha256": "b36cfa92be1e8dbb6fef32c429a67b9be1293bf4c480117a609b4fa20f8aade9"
+  },
+  {
+    "path": "Preview/R6.5/Loot-Animation.gif",
+    "sha256": "eb49363552e6fecc243a93197b6c853e2f3bdd3cce390301cf2322752d2739b7"
+  },
+  {
+    "path": "Preview/R6.5/keyframe-0.png",
+    "sha256": "67afbbe8ce766c45f3cbb52ebfab0bcb479b755ba572fe344bac270bea65ce84"
+  },
+  {
+    "path": "Preview/R6.5/keyframe-1000.png",
+    "sha256": "68976c089e3844f85f6ba656323ea16352872e9d50e4f6dc54321ead48f33df2"
+  },
+  {
+    "path": "Preview/R6.5/keyframe-180.png",
+    "sha256": "9de12bfc17c9a55995b54622962705902a47344f3a4d7dc3b2b5081e09552b04"
+  },
+  {
+    "path": "Preview/R6.5/keyframe-2000.png",
+    "sha256": "fd1f545cba07970d188df2d391587925f33c200db67da400ec59fb4881b767bc"
+  },
+  {
+    "path": "Preview/R6.5/keyframe-3000.png",
+    "sha256": "c535b3474acca6f89507fc39d1ab5b77ec85b06dcbd3458d0570459204762623"
+  },
+  {
+    "path": "Preview/R6.5/keyframe-340.png",
+    "sha256": "8337f62d03d67850950888f2001c3105c7e3e51e11ed01efd1ed668a4eaa7e86"
+  },
+  {
+    "path": "Preview/R6.5/keyframe-600.png",
+    "sha256": "28e4d23c81784b90daf8c86541f719fb79c52130db31c2f6487243fda3154733"
+  },
+  {
+    "path": "Preview/R6.5/keyframe-80.png",
+    "sha256": "21f4b0519dca1966b74618bd2b021285cd9b7f0bbd2bf6c83449576db7131415"
+  },
+  {
+    "path": "Preview/R6.6/Skill-Atlas-110.png",
+    "sha256": "995c5457e56a445c51c4dd5caff2a52d197f3461bd276c31d00dd99c3594cc74"
+  },
+  {
+    "path": "Preview/R6.6/Skill-Hotbar-Preview.png",
+    "sha256": "9197db3eb7cebc00490671f20470c3a26eee12719a91ee42676f935d52f02f61"
+  },
+  {
+    "path": "Preview-Loot-R6.4.html",
+    "sha256": "1e5cbf9c9edd2736cfecde7aceeccb556df81a6a9ecbf75901bfdb8e5fe3d75d"
+  },
+  {
+    "path": "Preview-Loot-R6.5.html",
+    "sha256": "ff10a51438180070ed95cc3e89482028421f48df549f2ee9594c1102d0209d0e"
+  },
+  {
+    "path": "Preview-Loot-R6.9.html",
+    "sha256": "0b5fb6e9c187a60636c449fcd3d876c49498b206a12873a335ff05cf34d55d11"
+  },
+  {
+    "path": "Preview-R6.html",
+    "sha256": "36f3e766ede27dc6dd5b347f1ef5c3fc4b0437287067f3c503aaf3004eb95524"
+  },
+  {
+    "path": "README-DELIVERY-V3.md",
+    "sha256": "55352a2c55d8ac9e3c50e09f36cd8829a2c72af02041f90a074479b28bf6b0a7"
+  },
+  {
+    "path": "README-R6.md",
+    "sha256": "f6326aec85c814be86a8a66df7c6ea03832081da2eef5d41ef88eba4e2c35cbd"
+  },
+  {
+    "path": "README-R63-to-R64-SOURCE-PATCH.md",
+    "sha256": "a163b1e74977ce8d76bec6b8b907c296055f148afce5d7ab3859ad09eb1ac891"
+  },
+  {
+    "path": "README-REDELIVERY.md",
+    "sha256": "2d5c7e979d61fee7445865a01f59af376ba4d45ebc517ceba47d6253303232f3"
+  },
+  {
+    "path": "README-技能轻量包.md",
+    "sha256": "25e21fc843c183425b0215fd5e525339c9abf3fcdcaa3ab02dc4b5c9b99ee35d"
+  },
+  {
+    "path": "Repair-Common.ps1",
+    "sha256": "2965c4c58dc6207786113187d25ef74990a4306ff61a00ee13a951912ce02216"
+  },
+  {
+    "path": "Restore-ClientBackup.ps1",
+    "sha256": "f8549d2ff6259065d42ef5efc3793bd00c99e725d6b62391f0ae69c78e4ce760"
+  },
+  {
+    "path": "Source/.editorconfig",
+    "sha256": "5684688f92fc7c6445b7b59a4b13a9b430130233d2c9a3cd39a880a727611d69"
+  },
+  {
+    "path": "Source/.gitattributes",
+    "sha256": "45a7cbb7d9942ba7ffce0b20bc8dbe2d1196533bc6e4bd245871d77fb1eedfdc"
+  },
+  {
+    "path": "Source/.gitignore",
+    "sha256": "04e619df7d48c46e8495a3dc0d80e8e247f5bcc25ee07e79be7da2915260af25"
+  },
+  {
+    "path": "Source/AGENTS.md",
+    "sha256": "785a0d9bf3efa9c61c69e913063710cbf7ee4a94feb22b3299e35e2a9217b8e5"
+  },
+  {
+    "path": "Source/AutoPatcherAdmin/AMain.Designer.cs",
+    "sha256": "88780b8584f8dde6882d12ac7555ee68b373f4793c6f3e47fd8d3fdeaba825d3"
+  },
+  {
+    "path": "Source/AutoPatcherAdmin/AMain.cs",
+    "sha256": "c93353b94ea142ac92328d0752bf1eb6b87da20890c72fa6d8f499d76bc4eccd"
+  },
+  {
+    "path": "Source/AutoPatcherAdmin/AMain.resx",
+    "sha256": "a77127f071d192c6a5aaa366545589f9520ab3a69a364d3ba749baadc5864166"
+  },
+  {
+    "path": "Source/AutoPatcherAdmin/AutoPatcherAdmin.csproj",
+    "sha256": "dd3c1780eadf5aaa407a3bd9cf1c97af21e99ed665e6d0977ce2f85ae70c91ee"
+  },
+  {
+    "path": "Source/AutoPatcherAdmin/InIReader.cs",
+    "sha256": "7271ea8800331ea3207cf21afc2679e41960a755d8be691eadf0db35ca9855ec"
+  },
+  {
+    "path": "Source/AutoPatcherAdmin/Program.cs",
+    "sha256": "83e5a4544d8fe78b018597f69b7a2c899a76bb11162d30979dedc97b3703f7f5"
+  },
+  {
+    "path": "Source/AutoPatcherAdmin/Settings.cs",
+    "sha256": "87a394356345f3a6d18c68cd1cdf5913270b14dc5c9ac4eb1b7b5b248ed414e4"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/AMain.Designer.cs",
+    "sha256": "3afa6120bb040977aa875c761c1eedf0ecd27c5a5bde82dffe3d0d57e26e9bff"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/AMain.cs",
+    "sha256": "eb0d5d20e33542073b61fcaec3fdd36eea3bee262c7a43e2fe3d9d3a2fd848ca"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/AMain.resx",
+    "sha256": "76bb1eaf445c90938ad169aee1d952b0ebd659acd509bbcd3a3c049d85048a85"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/AutoPatcherAdminV2.csproj",
+    "sha256": "2525a0c205dd986a80fcc2d265152f0f875dbf11257dcb0e0588a6ff0bbd7e24"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/DgvProgressBarCell.cs",
+    "sha256": "03ed4d285b490940d01299f08cc81090b0ee6c56e928cab2bbc6dc912c336dd1"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/LoM_Patcher.ico",
+    "sha256": "364649b81a0694e6cebb180d8ad4d3a5c800f0bc8ccaec53eac62504575da573"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/PatchCompareResult.cs",
+    "sha256": "c6dfae5ae4765e8b3f915d3e99dede50dc3ef76269f186fb1a0c5d50626cf261"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/PatchTransport.cs",
+    "sha256": "609b0755771216692b8c34ad2d42ab2b9086eff466ce2cf54959e1a5bd7789ea"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/Program.cs",
+    "sha256": "83e5a4544d8fe78b018597f69b7a2c899a76bb11162d30979dedc97b3703f7f5"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/PublishCompleteDialog.cs",
+    "sha256": "c5b899d2f0156e6962de4e6a83ad0b014226c7aefdd9c397b33dea9b7697b984"
+  },
+  {
+    "path": "Source/AutoPatcherAdminV2/Settings.cs",
+    "sha256": "ad6923ea5b37b543e09d3c0e180a4a79810cc6280f779f2001a335b3a066101c"
+  },
+  {
+    "path": "Source/Client/Client.csproj",
+    "sha256": "3e034c1013eeced973fa690b08e59437cacae1ad0fe85ec2dbc660920a8ffd84"
+  },
+  {
+    "path": "Source/Client/Forms/AMain.Designer.cs",
+    "sha256": "3f340c157c66b3c0b0596cd2d7dc31a24732c0f00fb117f5d64e4d722a4713e7"
+  },
+  {
+    "path": "Source/Client/Forms/AMain.cs",
+    "sha256": "70e67cb337a4eb40f783aa9fd1cfd716bf4eab695400c9481b45dc30105e0ee1"
+  },
+  {
+    "path": "Source/Client/Forms/AMain.resx",
+    "sha256": "a6e0b1f1a6bc13eb038ed5b51bbad115fcbf7a2787c42ccfbb0f505d22b6bf10"
+  },
+  {
+    "path": "Source/Client/Forms/CMain.Designer.cs",
+    "sha256": "4a8d2ed36c163790cef01518e78352e538125443d31459f5d74bd161ae14d522"
+  },
+  {
+    "path": "Source/Client/Forms/CMain.cs",
+    "sha256": "154aa7f0490ebfef0790c81ef843cec56173b476ff04c4f2be4cfe2840f63b47"
+  },
+  {
+    "path": "Source/Client/Forms/CMain.resx",
+    "sha256": "663765cb7bdffe87963a2ced97f8e883d2ffe5cdffefcb34d5bb1b94225af4cf"
+  },
+  {
+    "path": "Source/Client/Forms/Config.cs",
+    "sha256": "f3c6f9bc95cfe4dd874d8115ac3a405a2deaebee76451aaa8a02dc84a4a258e9"
+  },
+  {
+    "path": "Source/Client/Forms/Config.designer.cs",
+    "sha256": "7350d0c0b64f9f051934b1f1cb14b97153b048147498d0fb7476183de49e72c0"
+  },
+  {
+    "path": "Source/Client/Forms/Config.resx",
+    "sha256": "dff08b1e2c7f6faccbdc26c14220b9aee23f9b3e7b1ea6edc05ff87e71821f8d"
+  },
+  {
+    "path": "Source/Client/KeyBindSettings.cs",
+    "sha256": "efa1a6380938fae04d1a6d4e6247ecf0eec620e6a744ea27bc0654b54d6c19b1"
+  },
+  {
+    "path": "Source/Client/Localization/Chinese.json",
+    "sha256": "6a791a5d37331f3965dd642b91c7f2be8e564de864324efb069950f1384f9a28"
+  },
+  {
+    "path": "Source/Client/Localization/English.json",
+    "sha256": "1e34f3afe731ea99ef41b7276133698cdd27bd8bd39110edbd6f2c9a8d3b0c38"
+  },
+  {
+    "path": "Source/Client/MIR2.ICO",
+    "sha256": "6c0a339149c404bc79fab09f364e1d2b6c6aa36593120e87bf0a7b6b729bbc02"
+  },
+  {
+    "path": "Source/Client/MirControls/AnimatedCursorTheme.cs",
+    "sha256": "4740f5eb2a26b4841f5def80c5001141532eef7a75a0b720b28d18bb39abd792"
+  },
+  {
+    "path": "Source/Client/MirControls/ChatLineLayout.cs",
+    "sha256": "ff1852850d04bf4550483e7d86ff457308c7b2496f4dfb52fb0d1cc02f537672"
+  },
+  {
+    "path": "Source/Client/MirControls/ClassicCharacterLayout.cs",
+    "sha256": "eeb1100b5a24506312d66c0e39cf3caf5151f4706df56d0caf0c785d6c159a14"
+  },
+  {
+    "path": "Source/Client/MirControls/CompanionLayout.cs",
+    "sha256": "e3eaf3bd0f758bbf919d94745bbedc746e58ca2b442e1d2ce0f117dc3a446b5e"
+  },
+  {
+    "path": "Source/Client/MirControls/ControlDrawTraversal.cs",
+    "sha256": "1240b3f1610d583df84098b707558aa3d7c0270912a1b7578c14d5bef6bad984"
+  },
+  {
+    "path": "Source/Client/MirControls/CursorAnimation.cs",
+    "sha256": "7dc212cdcad867fee86b6339058f2d7028030df15d62390392d290d697157766"
+  },
+  {
+    "path": "Source/Client/MirControls/DialogTextRendering.cs",
+    "sha256": "4a36cf1e5ee31d01a725a5ba1bf84a247c50b02fa3ee7b43d65e36cc47ee45a5"
+  },
+  {
+    "path": "Source/Client/MirControls/EquipmentDescriptionText.cs",
+    "sha256": "075510b953d285a0f1b747cec77a1c8553893ec464c31cefaedd9242f5e0df5a"
+  },
+  {
+    "path": "Source/Client/MirControls/GameShopViewer.Native1920.cs",
+    "sha256": "e35fe98bb2475587c247824547142a0443a17267bfaa4f0a4ce47de71df83beb"
+  },
+  {
+    "path": "Source/Client/MirControls/InventoryActionLayout.cs",
+    "sha256": "3819a43fefe74766b4198aad27f530c3bd7704605a97bfac09fd88beccc4e09d"
+  },
+  {
+    "path": "Source/Client/MirControls/LabelTextLayout.cs",
+    "sha256": "cacd5c4dfb99a9eb9a38bb3a0d4d9aced5934c61ce16836a11f96ed2ffb53dc1"
+  },
+  {
+    "path": "Source/Client/MirControls/MirAmountBox.cs",
+    "sha256": "aedc6f1bdb60cbc4ab893abbd78baba03a619d455a45c1cc4776f1dfb4b96d8e"
+  },
+  {
+    "path": "Source/Client/MirControls/MirAnimatedButton.cs",
+    "sha256": "c70e4ea504025597ca3f3b9ed6eb0e55762c1957681f021166a9f901614579f3"
+  },
+  {
+    "path": "Source/Client/MirControls/MirAnimatedControl.cs",
+    "sha256": "9ffea59d13211fd7075cd19443d63d9d639be6450467955317e7d04eabd28d4f"
+  },
+  {
+    "path": "Source/Client/MirControls/MirButton.cs",
+    "sha256": "62189225899da314d7701758f8ac12a70d523ac43185b8b3689044c27167df9d"
+  },
+  {
+    "path": "Source/Client/MirControls/MirCheckBox.cs",
+    "sha256": "959c8532e818026b1292c989a2483dd94e116fdfa7a0351c2bfb584d09c6ec01"
+  },
+  {
+    "path": "Source/Client/MirControls/MirControl.cs",
+    "sha256": "561322716b5dc433aed0d1dd33501b3d1cf0b1ea8766de44d1e9b665ae3aaf38"
+  },
+  {
+    "path": "Source/Client/MirControls/MirDialogInput.cs",
+    "sha256": "3f3a845a5cae6744d2cbb4eff03886cb36a48e218effdf1df8765382c0483f68"
+  },
+  {
+    "path": "Source/Client/MirControls/MirDropDownBox.OriginalUI.cs",
+    "sha256": "83190e5ab8cacc1ce1c113fb1c63314f3f67a44e5776628d83f91623c7e99561"
+  },
+  {
+    "path": "Source/Client/MirControls/MirDropDownBox.cs",
+    "sha256": "c1f8724ad67624f144462200a6d336cbd9910c5c9bf7e0eb442e25df37bcf642"
+  },
+  {
+    "path": "Source/Client/MirControls/MirEquipmentDescription.cs",
+    "sha256": "47ade14515fe42dae9be33fe0251aca9256dd87cfd5a73e9d63bf6cdeb815615"
+  },
+  {
+    "path": "Source/Client/MirControls/MirGameShopCell.cs",
+    "sha256": "0f9c2aa361ab564da94fcb846436b1279ac2ab5d2039c74115f5cfb31240644f"
+  },
+  {
+    "path": "Source/Client/MirControls/MirGoodsCell.Native1920.cs",
+    "sha256": "8b5a38bae94fe6eed848c0a7f1e9ce2b37cdc0e45b27baf738bda8495abafb71"
+  },
+  {
+    "path": "Source/Client/MirControls/MirGoodsCell.cs",
+    "sha256": "5705ed0f5873aaac07062ae861728b4ab39a4f613f36150076292a75543bec61"
+  },
+  {
+    "path": "Source/Client/MirControls/MirImageControl.cs",
+    "sha256": "4c124e47cee5ff36db611c0aa53bb8e76678120c0c6f966b09166245ea7a7719"
+  },
+  {
+    "path": "Source/Client/MirControls/MirInputBox.cs",
+    "sha256": "8a2326f3e9f93b136078442e09f1293e0bbcc916f2949000b7cd09abd9a80a25"
+  },
+  {
+    "path": "Source/Client/MirControls/MirItemActionDialog.cs",
+    "sha256": "37688687bcd074b942c2a0c722dea590b123da39fd293715f0add10a66ae8f53"
+  },
+  {
+    "path": "Source/Client/MirControls/MirItemCell.Native1920.cs",
+    "sha256": "f27d220018945de5f7bb619f486405cbc00a595a77609d84e17969737699be2e"
+  },
+  {
+    "path": "Source/Client/MirControls/MirItemCell.cs",
+    "sha256": "9c019670b216bd3ac1ddc7dd3bbbaa12452e28dcb1bf2c3f2afcfe15be299aed"
+  },
+  {
+    "path": "Source/Client/MirControls/MirLabel.cs",
+    "sha256": "8a18ea8c1eda19dbed2733229b00fea96b213c27b2f1fde41e662195c1679673"
+  },
+  {
+    "path": "Source/Client/MirControls/MirMessageBox.cs",
+    "sha256": "f8e2323228c3d5645f01cbeebf61054ca031c078896065e9aeca5dbd2fd2ef72"
+  },
+  {
+    "path": "Source/Client/MirControls/MirScene.cs",
+    "sha256": "c661008842ab3ac4422ca8da82a79c175feaebdc3b862a8a45ff351abb6a9d39"
+  },
+  {
+    "path": "Source/Client/MirControls/MirScrollingLabel.cs",
+    "sha256": "9d9512ed16475d1bc0317fe59250072217ba16801565b18190b0c373c529f202"
+  },
+  {
+    "path": "Source/Client/MirControls/MirTextBox.cs",
+    "sha256": "5ddde005ac78ae73637e76e0338559a2710cc5a22efcb64efe2cd8326ce8a3b4"
+  },
+  {
+    "path": "Source/Client/MirControls/NativeCursorGeometry.cs",
+    "sha256": "bfd23c234acc7d774ca96a187878c8f038e4e5cb3c426bdf391c7b4c83f205bc"
+  },
+  {
+    "path": "Source/Client/MirControls/NativeTextBoxFont.cs",
+    "sha256": "01ca8c6e1dfa546fd0dcb2b161482b286d608515b5d4ca3076c0dc431bb6a4fe"
+  },
+  {
+    "path": "Source/Client/MirControls/NpcConversationState.cs",
+    "sha256": "16a7b200a4c6de664c51ebf1a8b9f792af35aa214a60ecfbcb11108f24714785"
+  },
+  {
+    "path": "Source/Client/MirControls/NpcDialogueLayout.cs",
+    "sha256": "733b73de00feb2095bee0052523375d39e894394fdd48060bf25c8dfa7a8a0d5"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalBuffOverlayLayout.cs",
+    "sha256": "4419a0f8fcd519b43d4ec06b16103f0f1d75d8c5c021975886415958a854c2c8"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalCursorTheme.cs",
+    "sha256": "3ebdba44219356d2926b3d8274a3acb8876c6bca8335821a45d85109775d5291"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalDpi.cs",
+    "sha256": "113bbc25322183484ee20c77fef8839251b87bc5317e6750aa0f958f950f5580"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalDragGesture.cs",
+    "sha256": "6d9972eaf32edee122fb76635f6d9e2e27e59bdb49dccdb123d78601b12d6618"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalEquipmentGhostLayout.cs",
+    "sha256": "310c93c605abc9eac7e5757851bf4465bcdc9729423753922ab95929d9172696"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalHeroCreation.cs",
+    "sha256": "24a7c793ba93911086a078ac65f626ea9e5d932ec4decdb184f64e7a96424758"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalInteractionState.cs",
+    "sha256": "a393dbdc3c57e373d76079d102c358c39957e02f6f82cb5388c5d0f280308741"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalItemDrag.cs",
+    "sha256": "3e9221bc7d30787154dd70cab9f953583655fd00575ea2391ab68e876ea71cf1"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalListTextLayout.cs",
+    "sha256": "2b6aca8ab1e432e854969f4e7073afd173d8611bcf907d681b097ca15347233f"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalMapViewport.cs",
+    "sha256": "eb9de5100042da3275c846bdd957b1815b2765425b71ce9d93c7811fb849c0c7"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalMiniMapViewport.cs",
+    "sha256": "262ef34efcb7a7107a1d108c96ab416dcb46b1726add97eb173bd9ac971570d1"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalPopupDialogs.cs",
+    "sha256": "e3c49924d690f9f77fc8b9e3fe903e803a84c81e46c0229d1f25752bd9e9ea0f"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalPortraitLayout.cs",
+    "sha256": "83611dabfc9e35be1c63e8cd243ec5fbf73ffaebfe3e2753449724c26ac5374d"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalQuickbarLayout.cs",
+    "sha256": "34f2a93a1fa3bf35eea4147058ed5eb1ca895e4fb40e08684c2201c30928ba12"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalRouteSearch.cs",
+    "sha256": "4071a0712250776ad2ec19a354d16806880ea04ae265fc10fe214a8b15ff9f51"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalShopCategory.cs",
+    "sha256": "b3c190affcc01169e353c704d259e29577ca354fe4e1c20a71e3224dd4cbe3cf"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalShopControls.cs",
+    "sha256": "e1782e01c2ace4d0d49817c5fd8cc556979b39e2948cb90074078f4ec7658d60"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalSkillArtwork.cs",
+    "sha256": "a024fadb27e3bcc0a95866aa19a4ce0a39c5401eded410267e858a79a7f14363"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalTextInput.cs",
+    "sha256": "8d8239ddf984df5ff1a91ba8b830e6c5f00456484052707d8f721fc2f15968ff"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalTooltip.cs",
+    "sha256": "0f2dfba6bf6e331e1fa08b4210475f59fa0a7d3b1f9e4b7c3142371efd54a5fa"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.Character.cs",
+    "sha256": "923f084597ee986b7175780b157a1f512e487aafe8c9f6b8642ac4d64b281b57"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.ClassicFooter.cs",
+    "sha256": "441a8ce7f65441a15039d06deca406522610b716ef2734636e6baa1dadad10f5"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.CompanionIcons.cs",
+    "sha256": "a8b50fe0c4630b19b63cc2ee016d15e362dba957837e02ad0e41c08a8c2734a1"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.Companions.cs",
+    "sha256": "2f5974c111eb87f5279c4cb93a4f1fa85e83a87834aac1f55a118a1e076d9f3e"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.Forms.cs",
+    "sha256": "b608408f4efa4c558f1cc48e51eb43fc6654fc09b543d10f7d4acf1c7d0a789c"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.Hud.cs",
+    "sha256": "3edbbf380b988c6c79759958d45793f7d81589f308d45d3e538b2dca3b2d0884"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.Icons.cs",
+    "sha256": "816097f1b27e8d6fdcaf821d8d708020ba8fc0e7ce748c945f6df5fdd58787ce"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.Interaction.cs",
+    "sha256": "c84a78a10928fe31d9f925b20b36fa83fb55f62b4388e66795ee336f569750b9"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.InventoryActions.cs",
+    "sha256": "6d31fea31820dc4d58e01b4a617245fc2ddedabe9008b17b7ae365974f1e3ac3"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.ListRows.cs",
+    "sha256": "ccd8ddfb5ea58afc7aa9777d0e7dd75226f2791be8d7c9b988de7a398656794d"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.Native1920.cs",
+    "sha256": "0c26b7583d80ee91d809576ca941fc6e5708cf50f787eae6b1135145655af791"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.NativeMaterials.cs",
+    "sha256": "544d98cbdefc71dbe783584359f36146a941039123ffde004bdef4612179ec63"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.PortraitComposition.cs",
+    "sha256": "1eba6d68cb6f6ee6f680026acedd4ccadcea7c860554a939fca5909a40fa5b08"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.PortraitGeometry.cs",
+    "sha256": "a6d5e30a4348dfa364c4c5cec07b7b82ff2a15e1e56d3fe665b94283276304c4"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.PortraitRendering.cs",
+    "sha256": "9e5a6d2070811251de0400749d00e45e0f9956eab7598d65aecba5708c89f19c"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.RefinedSkin.cs",
+    "sha256": "a0872555b8de762652f0261f9f087c0e8e554b12b98cb41d6339f8af937df29e"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.ServiceR6.cs",
+    "sha256": "f60ad96051b201ffc5efc5d91b57faff2b04577610739422f50f7addb83e92c0"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.SkinV5.cs",
+    "sha256": "79710c2f4a4cc69a0eda1423c49307c7b31fe80549c689a42d19c618c3342401"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.WindowClose.cs",
+    "sha256": "0a21ffa5a0c795ada3d03751ddff79e5a3f2f2a2bcbe9c0c4c76c1fc00cbe0da"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUI.cs",
+    "sha256": "0616b54f56e66f08c1cdc109dae0c998ae4b26d4c1f48a618e7bc4c5a0fd53e5"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalUILayout.cs",
+    "sha256": "faf4e37eb8f2c99a0707b95a13b0010cc03d68bb210f9dd7028f11667b04bc12"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalWindowPacking.cs",
+    "sha256": "2e85caf8f079adf68b0464f38fd9ad0258faf1cdf43a5f9e35bfebfe7b936af1"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalWindowPlacement.cs",
+    "sha256": "ba7db4fda2a506fc8a0a4705a7f27227747bf6b4e296e73333298c6c48ad8903"
+  },
+  {
+    "path": "Source/Client/MirControls/PortraitCompositePixels.cs",
+    "sha256": "daa85f28ee3c51dac9a8a8f86379819089a349eb435c29d79d233c223ae15fa6"
+  },
+  {
+    "path": "Source/Client/MirControls/PortraitMattePolicy.cs",
+    "sha256": "44182f90d40c02ded7a57b2788291109bb08dc43f458657ea8bd52013142f2f7"
+  },
+  {
+    "path": "Source/Client/MirControls/PortraitPixels.cs",
+    "sha256": "44a685cc6963768a6b599808a8f36547bb7072fccaad3cb016426fd7083f8175"
+  },
+  {
+    "path": "Source/Client/MirControls/QuestJournalLayout.cs",
+    "sha256": "5d94b6e2905ceffb3d0605eb1b82e3435ab32c8aebd74716ccfac93411cbd8b1"
+  },
+  {
+    "path": "Source/Client/MirControls/QuestSelectionState.cs",
+    "sha256": "2a2122207f68a7dff6d92a82a377f914a9ee5798377b92ed469f329d79288223"
+  },
+  {
+    "path": "Source/Client/MirControls/QuestServiceLayout.cs",
+    "sha256": "b8356385b8af368357bac8abdaa329be055babbe1107b39105b8fe304be35782"
+  },
+  {
+    "path": "Source/Client/MirControls/RankingRequestTracker.cs",
+    "sha256": "8c7257573b1fb67f6f31ab61226ba95b7fc0fc2d231d52d43461c1b5d5bd7c70"
+  },
+  {
+    "path": "Source/Client/MirControls/SkillIconsV6Module.cs",
+    "sha256": "6c0b1e8894fa7c13a5258b22fdcfc634bfd54fce2980dc3be7d31a30a310084a"
+  },
+  {
+    "path": "Source/Client/MirControls/TextPixelComposition.cs",
+    "sha256": "92c7f2bae76ea3478978449b09fd19220ab273e4ace56dffccd0dc7541e12e02"
+  },
+  {
+    "path": "Source/Client/MirControls/TextRasterGeometry.cs",
+    "sha256": "1fac6ad4f0f5387f9fa246b3f9b112cf866e225ea4fccfe360d092223399f8fa"
+  },
+  {
+    "path": "Source/Client/MirControls/UIViewport.cs",
+    "sha256": "865c50acd9546384c82b74c4e8e813fd7812445c8d28e3bbb0e4ae9e79bc5685"
+  },
+  {
+    "path": "Source/Client/MirControls/WindowCloseLayout.cs",
+    "sha256": "a2c120e1f22abbf0ad8fb8be95239f82df10e34b7713884b0181d3c59fd7e46a"
+  },
+  {
+    "path": "Source/Client/MirControls/WindowPositionMemory.cs",
+    "sha256": "72c103022e04a5bc3c29bb438bceaeb7f9eb5cfef069cf00ceee11d51979d515"
+  },
+  {
+    "path": "Source/Client/MirControls/WorldLabelCache.cs",
+    "sha256": "3631fe31116fe1e4fbffd6915426423cc37dacf530e9bec3306e85da8a087f65"
+  },
+  {
+    "path": "Source/Client/MirGraphics/DXManager.cs",
+    "sha256": "061e8681cc3e8cb6883198595187fdd0f6330f67a6a0770f11cd357e7b7cb9b4"
+  },
+  {
+    "path": "Source/Client/MirGraphics/LootEffectRenderer.cs",
+    "sha256": "909fdbbf9c0d4107751eb8a5f6a3c7978a2c690140caa12afe186c5a30e2bcbf"
+  },
+  {
+    "path": "Source/Client/MirGraphics/MLibrary.cs",
+    "sha256": "5b7485f77528c9f1455ea3729cbaddbed140aa057c637e6c60729128c1c02395"
+  },
+  {
+    "path": "Source/Client/MirGraphics/ParticleEngine.cs",
+    "sha256": "24a5ef9723a057fd31ef80a094ed54402cd826ad14829e6dc180e687cd13cf2b"
+  },
+  {
+    "path": "Source/Client/MirGraphics/Particles/FogParticle.cs",
+    "sha256": "812ae255b0e43caa054d8f0357a8709f546e75dbe02a120e0ed74b0a2605dfce"
+  },
+  {
+    "path": "Source/Client/MirGraphics/Particles/Particle.cs",
+    "sha256": "fe700dbc1afb6d167bed1d40028436a1f2e74cfed5e30057dd29bdc6f4ec009d"
+  },
+  {
+    "path": "Source/Client/MirGraphics/SpriteBatchLifetime.cs",
+    "sha256": "4af199effdc4ad4f9c77e777188c86d4c01d38231ff12dd92b5baba3937f3e80"
+  },
+  {
+    "path": "Source/Client/MirNetwork/Network.cs",
+    "sha256": "cdd62c7246d681bd45ae68cebc5146b000f16c79fb15398aeaa8efa64272bae4"
+  },
+  {
+    "path": "Source/Client/MirObjects/CellInfo.cs",
+    "sha256": "964df746e80e063ce12c4ede0e93ba00bed0dd359663345c7f310b6e7f253cea"
+  },
+  {
+    "path": "Source/Client/MirObjects/Damage.cs",
+    "sha256": "2ca6862ef32a827c361127f3d2ae96dfa51782dfc27c47124ee178382d3b0cef"
+  },
+  {
+    "path": "Source/Client/MirObjects/DecoObject.cs",
+    "sha256": "b6f6ca1fec0d9c867cfbfe2c0fcf30bcebac2a127d238a8ba234a776b78eee7a"
+  },
+  {
+    "path": "Source/Client/MirObjects/Effect.cs",
+    "sha256": "62d62b5ac87e67c3b9db612a4c624bf09dc9e98a50b186c3de714e7ce157dbf5"
+  },
+  {
+    "path": "Source/Client/MirObjects/Frames.cs",
+    "sha256": "281eb63229e7da3cf8f560d5951928ba876b05ca6a3e924dfb38f9dfa1241459"
+  },
+  {
+    "path": "Source/Client/MirObjects/HeroObject.cs",
+    "sha256": "4cc459e3f467869ed065dea37b5ffa5c118d9e23317f7f4a7fec55d87d8da781"
+  },
+  {
+    "path": "Source/Client/MirObjects/ItemObject.cs",
+    "sha256": "b2e33e30a7f4621b62271b2c473f549bfa1afeb2dc50b96ca11ad2213197ca9a"
+  },
+  {
+    "path": "Source/Client/MirObjects/MapCode.cs",
+    "sha256": "a77b25ffc63c07ac6fa427c05a6f654d85a751324e65b450a623663a443df853"
+  },
+  {
+    "path": "Source/Client/MirObjects/MapObject.cs",
+    "sha256": "1b92b1bab32c3de303984479d8fb4e2e338910b482db3a07d5e707c5ec081411"
+  },
+  {
+    "path": "Source/Client/MirObjects/MonsterObject.cs",
+    "sha256": "21122f632443dae8a463a10ea60abc0a6f4b263de4879d5efe2f65af3d26093c"
+  },
+  {
+    "path": "Source/Client/MirObjects/NPCObject.cs",
+    "sha256": "d99582536c05229557841c8956459836584637d9857a8de6cbd428135f80b8dc"
+  },
+  {
+    "path": "Source/Client/MirObjects/PathFinder.cs",
+    "sha256": "13044641050106db920d502ae3299b4890ceb780a3860ee82e3aa2f25614f501"
+  },
+  {
+    "path": "Source/Client/MirObjects/PlayerObject.ActionAdmission.cs",
+    "sha256": "c63917abc3441c0e578746ab93389c429d5ffa1c5403b83b84462c97b89f8f08"
+  },
+  {
+    "path": "Source/Client/MirObjects/PlayerObject.FreeMovement.cs",
+    "sha256": "d098458141d9663242e39b0927be159a46fdcbcad036e7f2e83209b6758b1124"
+  },
+  {
+    "path": "Source/Client/MirObjects/PlayerObject.GameplayFeel.cs",
+    "sha256": "a22118772f161a9e4e69d407b4ab3bfbbc1a80b4ad2c798038b88ef19c77d758"
+  },
+  {
+    "path": "Source/Client/MirObjects/PlayerObject.cs",
+    "sha256": "831f5263ad3281741628b2a7ee9f130eaf85d772facd2bf83396959a889b069d"
+  },
+  {
+    "path": "Source/Client/MirObjects/SpellObject.cs",
+    "sha256": "19280cf6b6f1459c52fadb30c2a83ae67a487b4a380dcd04d6b46de860c5b7b4"
+  },
+  {
+    "path": "Source/Client/MirObjects/UserHeroObject.cs",
+    "sha256": "973359930b81909acedbfe7892bd27c7b2d5938e5b525d2cf5a745f804e0416e"
+  },
+  {
+    "path": "Source/Client/MirObjects/UserObject.ActionAdmission.cs",
+    "sha256": "82f3abd1e18ce000c8aaf1cbbef14fb651f005608fadf8c50016de21b6c3d1bb"
+  },
+  {
+    "path": "Source/Client/MirObjects/UserObject.FreeMovement.cs",
+    "sha256": "7e900a06ef46320d7ff73f8f2aeeb1d37bd835f7c4cc9f9e1afb2e7022461808"
+  },
+  {
+    "path": "Source/Client/MirObjects/UserObject.GameplayFeel.cs",
+    "sha256": "cae564a29d582ea3897b3cd63bfb0c4e7c6dde62de41d40382e3c33fd15b30fd"
+  },
+  {
+    "path": "Source/Client/MirObjects/UserObject.cs",
+    "sha256": "7abd06522d6120d6bdaa2c30630a902f2e6962a049f022a54d6bd505af918097"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/AuctionRow.Native1920.cs",
+    "sha256": "cdc210c9f7c33d6eb7e867269a48567831ee45088343b324e6677367f263c71c"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/BigButton.Native1920.cs",
+    "sha256": "3abaf78cd96d201ffdef9af66207d6b62c08d1f10ce9b8da081f08bcb6f435a0"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/BigMapDialog.cs",
+    "sha256": "603db975934d6e3019336e12f8dc8dd957c57595d51c2de803438bdc59af1a98"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/BuffDialog.cs",
+    "sha256": "d8935b311f1a7af7b5fe72c2c86d6d97aa9a09e0ac80bc6c950fd76d890be7af"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/CharacterDialog.Companions.cs",
+    "sha256": "08eb79bec9641d8633bdfb25a566c0aa8f77487bbd9d487822c44bc2eecfe8d0"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/CharacterDialog.Description.cs",
+    "sha256": "e486f9b29cf4fa39ba1e75126c44b5cf182499b81ad9a9aa8b731a782ee3a938"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/CharacterDialog.cs",
+    "sha256": "0c33e43e07a22e250eef2a960a9be36cde32822e4c5beda418fa16ac60567753"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/ChatDialog.Text.cs",
+    "sha256": "ddbd66a4d21daffdf5b5e8d6e08ee6f435eb769f358e4267facc65658081b7df"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/ChatNoticeDialog.cs",
+    "sha256": "25065b9742616f6cbde7b5569d9a0c07ae305fcdaad88f315491e351f63bda1b"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/ChatOptionDialog.cs",
+    "sha256": "4835a2628c7a0f4bb2f6faf4eb96eeddeca998ff310cbbfa4c9d402e40829975"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/CompassDialog.cs",
+    "sha256": "0e4a4a8977bb2fe3b0d04d9ee8dd4d0f225dd4a200394972dc2d5abe9f6af250"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/FishingDialog.cs",
+    "sha256": "5f3882dcc204bfb10a75cac895f4c176d0924fee3a990a9afe25dd25253b20d4"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/FriendDialog.cs",
+    "sha256": "4d90e784fa337b1f5a0696649380927403459568ab19088a5c88ea712c6ca2df"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/GameshopDialog.cs",
+    "sha256": "4616a9ce1511cf705cd1fd12b9735ce49cb852d6a83a7ab18a217ea6c2be469c"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/GroupDialog.cs",
+    "sha256": "16f2d42189b4a51999670870a89796c5ad75a4c1124050a15b19a04dc2ebe48b"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/GuildDialog.cs",
+    "sha256": "c3cf752e59d61dd39bccb30c958ea4397ecb808e1322cde3ca5bb3539c86911c"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/GuildTerritoryDialog .cs",
+    "sha256": "fddef661bea43f6ac7609bca08380421411c781557b56f65682090181a57debe"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/HelpDialog.cs",
+    "sha256": "ab1210d42ca485fca511aecfb58cf3b6346e59b2f071025cb7df8826c6dca7ee"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/HeroDialogs.cs",
+    "sha256": "edcb809bc0c7bd8eda626e82b16f45e11bc2438d0d143be3016c814e20f1345f"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/IntelligentCreatureDialogs.cs",
+    "sha256": "0be4f8f78d4bc3bb951b2c386f6a9d2c20aaf7331c96d1c171a0a79ae76066f4"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/InventoryDialog.Footer.cs",
+    "sha256": "a31ef2d8e0aa0b78171b8f30d03094ca3857476c6587c2c72e4e86c8d316c06b"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/InventoryDialog.cs",
+    "sha256": "054ac742c107d999db83dc52f4bc379afecf422bfe89488192b168a2b43c6fff"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/ItemRentDialog.cs",
+    "sha256": "7407feec28179f27a0da92755923f80d8f3c237412eac4c03d7b3b72f9e8a35e"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/ItemRentalDialog.cs",
+    "sha256": "e47425c9012dbde535c3d8f182e378e81f4315157c2fe82bdaab3982421c6877"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/ItemRentingDialog.cs",
+    "sha256": "69ca2932b597232ef30bf4af459963c387da93a4c62ab0b30a6d6adc3c62eca9"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/KeyboardLayoutDialog.cs",
+    "sha256": "70ecc197cfecf0112ba56771af43f6248f621610fa1e0081a110e511e905ca41"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/MailDialogs.cs",
+    "sha256": "3b716a4ab6a23263838014a6cd4ea1eb67768930dbe7253458955e15a332b687"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/MailItemRow.Native1920.cs",
+    "sha256": "8a29b35be8a1ee03394fc692576ed9e9c2e4bb1d4c6d4e4af586fe8b7988fa79"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/MainDialog.ClassicState.cs",
+    "sha256": "719a4ee7a0a8e29c597fd382f9c559bf9cf58343bde20327ef30dd593d838254"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/MainDialogs.cs",
+    "sha256": "f0bab325d88b7d637653914c83b41204504d6d23af08c6037004fc5d44314676"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/MentorDialog.cs",
+    "sha256": "c6c9f9f169e9749220ea9d0dd79b926210e45387c3b616969ff9deda7e709fe1"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/MiniMapDialog.Zoom.cs",
+    "sha256": "085a012b16588541448d2eb52402cea41b5ff23fa9858332105b082a2f60255b"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/MountDialog.cs",
+    "sha256": "b0eca80a03824f761f760ac41da47630e968152438716dfee18ba59cdf0f452d"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/NPCDialogs.cs",
+    "sha256": "cdab78cd8aee83ddddcb43394a20577511d669146ef465151a026cf661b71407"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/NewCharacterDialog.cs",
+    "sha256": "0d81e699955a9bb9cb08d8592a43b2bdadfdc2dc5b3ae211a285e8dab09f8ed1"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/NoticeDialog.cs",
+    "sha256": "e06299db270061b788e4ccaae1302e25b4ac2cff9b6a571881c23c3bca906032"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalCharacterPortrait.Rendering.cs",
+    "sha256": "6cda41276a8eaa6c693105a129a51f3d269a5f201002308e707d4660911297ab"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalCharacterPortrait.cs",
+    "sha256": "4cf3d50c526316d64dbfe1c4d3fbe3daa909931577f24951f26e0697eac264f6"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalCompatibilityDialogs.cs",
+    "sha256": "da57de45ee7482a3bbd83d2612df78083ab6a5d7be2376db18878fb8d5e680f0"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalDialogs.cs",
+    "sha256": "f27e18bf8d6543634a1811ad734c6c1c249ca5945e8486bb7fea1b12443ea177"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalHeroDialogs.cs",
+    "sha256": "b98c02591d40d531f90d36b6e9ae1834c36ea6719073351d0d1d2fa44b4ab78e"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalInspectDialog.cs",
+    "sha256": "11c66c65abb861d537e3feec947ca4fad3e3dfd891389300d9b0da304febd5ca"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalItemDialogs.cs",
+    "sha256": "6664e0243cf40aeb04be50c5fd8e3da0e249ec860dc7a4221bd7a02ffc361c9a"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalMailDialogs.cs",
+    "sha256": "c09c8590a3b0090d0d100098f45ae30c95c7177f238bcbeca925bff63919409d"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalNativeBuffs.cs",
+    "sha256": "26e390e45334c7f76edf9a915faddb28e2fa16846173963cf9905b5427c74c57"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalNativeOverlays.cs",
+    "sha256": "cb455792c78356fd8a2ce30f139db2f18583356eb4d15fbdb543ae4d4074cf20"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalNativeQuestDialogs.cs",
+    "sha256": "a82a0fc7eda29c9535ac7886bbbf1fa9058941e8b91b1d2b69f947c3c7891b66"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalNpcExperience.cs",
+    "sha256": "354f12a1b33e16260fa4fd8b99372e6240d2a5f44de438fea4b0c0b7b8c3bc07"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalQuestLog.cs",
+    "sha256": "66b3a11e20b5b600417461106ba060f6a3caee1876b812351313a998140f4c20"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalRentalDialogs.cs",
+    "sha256": "f2995e269e6c83080d4cf2c10457773e22c066efceee1f4603f51b92215ef8a1"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalSkillBarControls.cs",
+    "sha256": "b0992905390ccaee90350768b6cc25353e55d8cbc408479844e95085337d84ab"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/QuestDialogs.cs",
+    "sha256": "f5b741d61932972317753279b483b580a8037c7ba9744245bf6e99a0a1c83902"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/RankingDialog.cs",
+    "sha256": "a2659b8532600e8d668b027cb67212b43681490921a373449af88aaf1ed46f76"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/RelationshipDialog.cs",
+    "sha256": "c12a038322f5044d39047692e4361dddd4e32a538e691106ac89cc786b885293"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/ReportDialog.Native1920.cs",
+    "sha256": "9b42bda4d14e856840a3ff5009e73094e5074f012f54106ace634f45f7f209a2"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/ReportDialog.cs",
+    "sha256": "fe6821a4045e7d9823de3ec067ecbac60b2c2c66a85a73d035023e561edb6d1d"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/RollDialog.cs",
+    "sha256": "d7e63abc286f09760edc1e5e3b71e0272009760fc0b706ad88576d23882b10f9"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/SocketDialog.cs",
+    "sha256": "bf6cac2bac5cb41f5989874ab1d0b45ddf0b329df92c7384eee244f8af8a3975"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/TimerDialog.cs",
+    "sha256": "bc5c3f9eb454107977999df365deff1ea4981d1a35488a35f676d7b90e885fd6"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/TradeDialogs.cs",
+    "sha256": "97975a32608c3603bb60f612e8980b570fad33b25d5eea1381782140bab24aa5"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/TrustMerchantDialog.cs",
+    "sha256": "41ece8c9e1a8d1c5cd7d227938784e8ff3dfccf1705e0e4658614cd8056d142a"
+  },
+  {
+    "path": "Source/Client/MirScenes/GameScene.GameplayFeel.cs",
+    "sha256": "754aa79e14d678dd5eca6e12b24d9aa6e6a4c2d0207fd0f38d2c42f68ffdb4f2"
+  },
+  {
+    "path": "Source/Client/MirScenes/GameScene.MovementModes.cs",
+    "sha256": "b8365c3da0d70c8a5a810ce4b627c0b3f472a4f3f56c3248f4a94fa448f3cb0a"
+  },
+  {
+    "path": "Source/Client/MirScenes/GameScene.NativeTooltips.cs",
+    "sha256": "aaa3d1ed461361b1a53e054e36053eb05fd1f2ef416c9708f6890323608a4ca5"
+  },
+  {
+    "path": "Source/Client/MirScenes/GameScene.OriginalUI.cs",
+    "sha256": "47955e8288e2de461925c520ef3393fa176f06041ec8a2e6028833457917dc86"
+  },
+  {
+    "path": "Source/Client/MirScenes/GameScene.cs",
+    "sha256": "3d2725bbda809043c97baf9b2b9ae6d5ed9d0ddb48c5747c58a9188e5a14830b"
+  },
+  {
+    "path": "Source/Client/MirScenes/LoginScene.cs",
+    "sha256": "0045cf20ceac9a6f6516d1d74d15ba98db3f6edbb5eed66717161e98db85360a"
+  },
+  {
+    "path": "Source/Client/MirScenes/MapControl.LootLabels.cs",
+    "sha256": "480defbc724e8863312da1867fa93cd7294d151418e7db11802ce10ff50bb60f"
+  },
+  {
+    "path": "Source/Client/MirScenes/MapControl.OriginalRoute.cs",
+    "sha256": "ace6cdc288408fe08be9ac7c9b057900b14200fa624a2c1afd54e72b7e52e643"
+  },
+  {
+    "path": "Source/Client/MirScenes/SelectScene.cs",
+    "sha256": "6399d1c6a0744a8bbd4cd78e8800253beafe6b04af9961dbc3ea5d5137f560d8"
+  },
+  {
+    "path": "Source/Client/MirSounds/Libraries/CachedSound.cs",
+    "sha256": "6af8870eb5cd2db0bfbe16ebc82deaad40219c798aa31887743f5b118322ee73"
+  },
+  {
+    "path": "Source/Client/MirSounds/Libraries/ISoundLibrary.cs",
+    "sha256": "0cddb76e8084e081310c6f0a19477b9e122903ec97d671468bfd27b5448519be"
+  },
+  {
+    "path": "Source/Client/MirSounds/Libraries/LoopProvider.cs",
+    "sha256": "3b0d5868d11d79277f504f4b41d534e5786a119ec11e80e4292d4099806e4c72"
+  },
+  {
+    "path": "Source/Client/MirSounds/Libraries/OneShotProvider.cs",
+    "sha256": "9cd5ec67e512be3ae7fb75f227150a05cb5e0c1fad7a70745113b35ca3f3bcdf"
+  },
+  {
+    "path": "Source/Client/MirSounds/SoundList.cs",
+    "sha256": "1aa952898f7ff5b4dc9f619e21541d3697e48f35dfec43d7f20a868d45a6e572"
+  },
+  {
+    "path": "Source/Client/MirSounds/SoundManager.cs",
+    "sha256": "4c2a4283c873272c43e930ea9704f397021b1d49ceddf0ddbc25b6a22676c55f"
+  },
+  {
+    "path": "Source/Client/MovementUI/GameFrameDemo.cs",
+    "sha256": "dd1d23da683a6a5b6a4a49e89ae81d93150cbee3a071adcb2d13044bd15ccbdf"
+  },
+  {
+    "path": "Source/Client/MovementUI/IndependentGameFrameDemo.cs",
+    "sha256": "21d3f80a2fed6d7d58f3ab444b8014d8895d064e9e236d74f88845d437aea598"
+  },
+  {
+    "path": "Source/Client/MovementUI/IndependentMovementWindow.cs",
+    "sha256": "162d6052fc7474fedb51f3b837d553ca6a8f498b932493cb6fb503b501a63ff8"
+  },
+  {
+    "path": "Source/Client/MovementUI/MovementModeDialog.cs",
+    "sha256": "ab4041f452db836fe852336afebff3897844ed479166e73352680c022ea3d00e"
+  },
+  {
+    "path": "Source/Client/MovementUI/MovementPreferencePolicy.cs",
+    "sha256": "ba9626999e32139d3e91510bdd21fede308a4dcfde05889702fa358cc9ae4d8e"
+  },
+  {
+    "path": "Source/Client/MovementUI/MovementPreviewDisplay.cs",
+    "sha256": "49811594289a0d4f98e1e9a3bef8f61458dd091fe386a5c3568e8a3d70b1710e"
+  },
+  {
+    "path": "Source/Client/MovementUI/MovementPreviewHost.cs",
+    "sha256": "0e56774807d01bf96200a73e54a35aae6ff25992b095f2ca35e2696a6983bdbe"
+  },
+  {
+    "path": "Source/Client/MovementUI/PreviewBitmapLibrary.cs",
+    "sha256": "322dcceb253957dccfc64e822ac0a4408b2361324449399e172eaf6307519cc6"
+  },
+  {
+    "path": "Source/Client/MovementUI/PreviewDisplaySession.cs",
+    "sha256": "5d455ef59b11c06265872ce001734100dcc12084bd21dedd0c062b0061ebe0db"
+  },
+  {
+    "path": "Source/Client/MovementUI/README.md",
+    "sha256": "44e3f442ddc1828c8e6faa1433ed283db20f0f7d430f45c2d86de0570304f00a"
+  },
+  {
+    "path": "Source/Client/Performance/ActiveInputReceipt.cs",
+    "sha256": "ca0e8ab6c75d6139f1c048a4cceeb5d33b67212a5ff11a60933051c2f15efe10"
+  },
+  {
+    "path": "Source/Client/Performance/BoundedResourceCache.cs",
+    "sha256": "587a1a4807afdbf1a07a2debddabeec26a7b141dcebdc0ca37c3eeae6c021bdd"
+  },
+  {
+    "path": "Source/Client/Performance/CastReceipt.cs",
+    "sha256": "66f1aa6c865297ad4614d9d790cffcad127fa305daebc7f612404c0d0a1f02b9"
+  },
+  {
+    "path": "Source/Client/Performance/ChatTextWrapping.cs",
+    "sha256": "71e00de771cc7f5175dbeaaa0805a4df34093fce9eb7eebdf4ad40352a828c40"
+  },
+  {
+    "path": "Source/Client/Performance/DialogTextLayout.cs",
+    "sha256": "122ae7bddcf272f7ae06ac5cf4332d6dc469a140da1dbde556a995654c5861bb"
+  },
+  {
+    "path": "Source/Client/Performance/DirtyMapCache.cs",
+    "sha256": "93334a29651b005bb4af5e69d815437e943895c7448bc03dba67c4fb7f875eb3"
+  },
+  {
+    "path": "Source/Client/Performance/DirtyPipelineState.cs",
+    "sha256": "1f731b55d96d465ea15e61daeb121997731bf1cb50350f1df3196bb12723193f"
+  },
+  {
+    "path": "Source/Client/Performance/DirtyRegion.cs",
+    "sha256": "a16a55e9f53819d291b77a92ba56902e1aac6151a853203b5a61fcf34441f278"
+  },
+  {
+    "path": "Source/Client/Performance/DisplayFocusStability.cs",
+    "sha256": "01eb22b9434febc2b538f2ebfb447265232e0750cda8d5a9c6cb5ab1de306a03"
+  },
+  {
+    "path": "Source/Client/Performance/DisplayTransition.cs",
+    "sha256": "1bb34bdc2a0c619373bbc4e59e226da4e7d96ef2334bbd1e6697e05cd22b0c59"
+  },
+  {
+    "path": "Source/Client/Performance/FloorCacheGeometry.cs",
+    "sha256": "fbeec7488a298d1af52ab4dadb0fd1e23662f9c5ed9666a14ca3449ee244e907"
+  },
+  {
+    "path": "Source/Client/Performance/FrameSchedule.cs",
+    "sha256": "99fc49c991d7f740ef2faecedb87604e1785eb716fc200d109650b116ade51d0"
+  },
+  {
+    "path": "Source/Client/Performance/FrameWaiter.cs",
+    "sha256": "8f2f5cbcf4ddd82f13129795fbdb73b8c2df9faa015c6d786f0f711bd23a5fc3"
+  },
+  {
+    "path": "Source/Client/Performance/FreeCombatMovementGate.cs",
+    "sha256": "3ab44d9e0aea0cc87997d58733c4282ac1734585fbafeb71b41371d0e31cf449"
+  },
+  {
+    "path": "Source/Client/Performance/FreeLocalPredictionPolicy.cs",
+    "sha256": "c8a694968dcb5f053b12537d2edeccca13ce62603f77eef7559e9e2d19a9a30d"
+  },
+  {
+    "path": "Source/Client/Performance/FreeMotorIntent.cs",
+    "sha256": "abc50a68d065df3bf5bc06b23d312e05935f9e4125eb1ed6f7a50724d27cf766"
+  },
+  {
+    "path": "Source/Client/Performance/FreeMovementDispatch.cs",
+    "sha256": "477b3eb1aa65c7bbb68dfbefce2c97583a5680c14302efc588c377c04180013b"
+  },
+  {
+    "path": "Source/Client/Performance/FreePointerIntent.cs",
+    "sha256": "e942bf5fae4a8c2a37546fbf628332bfc5387df843d2f970d2d83f3c9f8fbb17"
+  },
+  {
+    "path": "Source/Client/Performance/FreePoseRules.cs",
+    "sha256": "078c73ff39b1456515c3ed3bc6d9046b8c9d33309bbb7eadbf70591a3696587b"
+  },
+  {
+    "path": "Source/Client/Performance/InputResponseTrace.cs",
+    "sha256": "47dced162e964c44b9275c7205f9be733d65c23bb46db14da06152b4ce19ad88"
+  },
+  {
+    "path": "Source/Client/Performance/LootEffectBudget.cs",
+    "sha256": "60da70879a9d622771a26ffb4b71e500ca25176495d84d50ac8599e5bbcb2f43"
+  },
+  {
+    "path": "Source/Client/Performance/LootEffectTimeline.cs",
+    "sha256": "da1601f0f01b71d469cb07216c2540a20a5d1dc523488c110aebcc7e21576386"
+  },
+  {
+    "path": "Source/Client/Performance/LootLabelLayout.cs",
+    "sha256": "f7aa1a372dbb6a2f4c2c7cda3c5fa5a4ef9d791f7e95c6ff7ecef8826841fc09"
+  },
+  {
+    "path": "Source/Client/Performance/LootPresentation.cs",
+    "sha256": "27c3743647b648120f3de5a0e1e82bf8726f9a01473035eeabb060cf3d15b2e6"
+  },
+  {
+    "path": "Source/Client/Performance/MapCellScan.cs",
+    "sha256": "b9125c9238433c32de5739cb663b808db4b1deef20be1a7427fb7604a854a837"
+  },
+  {
+    "path": "Source/Client/Performance/MapDrawVisibility.cs",
+    "sha256": "dbe82288d27cea871515aee813f29d66968f50e266108928406b1547c64983ce"
+  },
+  {
+    "path": "Source/Client/Performance/MapFootprintIndex.cs",
+    "sha256": "2b3e2e68eec99a926c9d863bb83f68647a18d0c8c7e2cb4d5ba057f7b5f5231c"
+  },
+  {
+    "path": "Source/Client/Performance/MapLayerPolicy.cs",
+    "sha256": "1d199db39ee353da9ba7995434e3e0b816e9fa91d43d42d1d8fe95a305ab7fdc"
+  },
+  {
+    "path": "Source/Client/Performance/MapLightPolicy.cs",
+    "sha256": "407d9083ba49c36f6a2547bffb94893908896382858f3fc542c10663f55e97ef"
+  },
+  {
+    "path": "Source/Client/Performance/MapShadowAlpha.cs",
+    "sha256": "00f34d5c412c54bd81e840f227e6e34d81242ea0deec34c7b60daeb7f8df7d3c"
+  },
+  {
+    "path": "Source/Client/Performance/MapSpriteFootprint.cs",
+    "sha256": "a89932ed0bbfc953f278b2164ce3162108d7af3a2f085516272d8439d1328bec"
+  },
+  {
+    "path": "Source/Client/Performance/MeleeRecovery.cs",
+    "sha256": "08d4bc0d9002a203089665f9e51468d40a4d78747c6eb20034eac6820dcc1f0c"
+  },
+  {
+    "path": "Source/Client/Performance/MonitorProfile.cs",
+    "sha256": "af9030029ac086748f490cbe032494fa33b5d5705551e13e3a2237f38355eeba"
+  },
+  {
+    "path": "Source/Client/Performance/MovementFrames.cs",
+    "sha256": "5860ab4fa6711136a47db974946fec14ff523d2be320cdd56f8c271dd6f15850"
+  },
+  {
+    "path": "Source/Client/Performance/MovementSnapshotGuard.cs",
+    "sha256": "47b6dc5a124f8abf9135f5d56d171002fdb844a8e83d9fa8bd441a27562d195f"
+  },
+  {
+    "path": "Source/Client/Performance/NativePresentationGuard.cs",
+    "sha256": "3bbb09509261ef304aa4beb050c9b5f9f9b6b84135d0bdb29bcd29d27b29a3b6"
+  },
+  {
+    "path": "Source/Client/Performance/PacingTelemetry.cs",
+    "sha256": "77d5bb1949b9a88c16c055d97c72230d2ff0231771443601a6a1a2ed6452314c"
+  },
+  {
+    "path": "Source/Client/Performance/PointerDirection.cs",
+    "sha256": "917b301e0e2e7294375b4952427552d71fde03bbcb4790642a5ceb0cf6b9ac27"
+  },
+  {
+    "path": "Source/Client/Performance/PointerRouting.cs",
+    "sha256": "e45edf4aa0e33f61d13079c89fe6bc62b2bd9e79f899d06fa70494151c241918"
+  },
+  {
+    "path": "Source/Client/Performance/PresentationPolicy.cs",
+    "sha256": "381d953cda6f39017f64255051df2ec6cdf65fbccead576a0006d99b5c491695"
+  },
+  {
+    "path": "Source/Client/Performance/RejectedCommandGuard.cs",
+    "sha256": "2db35e8b60daddeb05be3a391c1c0cc5b04a8ff8c7e6677f24fc18916734ec6b"
+  },
+  {
+    "path": "Source/Client/Performance/RejectedMoveGuard.cs",
+    "sha256": "0bf6018b4f3ff662d50a2b23b83aaeec4ed40b81f772c20ece8b19d1298fb21e"
+  },
+  {
+    "path": "Source/Client/Performance/RunInputContinuity.cs",
+    "sha256": "a96f4871dcc4b5f72d058881fae4072aeb7eba0b21290f6882f21fca7cab8fd0"
+  },
+  {
+    "path": "Source/Client/Performance/ScreenshotRequest.cs",
+    "sha256": "48512c7d1d9c7e7135e52509ba9b3e01af19135d24d37e59bb70ed4d1669b028"
+  },
+  {
+    "path": "Source/Client/Performance/ScrollDamage.cs",
+    "sha256": "8929b0cfd31d3a48b028d008f6cb40fecceac5f5093b9785ab322ed9f54262cb"
+  },
+  {
+    "path": "Source/Client/Performance/ShadowLibraryPolicy.cs",
+    "sha256": "0587affc20a1478d9055928d8a2967d80943106b17c4905371927ea971e27e08"
+  },
+  {
+    "path": "Source/Client/Performance/ShadowPixelGrid.cs",
+    "sha256": "ce4bafce165e37acffab3c8cc6371dd7ef6b07b06a7d8026d551a4de7a28b3bb"
+  },
+  {
+    "path": "Source/Client/Performance/SkillInputWindow.cs",
+    "sha256": "5abdea584525e428cdb20e22aee97f54b44d9655cad50011861e1e4734186ffb"
+  },
+  {
+    "path": "Source/Client/Performance/SmoothMotion.cs",
+    "sha256": "56772d853d9abe2906aa6b0989e9d0370c97f0db9c9f2751a68d0fe4d5f44c4c"
+  },
+  {
+    "path": "Source/Client/Performance/SpriteBlendState.cs",
+    "sha256": "da65dfa610c655630a92dab144e91222be6454cc13f83e3d96940ef077aa6526"
+  },
+  {
+    "path": "Source/Client/Performance/SpriteBounds.cs",
+    "sha256": "1a68da5063b5718383604b4c1c6ab5c547c368c674430babeeddb8a6233702b6"
+  },
+  {
+    "path": "Source/Client/Performance/SpriteProjection.cs",
+    "sha256": "22cfa8f38feef2e2fc16e752c3d4eeff427ccf35b37356e9e5bc2347a6abdc4e"
+  },
+  {
+    "path": "Source/Client/Performance/TapInputBuffer.cs",
+    "sha256": "4418419fa0f195fd12254873a05e3f1d8ff14555d234f8d74df179a9b8ef2897"
+  },
+  {
+    "path": "Source/Client/Performance/TextureContentRevision.cs",
+    "sha256": "aace658293e6bfa9471b72b6dd811b87da3bff8615b24977c22362f9f29be7ca"
+  },
+  {
+    "path": "Source/Client/Performance/TexturePixels.cs",
+    "sha256": "fe4fedaaa7d8e571e503f54c9ae3d15e2a52aaa8b42b5882685d965e84b63eb1"
+  },
+  {
+    "path": "Source/Client/Performance/TileCacheGeometry.cs",
+    "sha256": "fb9191c1e40f4bb5e28e3a2696ef51899e87a869731328bb0711d10ce5c6cb32"
+  },
+  {
+    "path": "Source/Client/Performance/TiledFloorCache.cs",
+    "sha256": "28f3b475238878e12290fe5bb7b95bd21846d56ccf3d1fe27d6a5cca8d6813c8"
+  },
+  {
+    "path": "Source/Client/Performance/UiSpriteTransform.cs",
+    "sha256": "135dd4e1664b34a70f1d299c4741c7bc42974a5a6aecb0c0c19ab055c9096473"
+  },
+  {
+    "path": "Source/Client/Performance/VisualActionPriority.cs",
+    "sha256": "c5dcb1ee88deb00dcecb735b25c09e8649c6ab52bd77e9ec634ba52ebb7659b8"
+  },
+  {
+    "path": "Source/Client/Performance/VisualTimeline.cs",
+    "sha256": "ba27bb517d736201224f1ac4d6325ba89868206e682a646a946f6222b14f0ecb"
+  },
+  {
+    "path": "Source/Client/Performance/WorldCamera.cs",
+    "sha256": "49f55da5b910a7b2e48a233fcb4393cd43533ae130e4c4ad8934cecb0b06ec1e"
+  },
+  {
+    "path": "Source/Client/Performance/WorldNameText.cs",
+    "sha256": "856d6d0a59f25ed254c724cefd8b1c70ccff59c5c27279985022fc59e79b1069"
+  },
+  {
+    "path": "Source/Client/Program.cs",
+    "sha256": "d1f9fc01b30397ff4defe9fcb69af5b5e7fa8493a78b38aa7fe409d9bb496b4f"
+  },
+  {
+    "path": "Source/Client/Resolution/DisplayResolutions.cs",
+    "sha256": "d2e32279da1811425fd153e0e52fc94076b48c808f1a3d95fa02b1464a1aedf9"
+  },
+  {
+    "path": "Source/Client/Resolution/eSupportedResolution.cs",
+    "sha256": "3eedf9cf3961f9de114e206314deee085965bbefa3a134b3e105b08ffac41c11"
+  },
+  {
+    "path": "Source/Client/Resources/Blue Progress.png",
+    "sha256": "bf2e986d475588b286ac6dd8e900854924036af76f57e013ad30e83bedc65c20"
+  },
+  {
+    "path": "Source/Client/Resources/CheckF_Base2.png",
+    "sha256": "e50dc358b882a6e862b65c8e9317e2f7f8aca651fd7d3f3144d6f7c94cfcef3a"
+  },
+  {
+    "path": "Source/Client/Resources/CheckF_Hover.png",
+    "sha256": "f32bc0fd242be1c9ac4fb1d93d01655efbf5c73600847070bcbe33f002ecb45f"
+  },
+  {
+    "path": "Source/Client/Resources/CheckF_Pressed.png",
+    "sha256": "d4c89bcdc37c4736641028ef739548390b02f7bda94d7feb0a8130280953ef23"
+  },
+  {
+    "path": "Source/Client/Resources/Config_Base.png",
+    "sha256": "0ebdcb0b0a66bdcb40af0f7d2c91b095bd2c644f5036800f133fa07fd5f62b6b"
+  },
+  {
+    "path": "Source/Client/Resources/Config_Base1.png",
+    "sha256": "f697a78420dd31a043ea9dd815b64f93c7aa6fcfb35c52dd698ba91d49f5746d"
+  },
+  {
+    "path": "Source/Client/Resources/Config_Check_Off1.png",
+    "sha256": "60bd7b08d049bc9a691031364be9e80e49ccf9d765cc22ea14e680c018f26b55"
+  },
+  {
+    "path": "Source/Client/Resources/Config_Check_On.png",
+    "sha256": "4f975a4314d2df27e7e7601bbfbf04845ad0cd0b8763e5d0e6a3e6ef8df82817"
+  },
+  {
+    "path": "Source/Client/Resources/Config_Hover.png",
+    "sha256": "eee8718e5696e94477955fb5f2e30a8b1af4d3924eba246e521a24ff740efa97"
+  },
+  {
+    "path": "Source/Client/Resources/Config_Pressed.png",
+    "sha256": "cb25d8f1b4a5531d9e0cc841b3221f444598521fb0e518fef3c24453134caaea"
+  },
+  {
+    "path": "Source/Client/Resources/Config_Radio_On.png",
+    "sha256": "e0a088211f98a197d46cd68ba627c6a3dc8b7f856f81e886fe286a451e6812d1"
+  },
+  {
+    "path": "Source/Client/Resources/Cross_Base.png",
+    "sha256": "cf09ff4d9c991e154afceda0f7253798cd1ce65a6a6e092259ecab0c470689a0"
+  },
+  {
+    "path": "Source/Client/Resources/Cross_Hover.png",
+    "sha256": "47d14e0b378db7151cee804714ff489c55030f0fe0fe9576554dee8f3cf9fb4f"
+  },
+  {
+    "path": "Source/Client/Resources/Cross_Pressed.png",
+    "sha256": "003b8d4aec5a3b77b7d76cbd82409e3087276a32f52d3381aeade6164905114e"
+  },
+  {
+    "path": "Source/Client/Resources/Green Progress.png",
+    "sha256": "97f27757e1dd0c5a009d54ef29fa434d24d437d848a8a941e799840c04c30031"
+  },
+  {
+    "path": "Source/Client/Resources/Images.Designer.cs",
+    "sha256": "15e2be7f2d469dfbbc076f227be188068c1aea645f3bd0a4d63edb5d100e8ed4"
+  },
+  {
+    "path": "Source/Client/Resources/Images.resx",
+    "sha256": "8fad491aeac9d53c41b12feddf9ac8945df54dfd69aba6f98d3e73ef5ee678e6"
+  },
+  {
+    "path": "Source/Client/Resources/Launch_Base.png",
+    "sha256": "6836d6e2a68cd59589a3bedb77faccc65205ca5e2e3f13a787d1f5813fc23123"
+  },
+  {
+    "path": "Source/Client/Resources/Launch_Base1.png",
+    "sha256": "ae388696a67ca58eba7b58acf38e2f3b35de69edd2ac0423e51b9d7704d412f3"
+  },
+  {
+    "path": "Source/Client/Resources/Launch_Hover.png",
+    "sha256": "64f23d667c35d3f4bf56389c118077c74b27a501588a7a2d59ac8aeb9792589d"
+  },
+  {
+    "path": "Source/Client/Resources/Launch_Pressed.png",
+    "sha256": "3f39961ea91d62fc9c0f95a6ee77945602da7b6a89cb9cf4d1c2cbdbca9c0b6a"
+  },
+  {
+    "path": "Source/Client/Resources/NEW Progress End (Blue).png",
+    "sha256": "c0dcb292519e2ba2e76d277d55381dd209d520b9ad7e0865fc56782be94918cf"
+  },
+  {
+    "path": "Source/Client/Resources/NEW Progress End (Green).png",
+    "sha256": "bc12e2e22df470894fb93497481e63ccd1b843c6b0ef6dfa5c0fd5ade9760263"
+  },
+  {
+    "path": "Source/Client/Resources/Radio_Unactive.png",
+    "sha256": "c071a431ff05cdb1e6a8f6f0a5cb59426f17f26cbd5f7d9abc6007d5ecc1782f"
+  },
+  {
+    "path": "Source/Client/Resources/pfffft.png",
+    "sha256": "c1e5e82c122ec8276f9d51b890be23771a1f13584f92c4d7e26be682d0f6517a"
+  },
+  {
+    "path": "Source/Client/Resources/server_base.png",
+    "sha256": "76ede0c9c08e9950fbcc6bb344c18b6ee28bcdc89e2656050de2e45f2a3d9b70"
+  },
+  {
+    "path": "Source/Client/Resources/textboxes.png",
+    "sha256": "3114cc44da9e994e888090ae87661b106466497afc35a96d3d66fb241488260f"
+  },
+  {
+    "path": "Source/Client/Settings.cs",
+    "sha256": "5ca1fa1bea1f9f9197fc5083573054ec3c40906fb730387e57c81604838b0af4"
+  },
+  {
+    "path": "Source/Client/Utils/BrowserHelper.cs",
+    "sha256": "d7a16f5249f3975b35be58e3cd2543e5945ac0b0728b331b3ff34b2465e9ab68"
+  },
+  {
+    "path": "Source/Client/Utils/FileHelper.cs",
+    "sha256": "1d44dbc506ae9f9c0c4397cacd1ee51e424058910b5244fc9fab4aea83ae10cc"
+  },
+  {
+    "path": "Source/Components/CustomFormControl.dll",
+    "sha256": "acaa7b2823a73f55c23473b6b719c3ed4adb32c334983e07765779ccf4c98b96"
+  },
+  {
+    "path": "Source/Components/Microsoft.VisualBasic.PowerPacks.Vs.dll",
+    "sha256": "8ddb71776b12fc6011e8af0e1df4fb4b72414b05d4d11cb0b17fae71a356405e"
+  },
+  {
+    "path": "Source/Components/Microsoft.VisualBasic.PowerPacks.Vs.xml",
+    "sha256": "7c4e33c71f51a0293c32284fcb451e60d8d9de583159f49061efb6c5def8dc92"
+  },
+  {
+    "path": "Source/Components/SlimDX.dll",
+    "sha256": "ba8f80cab13a87e10ecf659e6b3f98c56c51c0a792c104e7b681a81fb86f43fa"
+  },
+  {
+    "path": "Source/Components/SlimDX.xml",
+    "sha256": "471e684f505d4ec3068a82c16d234fa182f5313bb1e89fb3eef090f8eb96a15e"
+  },
+  {
+    "path": "Source/Components/Squish 2.0/ManagedSquish.XML",
+    "sha256": "f183c9ba743ac902d7dcf1167e6b888f01756a5f19ade70c130ec31346a568c6"
+  },
+  {
+    "path": "Source/Components/Squish 2.0/ManagedSquish.dll",
+    "sha256": "9e09cdfeacfa08770ba06be5f34603a5cc8a7baa88a8adbe7666b0957348a03a"
+  },
+  {
+    "path": "Source/Components/Squish 2.0/NativeSquish_x64.dll",
+    "sha256": "e6d91efb59bac95726f4246db5128fa1488da173250647b8b9b950669a4deea1"
+  },
+  {
+    "path": "Source/Components/Squish 2.0/NativeSquish_x86.dll",
+    "sha256": "97ed3346d65590f173bd5facad06a27937a57c21f2d76f1ede2443285fa6cefe"
+  },
+  {
+    "path": "Source/Components/dotnet zlib/Ionic.Zlib.dll",
+    "sha256": "f38d5476765dc1db212732800669a22794daae3bd387dd060366b384d3678db1"
+  },
+  {
+    "path": "Source/Controls/FixedListViewControl/CustomFormControl.csproj",
+    "sha256": "b9fb6b065023015f783732a2eaeb680132ff427749341df652e32d919f7083a5"
+  },
+  {
+    "path": "Source/Controls/FixedListViewControl/FixedListView.cs",
+    "sha256": "491c139de881a11c8f66638793905af3af5d8bceae17c5e2d2c9a991bb6a6cb5"
+  },
+  {
+    "path": "Source/Controls/FixedListViewControl/ListViewNF.cs",
+    "sha256": "cf07507094208079a6b47c53fac985145c3f297e4eae1bbf09f0bd40bbdd92f0"
+  },
+  {
+    "path": "Source/Legend of Mir.sln",
+    "sha256": "5ac3f04dfe34835d7dab9611be41cf55bebe3d8978bae0dbeafb690f80e5e2ba"
+  },
+  {
+    "path": "Source/LibraryEditor/Functions/Function.cs",
+    "sha256": "9bb9ae573d661431536243046414a43f75303513ce7eda905c33035c40b6fc5b"
+  },
+  {
+    "path": "Source/LibraryEditor/Functions/LockBitmap.cs",
+    "sha256": "c9ddc04d2256c544ed7a3585736a79c08dea7b33a668161fd44228f85ead6a1f"
+  },
+  {
+    "path": "Source/LibraryEditor/Graphics/Frames.cs",
+    "sha256": "16c58f91184f6c8bf73c48a0288f832208568d152af5fbf9d7fe5c05984e1892"
+  },
+  {
+    "path": "Source/LibraryEditor/Graphics/MLibraryV0.cs",
+    "sha256": "acaf3e155bbff9568c4e43eaeef0ba77ea04ffe3cdc485549e05a4c15bec5d5b"
+  },
+  {
+    "path": "Source/LibraryEditor/Graphics/MLibraryV1.cs",
+    "sha256": "a8caba68e8704f139b9f4eb161c9ef7b010dd1d7f90171655f77b5a6dad35807"
+  },
+  {
+    "path": "Source/LibraryEditor/Graphics/MLibraryV2.cs",
+    "sha256": "a08b69aac9bd447a4dd4f44e399f0a5f9faa4130a40fa566bf04e3d4ad90dcdd"
+  },
+  {
+    "path": "Source/LibraryEditor/Graphics/WTLLibrary.cs",
+    "sha256": "8721c8c33d9c5f0357e36728569b928706c2294ce4687947af7352caebb9628b"
+  },
+  {
+    "path": "Source/LibraryEditor/Graphics/WeMadeLibrary.cs",
+    "sha256": "8def2a659dfe898ea6be9fa964a70011670a69fd3cfa325af39e519f23db40f9"
+  },
+  {
+    "path": "Source/LibraryEditor/InputDialog.cs",
+    "sha256": "9f1723caa0e570c25beb7b92216830baec31bc06dbab1e9cf0f8fa116759ef9a"
+  },
+  {
+    "path": "Source/LibraryEditor/LMain.Designer.cs",
+    "sha256": "4ce43a7b9b405a6b629b1bdcf2a3ae0227ae5eae635d548b4861c4b3ef84d3a8"
+  },
+  {
+    "path": "Source/LibraryEditor/LMain.cs",
+    "sha256": "970cbc79ae88c7f929341840e1b160e4904d73a9641ae31f0b7e75d97752d373"
+  },
+  {
+    "path": "Source/LibraryEditor/LMain.resx",
+    "sha256": "810dab3fad5cf016f245e9fd3e0dc9bc571e74ffef90ef67be886ddcd841eb61"
+  },
+  {
+    "path": "Source/LibraryEditor/LibraryEditor.csproj",
+    "sha256": "cee8440044f955da0689363db57d4fc1c390285af3a6a4d821ac3843c066d70e"
+  },
+  {
+    "path": "Source/LibraryEditor/Program.cs",
+    "sha256": "538f109ffbb3e044e688ecce04aef2d5c3cefbd7a9703640f4d2f7aacc9584c4"
+  },
+  {
+    "path": "Source/LibraryEditor/lizard.ico",
+    "sha256": "e6112fba88a2baad4e498814614000aa255d7c4fa76397653809555f7df43d77"
+  },
+  {
+    "path": "Source/LibraryViewer/LMain.Designer.cs",
+    "sha256": "ecdb05bca64a4259c24595af74b9149c054a3f20f3a9707ff38d02b504bd3755"
+  },
+  {
+    "path": "Source/LibraryViewer/LMain.cs",
+    "sha256": "73c64dead02bae51b8a30e7ef978231f6353144f36df7b4a6557e78d868bb2e6"
+  },
+  {
+    "path": "Source/LibraryViewer/LMain.resx",
+    "sha256": "9847b259bce8d668ee3cbf8d7abc09f05b9d7656ebbd6573591049c503808eea"
+  },
+  {
+    "path": "Source/LibraryViewer/LibraryViewer.csproj",
+    "sha256": "f4844efea01099ca105445e3cdbbcd41d50421e63f16ce8d9f7c35d3344face2"
+  },
+  {
+    "path": "Source/LibraryViewer/LoadSettings.Designer.cs",
+    "sha256": "6dcaf3c7c1ed60ed80eb17d3dd2ce16c8f4989bfc7952a8457873ac0d9613ea0"
+  },
+  {
+    "path": "Source/LibraryViewer/LoadSettings.cs",
+    "sha256": "261a5b28eadc6f28d0d51bf388e3a374a6a99dd4b3f986fc6af929f5772d8643"
+  },
+  {
+    "path": "Source/LibraryViewer/LoadSettings.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/LibraryViewer/MLibrary.cs",
+    "sha256": "49f1e90a1681e54fe3fb166df3214380c2fc16384b6a7cae2f7c7c59fbc3872a"
+  },
+  {
+    "path": "Source/LibraryViewer/Program.cs",
+    "sha256": "12f3ab852bc1bbcaab568ec4b1bc36c303778da027c6469461700314c18bada2"
+  },
+  {
+    "path": "Source/MonsterAttackMethods.txt",
+    "sha256": "acb33bc1091198af315cd92a54e1b71156f1cdf654b204548a5d8a6678b78be4"
+  },
+  {
+    "path": "Source/MonsterReferenceVideos.txt",
+    "sha256": "8096f8bdbda64a451d72009c99069542c41d06e4bc3ab2136324e814eef9b88d"
+  },
+  {
+    "path": "Source/README.md",
+    "sha256": "bee0648b87cb09bcbef3894a795c7ab0c87bbc9de5ecf6b87313e52d5acaac76"
+  },
+  {
+    "path": "Source/Server/Helpers/ChatSystem.cs",
+    "sha256": "ac8f58c915e3e77cb434364f508c3e5d8562b5d00f062e299a5342d9c0dcc40a"
+  },
+  {
+    "path": "Source/Server/Logger.cs",
+    "sha256": "1ff6de4fd73e83d4e96eafcffece35b0505cf8e47ed1bffbf4925a72b06e0c13"
+  },
+  {
+    "path": "Source/Server/MessageQueue.cs",
+    "sha256": "a2317c13d05a206c0aeae85a7ef2f76ec80044d7745b68424b119a548ed26d86"
+  },
+  {
+    "path": "Source/Server/MirDatabase/AccountInfo.cs",
+    "sha256": "49aa312bd32547569767157dfc846c9f0dd5446cff5c1d172171553e0a03440c"
+  },
+  {
+    "path": "Source/Server/MirDatabase/AuctionInfo.cs",
+    "sha256": "46a6dc79e5fe5c2c2b70146e91c411c4692de245caac85202c676c95ae96d22c"
+  },
+  {
+    "path": "Source/Server/MirDatabase/BuffInfo.cs",
+    "sha256": "0dd4e73ea294ae6468299954200569cb5ef45f22f97a4b5859be1449fe846bc6"
+  },
+  {
+    "path": "Source/Server/MirDatabase/CharacterInfo.cs",
+    "sha256": "7335ea03bf35c24ee62af64fcc55ed69a54898d9a9fd25c2860cb7791e76284e"
+  },
+  {
+    "path": "Source/Server/MirDatabase/ConquestGuildInfo.cs",
+    "sha256": "fd36b083dedcd42cad696044492f9ceb22419ad1d312c007f459829abc9bae5d"
+  },
+  {
+    "path": "Source/Server/MirDatabase/ConquestInfo.cs",
+    "sha256": "5a497da2b21a43dd34e8322da42e786cd2d3047d778a40e6db27babf819c2fcd"
+  },
+  {
+    "path": "Source/Server/MirDatabase/DragonInfo.cs",
+    "sha256": "3f02d44e89c5f361c0abf1edee15b36103f1d0c4811832551481512f43f649eb"
+  },
+  {
+    "path": "Source/Server/MirDatabase/GTMap.cs",
+    "sha256": "bbcb66656bf92b2807116541b174f57918cb2f74e72ecb06bf77bef1ecb37d0e"
+  },
+  {
+    "path": "Source/Server/MirDatabase/GuildInfo.cs",
+    "sha256": "d334d6e52ed7c476ef6e2c6c73c92e992cd8e9baf181a645012ad6c7403ebfea"
+  },
+  {
+    "path": "Source/Server/MirDatabase/HeroInfo.cs",
+    "sha256": "f3e46fb6165730797295ce0896e589e146236d5246fd63b64e75fa3c0a2f325e"
+  },
+  {
+    "path": "Source/Server/MirDatabase/IntelligentCreatureInfo.cs",
+    "sha256": "3941223ca5249c049a9355d0c4ee7ab0fabb4f481be8b71e13aabdd46dee56a4"
+  },
+  {
+    "path": "Source/Server/MirDatabase/MagicInfo.cs",
+    "sha256": "94cf7bd46a11a4553b86a35fbaf33201b503204e4e36b3cf1f5dd4b74a6ffdb0"
+  },
+  {
+    "path": "Source/Server/MirDatabase/MailInfo.cs",
+    "sha256": "f22785e5e53c10b9ecfcab667aa852d90e8bbf6cc529b409409754872ec9aaec"
+  },
+  {
+    "path": "Source/Server/MirDatabase/MapInfo.cs",
+    "sha256": "1de12943b3d520864ff1754a20edf80c09002cc9c0e10117ac53e6344a772db3"
+  },
+  {
+    "path": "Source/Server/MirDatabase/MineInfo.cs",
+    "sha256": "8d73b574884f266e21e65a92d99bd1e852170550a9f02b5753584791d2dfe346"
+  },
+  {
+    "path": "Source/Server/MirDatabase/MonsterInfo.cs",
+    "sha256": "52caca33c626a7ef02b7d8fe01f7c15f278e3c59262fe9d6d7972638daffd2a7"
+  },
+  {
+    "path": "Source/Server/MirDatabase/MovementInfo.cs",
+    "sha256": "7fb8bebb79ffaf6f3bb0b86152430869e0d62974a22d5dff12cf7bc8ff08bcc4"
+  },
+  {
+    "path": "Source/Server/MirDatabase/NPCInfo.cs",
+    "sha256": "48485022e93a80ef4624e76aac8e5f2fee2544b42459dee1a3f66a03d20f4109"
+  },
+  {
+    "path": "Source/Server/MirDatabase/QuestInfo.cs",
+    "sha256": "16cb8c918b6dfa2ba15406c52a72a7b100f85a1a71f46b156a22de9b495cebf6"
+  },
+  {
+    "path": "Source/Server/MirDatabase/QuestProgressInfo.cs",
+    "sha256": "20caa420166529921d4c04a27cd1bb2abe4c6a5fd7e6235178466c27df3a94d6"
+  },
+  {
+    "path": "Source/Server/MirDatabase/RecipeInfo.cs",
+    "sha256": "00620c13a51ceceb539c2087020a2137e67343c1d171b673ca7fe9914dbb2b8e"
+  },
+  {
+    "path": "Source/Server/MirDatabase/RespawnInfo.cs",
+    "sha256": "fb32a982bf13b54e944574db101d1c95a497e649e209c5180210afdc3df9ab48"
+  },
+  {
+    "path": "Source/Server/MirDatabase/SafeZoneInfo.cs",
+    "sha256": "b90f7d2dee3a56dd4419d6da09a54d0e597a29451b3a3aa950497193714d41fd"
+  },
+  {
+    "path": "Source/Server/MirEnvir/Dragon.cs",
+    "sha256": "b3a3f076523f3051e0eb8a2b4c878c446c38724c9811495454510a3243103e99"
+  },
+  {
+    "path": "Source/Server/MirEnvir/Envir.cs",
+    "sha256": "03fed4591351a643295aab0d465d5c0df1c8608b0cf94016cba93f51c3144e85"
+  },
+  {
+    "path": "Source/Server/MirEnvir/Map.cs",
+    "sha256": "a7a3dad35825ea107e777e97718bea68454c13b6fd59e399e81e49e80cd0f45b"
+  },
+  {
+    "path": "Source/Server/MirEnvir/RankingPage.cs",
+    "sha256": "67af36c7540ffd76ccdfe35644f50728a4854e07a7e9e8cce46b05082244fc6b"
+  },
+  {
+    "path": "Source/Server/MirEnvir/RespawnTimer.cs",
+    "sha256": "5b2c8f80445d62418c2281a18c10de1471733386907f360ab2a571f5eee68548"
+  },
+  {
+    "path": "Source/Server/MirEnvir/Robot.cs",
+    "sha256": "75af63c5b1240461949b5c7e45f6f5e963294c277f9881cd3befac092010e207"
+  },
+  {
+    "path": "Source/Server/MirEnvir/Timer.cs",
+    "sha256": "5e164e548bbd75b1367d90f37267ba019da2211b914220d7c02850aa0f7489d9"
+  },
+  {
+    "path": "Source/Server/MirNetwork/MirConnection.cs",
+    "sha256": "ba58f41828f5d5dccbba4454d55aa0935725f4fd5d5f4123343a01c7b4b0f92f"
+  },
+  {
+    "path": "Source/Server/MirNetwork/MirStatusConnection.cs",
+    "sha256": "fe3b01302e97b6762e754192cd2a8b2d19a9330b7e6cec1ac8b6a2de021355bc"
+  },
+  {
+    "path": "Source/Server/MirObjects/ConquestObject.cs",
+    "sha256": "f0e117613a42639f1a3b9dae0600118e7402901103d8921b044a5f36eb0f2807"
+  },
+  {
+    "path": "Source/Server/MirObjects/DecoObject.cs",
+    "sha256": "699a9a2dc44c568b18e3d70b2674ca204459ee5c2c1e84596b892c1133850d60"
+  },
+  {
+    "path": "Source/Server/MirObjects/DelayedAction.cs",
+    "sha256": "638087f08ee8f29e425073eb2dbbbe0debab0875d081d54214a8fbbe2a282074"
+  },
+  {
+    "path": "Source/Server/MirObjects/GuildObject.cs",
+    "sha256": "a20d1e8852f477f4d9aed9ee9a2cb5f1514a5327352e9feed124f62c44bb6dd8"
+  },
+  {
+    "path": "Source/Server/MirObjects/Hero/ArcherHero.cs",
+    "sha256": "df8e0ef11ef7d093757838ca7b35854a4d27741d64f14f48d602455da3434436"
+  },
+  {
+    "path": "Source/Server/MirObjects/Hero/AssassinHero.cs",
+    "sha256": "98ef42bd8f63a918e14fe6f0ddd83308dd26a489e34b00e3aaf5513a861c02a7"
+  },
+  {
+    "path": "Source/Server/MirObjects/Hero/TaoistHero.cs",
+    "sha256": "99e65e90afdf9d2f38e5ea2ab8620a1ecfe384ff86bf0457cb562794f0f8833b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Hero/WarriorHero.cs",
+    "sha256": "038375e82f3de801d4220d5c74289b735aaa199d40357bf8dad15049d4012213"
+  },
+  {
+    "path": "Source/Server/MirObjects/Hero/WizardHero.cs",
+    "sha256": "98d8a6ad71e34fb6152b082228298a2d7b2596c0e0e4038224831a0d5dde1cdd"
+  },
+  {
+    "path": "Source/Server/MirObjects/HeroObject.cs",
+    "sha256": "dc1289c2c03280fd840f6e852e92b2925e89f3016250d7480c461d5c9b0ac8c7"
+  },
+  {
+    "path": "Source/Server/MirObjects/HumanObject.cs",
+    "sha256": "fedd5e90e4d2e338a6104d96764d01a2f0d9f16906518ab500575da55e2d61bb"
+  },
+  {
+    "path": "Source/Server/MirObjects/IntelligentCreatureObject.cs",
+    "sha256": "a34a893435164de888c70a29f95a414815930a714e058b0531b70cd7933b0f20"
+  },
+  {
+    "path": "Source/Server/MirObjects/ItemObject.RewardOwnership.cs",
+    "sha256": "5cf7fab3fafedefada33ee70e315ac8b4016e311fe50963f0ae5be29040fd798"
+  },
+  {
+    "path": "Source/Server/MirObjects/ItemObject.cs",
+    "sha256": "2e4fc58acd2d915d7c4178b9aeeb44aca79a506b74d2b3322f8549a70777bde0"
+  },
+  {
+    "path": "Source/Server/MirObjects/LinkFormatter.cs",
+    "sha256": "10b5e60784c37bbbdc97bee08a5d8872b013cfbcc57caed5603a50ccf788bbc1"
+  },
+  {
+    "path": "Source/Server/MirObjects/MapObject.cs",
+    "sha256": "e27c2023b4c4662f4d5bcee7fda46eb2632e03a66391bc11e975d82620b4a835"
+  },
+  {
+    "path": "Source/Server/MirObjects/MonsterObject.Rewards.cs",
+    "sha256": "65a63c08fa173c270c5060fa30474f70ad1d4d841a708291ce49987370917214"
+  },
+  {
+    "path": "Source/Server/MirObjects/MonsterObject.cs",
+    "sha256": "bdf2057785de851ee7d81afdcf8e7dc33701b25075a7a2f6016e71d2b30dfadf"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/AncientBringer.cs",
+    "sha256": "024326ed2b3a43bd4693f21cfb52e6cc41c43500c8912182de3023c9d9297bd2"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/AntCommander.cs",
+    "sha256": "10451b07cdf2e1b837e76b87adf6a4ff88c0c62494ca41ae347d2373b16e0f2f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ArcherGuard.cs",
+    "sha256": "f33d327824d8676512be94d008678730a86d038ec367660667f21fc03b2678f2"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Armadillo.cs",
+    "sha256": "b4810eddc5de82b8c9d843417b6e427e761945e59ad5402462037a66515dd57d"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ArmadilloElder.cs",
+    "sha256": "8e0d99be90efcd06f977388fa7dd67921f7e16628e1c921d0d97c0e6914539c6"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/AssassinBird.cs",
+    "sha256": "9b3537a1de1e3f0e56cb54dba035130331830ddcce9faf925a23d9bd1779f360"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/AvengingSpirit.cs",
+    "sha256": "2974dd5cd74f20a1e483c64b935379b88b7f0a511259c0a5ac6f7491d1a20669"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/AvengingWarrior.cs",
+    "sha256": "237f4e7744d0277334ee9779a58db82e8b69764df5fe250d3c72246b87a0eec0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/AxePlant.cs",
+    "sha256": "0f2d243be0c601bf33d0b1081fb807758b6548a6c720566149f58f698f2e5081"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/AxeSkeleton.cs",
+    "sha256": "f6cc9890aac0adb3f29d7f5eecebffc20c7d2a44def97024203fbdf61526453f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Behemoth.cs",
+    "sha256": "9f43535d64efdeaa295467bc2bb0cbbaa125089bd24152f86d6acafdeab00080"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BlackFoxman.cs",
+    "sha256": "0e04c55c790e6abd77510ebec28db8b2ea6636058b18c70298a23480098866e7"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BlackHammerCat.cs",
+    "sha256": "a44e2e590dc90209bf7f0c713f3f617cded287d959a08b716b6b229b6c73a530"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BlackTortoise.cs",
+    "sha256": "e5ac96618a6b81994ab27c2cdc0e3a7467c8eb938c55991329888ce95bdacdcc"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BlockingObject.cs",
+    "sha256": "7556e1b2c9511ea1c8329769d1637735d492dde62ff96ba7e071402040e0b97b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BlueSoul.cs",
+    "sha256": "3b418f83aa91f7b940ba135fe10e1e15a9fec0619fb0c94a24937d29ec2d06f0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BombSpider.cs",
+    "sha256": "c1d05d672aca36dbd64e6c8d1bbb754db4750fe3a953e906aa43cda73a0480a1"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BoneFamiliar.cs",
+    "sha256": "ecc27e5ae68989a5dbf04544eddf58b5952c88071302ceee7696b3851799a631"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BoneLord.cs",
+    "sha256": "8dd54e6d095c6a33d835ddb8cb3015e7becb2ca3bbc94602bae04a2d3782b9b1"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BoneSpearman.cs",
+    "sha256": "85cba6e178854f31250a445c174e76f52c95439fbcb98ba4e25c3aaccfc27e2e"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BoulderSpirit.cs",
+    "sha256": "d26c04678c873a15e62c2cebaba7ab05677bb7b55233b0a79884d53132746eeb"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BugBagMaggot.cs",
+    "sha256": "ddd643bb6402165ccc4f445692727d367af8b4d48af86c66c53d2036abc113ab"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/BurningZombie.cs",
+    "sha256": "8d3edf3cd2bc924b00ae4b47d538ccfa2a6ee4c4a533b8dbf2f00f76bbf35f28"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CannibalPlant.cs",
+    "sha256": "ae1d51a95a9fa5dc01062d8a2b5d7c050b34795eb3251e62bd358389622481fd"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CannibalTentacles.cs",
+    "sha256": "7c18edcdd0041e7f2fd287b3321e3521be68804c80c2152a49734666908d7ff0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CargoBox.cs",
+    "sha256": "ab6cec8fc06d9810b47398cf047fc09ad0b99aa28724cda4330a3aa3f3c3911b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CastleGate.cs",
+    "sha256": "671d8f6994b269774ac8daea3ab3ec36240e28a13314719acb3067186ce17e1e"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CatShaman.cs",
+    "sha256": "2a8080164a03803ad0a8b2d8351020e57d5d06f8c2c19cc95021fa19a0f6ae58"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CaveMaggot.cs",
+    "sha256": "7c0ed39c6546bd2c6fb84925fa117db7f128a19b6f861a897ef177711dc2afe8"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CaveStatue.cs",
+    "sha256": "68cc60f970c33e2d4c488d73878f4c7aede08873444b2110acd51a15a95839d7"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CharmedSnake.cs",
+    "sha256": "ad9a8e08a8cb21b17ed1488407558a30ad3c1ddbf1e148dfb0b3aaa259601ebd"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ChieftainArcher.cs",
+    "sha256": "f40607162a86e5990778d887198c9f41ebb0e868e5596be185e17afbccc28bfa"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ConquestArcher.cs",
+    "sha256": "c1793d15c1a06c29537aba9ce2e2f04879723e633903946e1a599751217f70f9"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CrazyManworm.cs",
+    "sha256": "ba62bbeddbdc70396a4825c1eab721a3e36aa83560838329e95717c6b1bf5a51"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CreeperPlant.cs",
+    "sha256": "28ffb8876922be7eabbd645f56992cf0a8ab186595117152eb3acceb88567802"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/CrystalSpider.cs",
+    "sha256": "66dfd0165efcc9a9bda8f8739ce76473f40ede9d68be52fded173b4bd2684ba4"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DarkBeast.cs",
+    "sha256": "c1956d64e8c223739acb5acff17a3e6e90e69a097783bfe4671f5fe43e0ca84b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DarkCaptain.cs",
+    "sha256": "ea8ad0e19fefbd89832f0aab6017b7f2bb20a701752f8a0f5a9f042fc370c8b8"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DarkDevil.cs",
+    "sha256": "0d98fa148f6e5463ddae9b88fd88e9489b6be4c4c6b601c93a21ac4cde3676b0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DarkDevourer.cs",
+    "sha256": "28760a407a8d8997c0ca6bceeac9fa0680f5f9b05073b51d93e1181f8b4766bf"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DarkOmaKing.cs",
+    "sha256": "234cfb86db30ee22d3d0e28888bee2bee64712429cfee43356f442e250072da3"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DarkWraith.cs",
+    "sha256": "a6097c9dfd10535848d0fabb21ee70ce6821ebe303b2f8b6ae20759236d2ff50"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DeathCrawler.cs",
+    "sha256": "a2aa79664d6a8e5ce0de8727eb179c8ab20d9db8d5fd766838c230d74bfbea9e"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Deer.cs",
+    "sha256": "aacfcfbf85de623f4f38dfc86864ac8cb00b2fdf678f72cc4b4546312a1f7a7d"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DemonGuard.cs",
+    "sha256": "8254acdd40cdb2f8771a7217f2a4a870f11bdb2de95575ea8414d750f5360952"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DemonWolf.cs",
+    "sha256": "5113fab974013f5e9b1c5679ccc76df1c0a3687a891b94bc23df624e91e64877"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DigOutZombie.cs",
+    "sha256": "99ad28be7bf8007e22ee8eea7de61102fbf10f1ae3568395c1ab2287a62a40fe"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Doe.cs",
+    "sha256": "30701b881fb2ac5dadc6bdcc5e88c1a55f8e30500716b1f9fac9a3c2b966cde7"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DragonStatue.cs",
+    "sha256": "7e1f3e670a99d0d440091258b7c49fb39928998487bab5c0d43505a3437b8a66"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/DragonWarrior.cs",
+    "sha256": "ffa75cbaf1e283409480dbb2951395635f9e947df43c1d21ed9674f546cf1c03"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/EarthGolem.cs",
+    "sha256": "3a9842eac12b41243e20e96f77ca5ec945a99fd7f60a5180a1c6b0ac77bc954f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ElementGuard.cs",
+    "sha256": "6ea0e580246357775910f9445c4d091ccabd367a3900f52d93881ceb5b0f4019"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ElephantMan.cs",
+    "sha256": "28aa025ea435ead19048cff90c05354d94ba6f8ff2d71ae2fe35d77b8b2b2e37"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/EvilCentipede.cs",
+    "sha256": "3d2b71db3cc5bf131c52c0ead9bf4cfeed43e31a0e054de7b9c34693149eccfc"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/EvilMir.cs",
+    "sha256": "d35a3e65780d6c9fa47a894f0a6ba71180ea0a9638a0aca99c0622432f374f11"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/EvilMirBody.cs",
+    "sha256": "4cf433b4e38fea80d8eb3e55271654785661b23ab2a7cfc49f2d4f3b5947b616"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FinialTurtle.cs",
+    "sha256": "a714197bf5392f0ab024fa8eec4864238be7624ad50810809505d094147f0c39"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FlameAssassin.cs",
+    "sha256": "3de93a4ac7f4daf2bb40bd5a7446e5a220d53f19ca8ff9537e5068332c0c7a2a"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FlameMage.cs",
+    "sha256": "0d3c67e2033df100397d748afb0e2c43e44ab75c895975ab27e764593e70db44"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FlameQueen.cs",
+    "sha256": "73f8ecfe225ebea7307dfcda5ad0957a9eb4e7b2b88b23daa4b14a4a64205a08"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FlameScythe.cs",
+    "sha256": "6c250d84b606416706b31bea1217051dc71eee996e8c65230e3f96aab4bee0e2"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FlameSpear.cs",
+    "sha256": "15dcbf915fda8c1d3bdf56146f6546a0e174b9fef9db13620487f4ee2b74c0d1"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FlamingMutant.cs",
+    "sha256": "04be106ba34fb8ecb1f61bdfe6f86659cbf0cd2680500ba2144d1188f3b77144"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FlamingWooma.cs",
+    "sha256": "1475f8d7c9af76c27cfd52ec73bced77822f4cc2d866c704bfdb397498220964"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FloatingRock.cs",
+    "sha256": "1d936b5797e899b25808ca90cb50780421ad57935c77b550af2010b6959cb493"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FlyingStatue.cs",
+    "sha256": "ae84e45c976176592802121dc16703f8e8d4b70c29992d7b49fc3e528dfdf02a"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Football.cs",
+    "sha256": "ebcb0939472cc7f8aa1a493e0bd797ab613c5de4c2545bfc79e9fa47bdd78e11"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FrostTiger.cs",
+    "sha256": "b28706380a1905b797c185d8e63084e4cd3dd482a7075972b91a9053370028f0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FrozenAxeman.cs",
+    "sha256": "709ccc55161505ec6be2d4dc5fcbaea806070bad64f4b734ecabbac9fffd012b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FrozenKnight.cs",
+    "sha256": "278eeedb605a06691d14726a62026c01394fb1ee31d948544372fef52d0a66e0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FrozenMagician.cs",
+    "sha256": "6444048998d67a61b06a70cea69fb6715f8e0eebf2348f272c04cf5200a197f2"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FrozenMiner.cs",
+    "sha256": "f13ba2879badd8a94f8d86ca244c305851c436dc0effea24b1e8a7dfd5a0a1b9"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FrozenZombie.cs",
+    "sha256": "bfe42502fa171dd02174811f775cf1205f5be13030e8d1ad63c3d59ede91399c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FurbolgArcher.cs",
+    "sha256": "19732030a80c2455dee9ac3bfaf713ef1c0cbce3e4a756f5065a109f1840325c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FurbolgCommander.cs",
+    "sha256": "1a1d24da394d8a5d278fb0af563da64cadfb0b8422c48957f1394632ee1fe194"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FurbolgGuard.cs",
+    "sha256": "f8c71a87704e9fb3604d34e9407c8db2908fd8c212b6d83d354e004da9c47806"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/FurbolgWarrior.cs",
+    "sha256": "1d5c47df768ee672e570e91b0aaaf5fc134b031f33c110958975511a5f76a1c5"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/GasToad.cs",
+    "sha256": "3ce65b5e9142b09c5512834ea864236f9d458ea59ec3dc1a56ad0c47829d2ce1"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Gate.cs",
+    "sha256": "b1464d95260467200943709679466946752ef59b41b6f55ed14c78bcc60a6727"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/GeneralMeowMeow.cs",
+    "sha256": "2b5cc76efdd65742cbc5e76c8298ca9812e28836667ee6e5a6878c9c05e6381d"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/GlacierBeast.cs",
+    "sha256": "6e791fe4519b4920079b6c27f1a9bc1a80a493b09c7d369d9a6908649dd8c988"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/GlacierSnail.cs",
+    "sha256": "9db89d771e9afa5d215827071ae0793c056b2f0e0aceed563cfe1af1c9554107"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/GlacierWarrior.cs",
+    "sha256": "9d0cb1b2b1e74209536f7cb06532ddb1ebd1cb72fe4811f51f545836f2815548"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/GreatFoxSpirit.cs",
+    "sha256": "a7ab02fdeb0cc083fa03d7050bcf3ca1a26454f6d72fdbc02ac94bf9a7152023"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Guard.cs",
+    "sha256": "c88e9255be6ee5b402ee3db6830c3fb48b2dd20a85edd0b522155afcca8e182d"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/GuardianRock.cs",
+    "sha256": "c72770d2b7f5ca6c76fb56badad886723dadf7c58417dae7f143d75f8a208c4a"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HardenRhino.cs",
+    "sha256": "36dfa7e969bf901306ad38e64dcaf895ea8b594b39385c488050bb04bd728b6d"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HarvestMonster.cs",
+    "sha256": "3abbce21cafd4b9b87c4e6fd73def9ccc8a506f4b63e5fc3321f53886f626a8d"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HedgeKekTal.cs",
+    "sha256": "56055b06b57bdc18e77d8dee944a151b718b86859ef0283d21e12b75907247c4"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HellBomb.cs",
+    "sha256": "f74f5de91a019b41dbdd3c952effcf9e1d70292e1bcc807004d37777b5791847"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HellCannibal.cs",
+    "sha256": "e1be4a0b290e8157e4b5bb0395ec19efd966ecca329a4b4020c52262a73dd319"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HellKeeper.cs",
+    "sha256": "68eb1d2d49d6a69ef7c4656b42b63fca0eb668732b7688982f7d91d3f4eacc6f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HellKnight.cs",
+    "sha256": "3f45f0e0e1b93a131931ab59f91c22330b6b7715373dcd6c81b0e87cc778c86a"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HellLord.cs",
+    "sha256": "c334ca16ca0ab44e6a7c4f93bd4311acb2b705f7d0c21511fc0893a8a1dd5346"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HellPirate.cs",
+    "sha256": "af55f38648291b361dc50f72f529dc52e436c6d83a7f329884f2e43c4c03c754"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HellSlasher.cs",
+    "sha256": "d33e5e0c3d735ed95fd98dd68035b5cc4e80d97a015d85741394f11b1332ca14"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HolyDeva.cs",
+    "sha256": "b355873850ab609b8594dd53151111d3189076e14c295fc37c3fb24d35bc759f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HoodedSummoner.cs",
+    "sha256": "c484a15de87811e38385c1d05ed59341505b717169eee38aefa187b615884e93"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HoodedSummonerScrolls.cs",
+    "sha256": "498a247296f3dfc36afb94fc880ed77502acdff954944239c372df2b05a6d0ce"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HornedArcher.cs",
+    "sha256": "8b6a460a95ee14cecb28837cedb82dca72be93eebeb239b29aa5ac2f66417785"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HornedCommander.cs",
+    "sha256": "c5b66938c3b03f101a058eb3953d4775dd307953be8496eb893b3335f3f67071"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HornedMage.cs",
+    "sha256": "9243023dcd99bece709106aed897d27184c50795fce49a7f52ea956387fd5af9"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HornedSorceror.cs",
+    "sha256": "3693d3184ada0c1dab7eef90f44f53a08fb58b6ce4995e76d028de1129c0eea4"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HornedWarrior.cs",
+    "sha256": "5242711c2218a5d067b19798d35afe3fef98a056a897d83d1322b54e94f500b5"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Hugger.cs",
+    "sha256": "b7471bd5ee51861e7930704aa02133f2506ba2791e5ac12fa99ca53dcf550298"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HumanAssassin.cs",
+    "sha256": "f5e5a631bae08efd07c9ec83686d36e6ed6803f53c68fd06a447ceeeb33c9554"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/HumanWizard.cs",
+    "sha256": "37ac39209015c22255c7921e1d85ab9f0c9951c928cbffb3287de3234487dca3"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/IceCrystalSoldier.cs",
+    "sha256": "91e3bab5871f029199f3123a6afa18b304f3b4a5348fae7d58fa1d13b1d8c048"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/IceGuard.cs",
+    "sha256": "332ced6104abb47233fc7fbd31406d7b048386f58f9b013bef73b36a59952167"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/IcePhantom.cs",
+    "sha256": "a258b43d2207b8690d6b420f8aa8157e4ed5fbd14451f440f0c49a2868fab3a0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/IcePillar.cs",
+    "sha256": "98cf217cf0e865dfff0aadff2bc5df7ed60823dac367d1949abd0a55766c50d0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/IncarnatedGhoul.cs",
+    "sha256": "1b520b4b814e9c88b3a5ea71b337ffcbcf963e6acf8e97662143d93b390133f0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/IncarnatedZT.cs",
+    "sha256": "39b8155a9b6e87181e46ebd542d0002e875d90c9d7f02d519ef494d92ed44f40"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Jar1.cs",
+    "sha256": "98404709375e90ce259aa1b12a42d9d97a43cb7eb8fce00386bd83afe2f80d1d"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Jar2.cs",
+    "sha256": "0ecbb0631be141a930beb62e908435893bc18abc9af3d15a2dfa85c40544b5e9"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Khazard.cs",
+    "sha256": "3e57727d690836de1617598c8db49b4b7646cde2bffd897080b89788aa62999c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/KingGuard.cs",
+    "sha256": "e1b65cdee11814d3cbe4f85ba5fd7bc8ce7450400df039adc031aaaf49a77159"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/KingHydrax.cs",
+    "sha256": "44163b36853ee7490d48466df2eaa0e1dd3fea055ca6e99ea2a3f6eea124cbb2"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/KingScorpion.cs",
+    "sha256": "410effd473f9668d314a7bcb9ac3fc51527b159d9fe35772bfd6aba0f332462b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Kirin.cs",
+    "sha256": "f17844c2e5432581ccbe1ed4eea012e8d7c78458600c06c3e39c00ee0e19fed8"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/LeftGuard.cs",
+    "sha256": "21dfc2e10de096c6c67167cb5cc306e7fdd5c67fa55446aa5131a227071868db"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/LightTurtle.cs",
+    "sha256": "ea74e03e4def1e6e8451b647ea672e6af6f7f2947952ca7864610ad326722c27"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ManTree.cs",
+    "sha256": "f3f24ef2b352bc3b50ce272894c92dd0fd0e511316a4aba42daf5deb9a77b150"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Mandrill.cs",
+    "sha256": "9ba0dcd9eab7cc0bf09f585622af09ddf6b55de3bef7129633fbc9ccfc84171e"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ManectricBlest.cs",
+    "sha256": "91459f22831dbd6980bee9ff15ce3e451b9b2ea49cd264e6b86198c29cfe537b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ManectricClaw.cs",
+    "sha256": "79a6cec820489d178e332c40f51063b74d8c464bc76c71be04bbf50cc3d005ae"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ManectricKing.cs",
+    "sha256": "d1a10c24942b14961a9eaa5ee220f84ae2e65c5d67481aedfc4b49326044fdde"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Mantis.cs",
+    "sha256": "c141ed9618ab7b168c6b668a08bdd04cedb07e2e180907c3c9f25c95f03ef016"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/MinotaurKing.cs",
+    "sha256": "051b078428635ea9257ba418a6565418bda9352e7456f9c771fa10cd038306c2"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/MudZombie.cs",
+    "sha256": "81e265875d3e8378b6910996d277d61a4c2fbd1c62185464739fb8840bc9352c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/MutatedManworm.cs",
+    "sha256": "9fb30a80aa11ba65a675a5ddcb2b5dac0bdf5683d0219aedcb74f99be02d3e0b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Nadz.cs",
+    "sha256": "b7637b6e00fccebb3e4cba4234d3e9b9b1913029c5779e641719d648c1701768"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/OmaBlest.cs",
+    "sha256": "2e00e6dee66d38d84ac51564bdcf10544c5402b68b1fcfb746bf2224e103fc83"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/OmaCannibal.cs",
+    "sha256": "5758e7b996f21074ea4f77b5fc921fb3c0ca2df2d9581249ac71465a2470009e"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/OmaKing.cs",
+    "sha256": "9cf0462ee103074a3a8aee4a29eb3e7f5e22124b8d203c18f04298c64bf6c216"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/OmaMage.cs",
+    "sha256": "7aa3315a317e9f8b04bc5f0d6956a7f03a1a7715f76656f07fe89ff27c1357a6"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/OmaSlasher.cs",
+    "sha256": "5247e8fca1b2f930d3e8b9ca9c7a86cc6e94adc539e9651e3b8e343bcc2762c6"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/OmaWitchDoctor.cs",
+    "sha256": "dd5cb9d6d08bd81f96e1cf6ccd1b1e61811e19d67851ba278207ad87a43d7454"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/PeacockSpider.cs",
+    "sha256": "e59e193706ddc61f2c0c346f75aefc5f26ca1a2146079768fa143b2872e8edcc"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/PlagueCrab.cs",
+    "sha256": "0cf8582a0d21c0f72c29679539836b9392345003a1db56c048c4c9dd820cdb71"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/PoisonHugger.cs",
+    "sha256": "42156bbf6dfc4b61e23755f18a9e7f0ebf286fddd18a904f1f32a05beb881f3f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/PowerBead.cs",
+    "sha256": "a5302c0bfa51996f89618aa676bf451fc20914358aaa736b5d4c3bdfc6ea6275"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/PurpleFaeFlower.cs",
+    "sha256": "10aab1b6f847847b1caf1ec80e49365c2e693ed5b815acb1b95eb842353bf7f0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/RedFoxman.cs",
+    "sha256": "cfd7a4f4585d2eeaa66f329ab3381f9c7fa73844c45fee5e7bda0fcd9445d3d8"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/RedMoonEvil.cs",
+    "sha256": "1709ee970d627e8d372a98465b79246a91ae17939bf3e65ce9b6c3194f950676"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/RedThunderZuma.cs",
+    "sha256": "f19f70b79dbf63612571286d0e71a6a4923d46d012cae0a26d89b09d17afc1f0"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/RestlessJar.cs",
+    "sha256": "d7fe36b358fbd4c811407f1368663bf7833024a1ff2531902190c72ba57b5799"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/RevivingZombie.cs",
+    "sha256": "f4b37f9eecde4a7b204eb7f08d293cf8d5b89b887205cb5efed6b11fff42bd8a"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/RhinoPriest.cs",
+    "sha256": "a5c2fcb3ea2d59e92197083560717cef55a426cfcd147a64db4dab9e34d7945f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/RightGuard.cs",
+    "sha256": "f441de34d59d15e1f09211dcbe79a52918e3d050b5e59f31d1f2cc93904f3497"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/RootSpider.cs",
+    "sha256": "0370eacf1ddb7eafa096317fe8071b0bfdb41dd6524350c5b93977bfdf2f0173"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SackWarrior.cs",
+    "sha256": "80d010289561d8391e87e795b5dd822dfe8605d355f1f321c35330a22780bc44"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SandSnail.cs",
+    "sha256": "733e9918c3bea4e0143a350f41c3870ce8cbdf59db973c32c0278ae50a46c0b1"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SandWorm.cs",
+    "sha256": "2416610988c54ea46f9d4e50fbd2223eedd7b2672ca3400e098d9b623ad3c4d1"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ScalyBeast.cs",
+    "sha256": "761a97d6418f007e53cfd4fb03c003c6b6eacdb2d319a2d49272252c77938465"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SeedingsGeneral.cs",
+    "sha256": "2eb7dd157a3a393f28142e1c1089f39ff360c07bc1d36e1d26936999b7ae6282"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepArcher.cs",
+    "sha256": "72f62771829e4b914779ca53bc44a28e75c3ef652eadc9292750d18c01dd147c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepAssassin.cs",
+    "sha256": "c8251ad2413647f4b3a817d9b8bddcafa360ef52db399981ad95a7eea15e00fe"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepHighArcher.cs",
+    "sha256": "889113ad81d4cce993b0a7a33e17e6842415122afb8befd291fb13b7d9cfdacd"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepHighAssassin.cs",
+    "sha256": "61baf4c3b8842e0fe6bf35c5a3413169adc59be5c57486e0e1155caa2c2c69bf"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepHighTaoist.cs",
+    "sha256": "131f1b2ef57152ff9d814e85bb0f6c84997d5c756381456f8e6a87ea6ce1ff57"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepHighWarrior.cs",
+    "sha256": "e8f5d4f84580c4ad9bdfca7e588eb1977632d7a5268294cd6fc16b0a50d28ab4"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepHighWizard.cs",
+    "sha256": "256b5e3eef87737d8e5b7306f7053978e389efb9a1feb81ec6c97dd1569ccc02"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepTaoist.cs",
+    "sha256": "57bdf376b5030408b4a46cb4602e80daa6179271ad11c1a11db87b902d277754"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepWarrior.cs",
+    "sha256": "99abc7b6d6274ce33c86fe7d9c7a5d9090b11042403f4c14d38eab8043928b29"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SepWizard.cs",
+    "sha256": "f6c796ad2298824932e81cdd983991b29c7dc70823b8ee01c7b753be63170aca"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ShamanZombie.cs",
+    "sha256": "b1ac8adcab85afb9713cc59f49d3a1219915b5c000bb4480db7b96d2e2d25610"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Shinsu.cs",
+    "sha256": "f8dd5293f3da2f11505c264befec111740eb6e655d98c12e49dec81182dd344c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Siege.cs",
+    "sha256": "af275545994bf8a09169a8d6b204b3b39e02b8a3ae6a6310c9350a7e9bf47e91"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SnakeTotem.cs",
+    "sha256": "63cf15f3704fa470c88fb804f2c12f733eb814089c99ffc3d54832e29a5145b6"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SnowWolf.cs",
+    "sha256": "491b57048dd1cc6586d29016b795113ebea5d89a2294df4a516efe15795695bc"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SnowWolfKing.cs",
+    "sha256": "3afbff9f03f5141d6c97e60afc0e4283ad5b0f9324acba27ee523c037ee6a17a"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SnowYeti.cs",
+    "sha256": "15b738264aff75da0f04f19faf4eea9fdab086085c57592ce39e620c913a044c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SpittingSpider.cs",
+    "sha256": "fdffbed2278d262452c820f0a6469a0188c99f3f44ed1b4f628608efbe23e1dc"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SpittingToad.cs",
+    "sha256": "5e43cca6fdcb29f5ff47dcedbd509c7be4e35eeccd82ecf9f21eaf96091ec207"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/StoneGolem.cs",
+    "sha256": "93e51c66092b4dfcca3b3f665c2f8411e5869f8444de016c6adce16c35f3c21f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/StoneTrap.cs",
+    "sha256": "9f045054f2a1868582952c71dd47ec30598356c243c92984bc3cb5ff5d5c028b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/StoningStatue.cs",
+    "sha256": "dc9667f0fcbef520b0e7fba5c2489946d6ee4a9d00439096b540f64dbe8f2fef"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/StrayCat.cs",
+    "sha256": "0476e16f070325adeaf4ba49ce1067ba434b9b03a5805750b2321a263a673028"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/SwampWarrior.cs",
+    "sha256": "daf7e565ba2fde65db0b05e09de94bac9bbc4dfe9b786faa1f35f3300cf8b25e"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ThunderElement.cs",
+    "sha256": "4f056f21964fb131b59621d975f4e49ab225950f2345cafcd252bcdc3a34e98c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Tornado.cs",
+    "sha256": "c5a462f7020c727dba0972e7f0663b183bbdbef3799f2f4c873f19b1da8ac7a6"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TownArcher.cs",
+    "sha256": "746763bff6e953d8de93fd0514ca88faaa3eb87d8b64b6f7a619a3776df41e2d"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ToxicGhoul.cs",
+    "sha256": "f6128cee4bbb5f9cf1485311181c935d97fb3715eb84be257820929e8fa34e05"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Trainer.cs",
+    "sha256": "6ca893994c07e89c6433d8420e87d9a120276b31f5f314f39465bfac046e2787"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TrapRock.cs",
+    "sha256": "6100e3170c2bc40312193ce2e40ae8c405c0c92bae57d8b34cfbc8d6cfcfa903"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Tree.cs",
+    "sha256": "3d3f15fe943c3a3290d268005fee2f5fc48de732754922062609efdb7ea49241"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TreeGuardian.cs",
+    "sha256": "361b03e5659656df4e4a0e9dfda235afd52a61f77caa3ba38b2a67fc67b7df90"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TreeQueen.cs",
+    "sha256": "9cd4c86094e6ea0b78763c8b50648f1e3c1895f124b2aa2d3db89c12e9737168"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TrollBomber.cs",
+    "sha256": "d2715b7b4324b5d8227d033703a51c9503ec2caaf38a71f574d31ce70e461dab"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TrollKing.cs",
+    "sha256": "346bf7ad2d14dca06eb0dae88cbd43c0f1a35c4e1a63be80123a877af8c8e295"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TucsonEgg.cs",
+    "sha256": "f3205d80d4b1048d3ae640c5d79995855bd38e71e9b2e2dd0d312f8688f78f2a"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TucsonGeneral.cs",
+    "sha256": "68b6417f8275ac70e48b84c125d88ce0f468f988475d450737fb37d6d325831c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TucsonMage.cs",
+    "sha256": "65999eaf4dcb23a862f22bce9173934ff755e77b1fed1014685442ae233abe9c"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TucsonWarrior.cs",
+    "sha256": "c8bab184b87da1696ed344b96661ed9f55c13f1bbb84ac8756726606c3560946"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/TurtleKing.cs",
+    "sha256": "3211acfdc5cc4b3e5dc37a1cc9585074bf447f70123e2d5caee7ceed98d07877"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Turtlegrass.cs",
+    "sha256": "b70c12ccca944340ab300240e36046c00be28bbbe6100a858a2714a87080f8f8"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/VampireSpider.cs",
+    "sha256": "941a1af0458d0d5cfd414a77ac82c75cc0af17b2a23510b8d8bd3d5953cdbdaa"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/VenomSpider.cs",
+    "sha256": "f1e501605c62dcee944af24d83ce65410032b8678256240f002c923f70a63662"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Wall.cs",
+    "sha256": "7ba8afb46986b053180bcfe8030a194972b236e1d111a6ac7f41cfe4afb63c88"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/WaterDragon.cs",
+    "sha256": "dd1070460d843795d10b43b73f70531c8edbcb59c2fb93d9cd98f2c501294b8b"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/WereTiger.cs",
+    "sha256": "890b9df29a119233d33407eb9e47a3300dea7cd97db49b568141370ac4199453"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/WhiteFoxman.cs",
+    "sha256": "03b14106fa8f7f06c94563862cf41e5956607741a52700b692d446dfd6f22147"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/WhiteMammoth.cs",
+    "sha256": "dafd9d5c96c3a593139408840e8f792a6828d749e05c7ac5dbdca972aac1bed2"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/WingedTigerLord.cs",
+    "sha256": "b5b230e80e69868ea72a250d5759fd1cd09c831df2fc8f2dd66ed1dc87ce66e3"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/WitchDoctor.cs",
+    "sha256": "26b6ca2a599c4a696ebfc45a2a23fcbcab9837b2b80ea7c950f49f9c93597b3a"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/WoodBox.cs",
+    "sha256": "7977b045f054b97526ae15fe12eef615bebccdeca87bc1a7385e55b73d2283c5"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/WoomaTaurus.cs",
+    "sha256": "1d80ed04a89a83ca8124f2982cffbf73bd371db25a9150ca2d611b61d3133f11"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/Yimoogi.cs",
+    "sha256": "41728ccdf48df3197c1c57d54e50eb21d1b80db6ae3fbd67d55ee7a82084f66f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/YinDevilNode.cs",
+    "sha256": "f03e723500985e1aee96b390bffdaa037e8bda9ab46bc3e43eed26416155e336"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ZumaMonster.cs",
+    "sha256": "2e5cc8080b8ffb7e721cf4316ecb0bfd4b984356c69a37d81cc4c533af8402d1"
+  },
+  {
+    "path": "Source/Server/MirObjects/Monsters/ZumaTaurus.cs",
+    "sha256": "a56db6ec3464b97343587c928d515ad9c3542a2b0f9bef2a668dab9dff9f703f"
+  },
+  {
+    "path": "Source/Server/MirObjects/NPC/NPCActions.cs",
+    "sha256": "b69e84012e256c409a67193bf11b9b43bd62253534eea8381f4e8fd95694c713"
+  },
+  {
+    "path": "Source/Server/MirObjects/NPC/NPCChecks.cs",
+    "sha256": "6b23b7020f040df59ae26b02828eb29b1c2878809513b0368662bbe5435e1ba8"
+  },
+  {
+    "path": "Source/Server/MirObjects/NPC/NPCPage.cs",
+    "sha256": "ea60ab7ee7988f47a5b89e804e876f76dfdd6f50a3b5d82b28e2e6114a471d38"
+  },
+  {
+    "path": "Source/Server/MirObjects/NPC/NPCScript.cs",
+    "sha256": "5572a041701e3de8075af60462b106c8645c658f31ab175e8284f381f27e0f1b"
+  },
+  {
+    "path": "Source/Server/MirObjects/NPC/NPCSegment.cs",
+    "sha256": "677c9752bf1673a3b45a304f0f4d34f6a8bb07fc30452f9e74d050a286e7469c"
+  },
+  {
+    "path": "Source/Server/MirObjects/NPCObject.cs",
+    "sha256": "a70b1802a2acc48f57462faa33fefeaf869409c6fc2b212f518cfb349cf03f1f"
+  },
+  {
+    "path": "Source/Server/MirObjects/Player/Reporting.cs",
+    "sha256": "f0df27ad655962c696d922cc631dd61a5ea26ebf859c3921241145cde73a1363"
+  },
+  {
+    "path": "Source/Server/MirObjects/PlayerObject.FreeMovement.cs",
+    "sha256": "ad89da222e97c414e2768adb1425c3e618151c9f011aa976aea9c1dd4733b768"
+  },
+  {
+    "path": "Source/Server/MirObjects/PlayerObject.GameplayFeel.cs",
+    "sha256": "ce597fed4ab2cd56a071617f7cff9bf837268426478425fbf0b3213fccd3f62e"
+  },
+  {
+    "path": "Source/Server/MirObjects/PlayerObject.QuestRewards.cs",
+    "sha256": "f5241f4f14f7b4322fe51dc06e91f32ad245a1c3cedfd6a9b1dc759b1064360a"
+  },
+  {
+    "path": "Source/Server/MirObjects/PlayerObject.cs",
+    "sha256": "81e9dd7a0b873c71bcce38d4de86c9b7a256adebe9db26c841cf5315d8bbb965"
+  },
+  {
+    "path": "Source/Server/MirObjects/SpellObject.cs",
+    "sha256": "7814dbf7751f6e23ed76c8075a932e832ca76d9ff22b739b9d876a28c73f40dd"
+  },
+  {
+    "path": "Source/Server/Properties/RewardTestAccess.cs",
+    "sha256": "14c786f4e6b416572d6f0b6351997af5e78721e76a97a150c37221ace9fa6a1b"
+  },
+  {
+    "path": "Source/Server/Rewards/DamageContributionLedger.cs",
+    "sha256": "6078f167037eb2a64b6c8c75199dd082aec48160230e3b3da15b9cfed583b1f1"
+  },
+  {
+    "path": "Source/Server/Server.Library.csproj",
+    "sha256": "042347caff53df14065b40201d4bf1ddbbce7b66602d63fe7fdec615c1f7bf38"
+  },
+  {
+    "path": "Source/Server/Settings.cs",
+    "sha256": "dd82f2e2696d535324db31f9dfeff755d8df0ca18d6cdeb7636a7f58cf82dc2d"
+  },
+  {
+    "path": "Source/Server/Utils/ConnectionQueueBudget.cs",
+    "sha256": "6b491f79262fd7471eff6aed2afc1dc1aac844a9ea785f74e8f2edded08bc44d"
+  },
+  {
+    "path": "Source/Server/Utils/Crypto.cs",
+    "sha256": "2afbc13037c3b12a8b3b9fd08a94b012f55423a49e2c20f328e7d959049e8f26"
+  },
+  {
+    "path": "Source/Server/Utils/DeferredDispatchContext.cs",
+    "sha256": "4ba7e44b84701d570a8d5ba53cf1702af2070a902699e5befbbe6519992e8669"
+  },
+  {
+    "path": "Source/Server/Utils/DeferredPacketPass.cs",
+    "sha256": "a9d780bb744bc6e960d714d5fb9020aa4d23465b72518f0884f25bd219e37851"
+  },
+  {
+    "path": "Source/Server/Utils/FixedSizedQueue.cs",
+    "sha256": "6fff3f19fb1adc6806981e73f1ec93bbaa9d72402381e3bbeb901b8d3aaef86c"
+  },
+  {
+    "path": "Source/Server/Utils/HttpServer.cs",
+    "sha256": "426db174e2256d3f2ae1df755493388536623e8307ca2c852f2271988c0b7db3"
+  },
+  {
+    "path": "Source/Server/Utils/HttpService.cs",
+    "sha256": "941298a5fa7369df9ae7a776f83e5c7c0a50153a17a05a5da065f0c42f443952"
+  },
+  {
+    "path": "Source/Server/Utils/IncomingTrafficBudget.cs",
+    "sha256": "9a6a14c4b3521a53be234a77df9888aac4080d842bf8935f629f4de3cf690350"
+  },
+  {
+    "path": "Source/Server/Utils/InputResponseDiagnostics.cs",
+    "sha256": "adb6c905ae7e9f56d57577b31791a29c9c155729f2f1d5d96d356a272a8f6a97"
+  },
+  {
+    "path": "Source/Server/Utils/MonsterFamilyIdentity.cs",
+    "sha256": "6e838138e239d89e88b7660162b4ffe2bf82fb5194d7e0f6cbf1cc1e0b2d849f"
+  },
+  {
+    "path": "Source/Server/Utils/PetPersistencePolicy.cs",
+    "sha256": "4d8210a2e4b156ca55d25ae5138037e3d117a901fbfa673341ba90be4b93ac97"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/AccountInfoForm.Designer.cs",
+    "sha256": "f68eb453f98606e5afc1c62e5642c5bc8d4e76d738c0f7c3c2393d3ca0211ab4"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/AccountInfoForm.cs",
+    "sha256": "52b9502fa464c0144e09cfef7d6bd813d6fce56cbe6f574daeab9941ca20adec"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/AccountInfoForm.resx",
+    "sha256": "cedbe2ca6be094d0fe8f11ffca2c89567f873d6a8953290d325a874cb10f4a12"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/ChangePasswordDialog.Designer.cs",
+    "sha256": "a29eb89bbd8c72dded430e5862fe7730eda62469cb5c9ecfb935e46b2728ef5e"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/ChangePasswordDialog.cs",
+    "sha256": "0d5a872c4c53237393c1cbd9836c574e505cabd4837f7ad5af361933253a62e1"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/ChangePasswordDialog.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/CharacterInfoForm.Designer.cs",
+    "sha256": "fa6b7a7c9101537785c0b232f00fc2d27d7112b5eeef1f003b13a663079e7ada"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/CharacterInfoForm.cs",
+    "sha256": "2feac7612c9a69e8761e05548942b719d8107dc10537d9890a21bb0311ef36e5"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/CharacterInfoForm.resx",
+    "sha256": "cedbe2ca6be094d0fe8f11ffca2c89567f873d6a8953290d325a874cb10f4a12"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/Market.Designer.cs",
+    "sha256": "70d156f1f5f30d113a5f57e08281d9330a210756e07a431cd4007b6be0ceffb8"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/Market.cs",
+    "sha256": "361e20e31246b7b5842fd74fc0ee061564770581e6f2674ac55ba4e04867b11f"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/Market.resx",
+    "sha256": "db6c7c77958f430cbfe7480f3f4414cda98bf490e8b609073432b9061f0cff19"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/Namelists.Designer.cs",
+    "sha256": "1c9eddb19311843737f1f77d2f547bda2e8955e3cf0891940648484d6d5e23ea"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/Namelists.cs",
+    "sha256": "d6f31198a01185bfb5618f9022759f9d977a0d15a30669dfa3eac4819393d909"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/Namelists.resx",
+    "sha256": "db6c7c77958f430cbfe7480f3f4414cda98bf490e8b609073432b9061f0cff19"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/PlayerInfoForm.Designer.cs",
+    "sha256": "19c946c1115ec06ff0c5d1c97e03c94d11dfab6ef77204f99d8d7aa5af54d7c4"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/PlayerInfoForm.cs",
+    "sha256": "604da8ed0f4f6d8be66d1504da40f9ae71bfad47854c6f4d0efe9d7267008041"
+  },
+  {
+    "path": "Source/Server.MirForms/Account/PlayerInfoForm.resx",
+    "sha256": "db6c7c77958f430cbfe7480f3f4414cda98bf490e8b609073432b9061f0cff19"
+  },
+  {
+    "path": "Source/Server.MirForms/BalanceConfigForm.Designer.cs",
+    "sha256": "3290888542a024880a87f9dcd59319cd336d22ef6723958ca3376b7431877dbd"
+  },
+  {
+    "path": "Source/Server.MirForms/BalanceConfigForm.cs",
+    "sha256": "64e97115237d6152a8abab6f5d56b99e3d8c4cef90becb4d21a1cd875142f0fd"
+  },
+  {
+    "path": "Source/Server.MirForms/BalanceConfigForm.resx",
+    "sha256": "d98f726a99dcd7d39c0eab64858b2eff887fe055ea842406e88e3a7e151a9048"
+  },
+  {
+    "path": "Source/Server.MirForms/ChineseDisplay.cs",
+    "sha256": "14a5cc78493c24e360669cf43897255e88b5ab8c268a25460b8ea45ccc1fa303"
+  },
+  {
+    "path": "Source/Server.MirForms/ConfigForm.Designer.cs",
+    "sha256": "95adab08180c53b00255d7fae75d3bbd1892f915ab890d777c59a42a6133222e"
+  },
+  {
+    "path": "Source/Server.MirForms/ConfigForm.cs",
+    "sha256": "ba348095ab953b29673a87a8d38facab6c928a8d15937bb09ad708e91be589a1"
+  },
+  {
+    "path": "Source/Server.MirForms/ConfigForm.resx",
+    "sha256": "a4e8a417a320a64ea2f52f10222c135ce6c6bf23cd52d7d693139113a4c06d63"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/GameShop.cs",
+    "sha256": "514e55458f4accdfaae402e61a45cfb6b27406b4cdd47c6d5957e63770f01d4e"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/GameShop.designer.cs",
+    "sha256": "549b8c036f284c878170bfce2947f8556e6812b418a7b8394964f4125ee95a31"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/GameShop.resx",
+    "sha256": "db6c7c77958f430cbfe7480f3f4414cda98bf490e8b609073432b9061f0cff19"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/ItemInfoForm.Designer.cs",
+    "sha256": "9cce88756cb1bae51958355b36cffebb28cb76b5d27bffc4bbb238dac182a4b6"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/ItemInfoForm.cs",
+    "sha256": "54aceecdd6b0f6c87c0d197dc1f518c9b87d96aab1a6611ccbfac4854913a975"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/ItemInfoForm.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/ItemInfoFormNew.Designer.cs",
+    "sha256": "1eea1787294f76eee381a698c7f5badc0ccb15fd70474922e80fe5119571fbad"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/ItemInfoFormNew.cs",
+    "sha256": "470f60c09ebe2cc32084bd6b98f6445cde3433cfde683e61c02cb0f2cc5bfa4f"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/ItemInfoFormNew.resx",
+    "sha256": "706f3a09f7927444e4f004f57a4bb17e156c2498efaeed37f0a459df84bae1fd"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MagicInfoForm.Designer.cs",
+    "sha256": "6903b5c7c12ffb5c1f799511bba9a0cfcb2245d8c05839558f2d6673570efef1"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MagicInfoForm.cs",
+    "sha256": "f29c61d060764b93362d23f684908331830604f53111aecc2a94c18af9d41e7b"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MagicInfoForm.resx",
+    "sha256": "a24a1cc57dad02fcbe8f1a91b95399acb50d687bddfc0fdae8e971ebe3b03de8"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MapForm.cs",
+    "sha256": "98d068441ae63df8434831951c8afdfd299c77bd7611be2393e67ba4edef0733"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MapInfoForm.Designer.cs",
+    "sha256": "d7640b446bbf36d7ef51c9ad65f10ffdc1dc9e5075bca16c38249697b73766f5"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MapInfoForm.cs",
+    "sha256": "d29d815da0e9603542d0f95f71fbf6a2f045a5ad447f42c9c0a796e9848c4fe0"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MapInfoForm.resx",
+    "sha256": "cf988f79fa39b0cf21ababbc5451df3e781a9222760ebe1a417a449797397651"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MonsterInfoForm.Designer.cs",
+    "sha256": "dfcfd35ca366d28dfec0cdf66d9df99e5a8756fb79d9d98a8f44fd0ad5902783"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MonsterInfoForm.cs",
+    "sha256": "da5f3ae5c2372635934ee251f0aa1d976bec59de2863571d97742ff2407b58ef"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MonsterInfoForm.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MonsterInfoFormNew.Designer.cs",
+    "sha256": "3518239b64ab17cb82cd0d5f72ca75b6bef01b5c71563e1d2e7a522c50bd0a3a"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MonsterInfoFormNew.cs",
+    "sha256": "8d9ee118c56cf027b9e9311d5a14855ab5eb4eb2c57edf13699149988f6530d7"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/MonsterInfoFormNew.resx",
+    "sha256": "024ebcba19ae2a3f84034d94f12c9ad4ce475c9dbecf47f5aff4832ee11900d1"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/NPCInfoForm.Designer.cs",
+    "sha256": "6398825028ca455998359e6142e5d27fd14b7cd62a9c04d920f643e394e0cf78"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/NPCInfoForm.cs",
+    "sha256": "493e3175e66133e2378e74667b8b545ce158647587505355acbc31aad0279245"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/NPCInfoForm.resx",
+    "sha256": "db6c7c77958f430cbfe7480f3f4414cda98bf490e8b609073432b9061f0cff19"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/QuestInfoForm.Designer.cs",
+    "sha256": "b271b4c6f394b736bd80c88e5fdfa37bb3c54204680704ddbdf24e0a8a738987"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/QuestInfoForm.cs",
+    "sha256": "ef81809e8a702eaf9ccb46fa08ef4d55cd564b71656384fecea8e0ea853fb7cf"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/QuestInfoForm.resx",
+    "sha256": "db6c7c77958f430cbfe7480f3f4414cda98bf490e8b609073432b9061f0cff19"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/RecipeInfoForm.Designer.cs",
+    "sha256": "273ac78a6894a73f739a4b39dc81f35371ba8757f18f61dd183735f47dea27a8"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/RecipeInfoForm.cs",
+    "sha256": "9fdb83f5a33828a3f3c5ec947aa3236f24d20871ca8e6c89c4030f91d0500081"
+  },
+  {
+    "path": "Source/Server.MirForms/Database/RecipeInfoForm.resx",
+    "sha256": "db6c7c77958f430cbfe7480f3f4414cda98bf490e8b609073432b9061f0cff19"
+  },
+  {
+    "path": "Source/Server.MirForms/DropBuilder/DropBuilderForm.cs",
+    "sha256": "85f93ed6184e2e4775e3ebd6e087f4028135b1183e5e73cdea481ea207bec999"
+  },
+  {
+    "path": "Source/Server.MirForms/DropBuilder/DropBuilderForm.designer.cs",
+    "sha256": "92c3ddcd5785fe4afac08e96257b27124e4148dd538ee4e0effdfdbbd96edf3d"
+  },
+  {
+    "path": "Source/Server.MirForms/DropBuilder/DropBuilderForm.resx",
+    "sha256": "7ec3891efbde6ad1df8afef693a95d343bc94853c3c9961decd03261cfa869f6"
+  },
+  {
+    "path": "Source/Server.MirForms/Localization/Chinese.json",
+    "sha256": "1e04a2b00210caad81491c25e066c3becfcf3d4beb86d424471bc4e3a74cfe0f"
+  },
+  {
+    "path": "Source/Server.MirForms/Localization/English.json",
+    "sha256": "e1f7283042702b219fc46ee30cf299dcab0684f2015026a34899db942561ecfd"
+  },
+  {
+    "path": "Source/Server.MirForms/Program.cs",
+    "sha256": "d6020e078fc0d9d5cb493fcc350515ce867862f899bd12282b7693a0b6a32e32"
+  },
+  {
+    "path": "Source/Server.MirForms/SMain.Designer.cs",
+    "sha256": "041c02785596b8b6dcfa65ceae54cb418e01994b1c42ca01017242c7e859e182"
+  },
+  {
+    "path": "Source/Server.MirForms/SMain.UpdateManager.cs",
+    "sha256": "56d535666e0450be404c4af72402c9193ba242e02452256bf85d3d5c724d1f1c"
+  },
+  {
+    "path": "Source/Server.MirForms/SMain.cs",
+    "sha256": "9f7aa7ab3bb625d371e0703fb8543460649eeb72f53893d0cdc40cf738966fbb"
+  },
+  {
+    "path": "Source/Server.MirForms/SMain.resx",
+    "sha256": "89418d7ac3f62f7da1c6974af78d3350855205b27e74c1c140d3059dab9a4c2f"
+  },
+  {
+    "path": "Source/Server.MirForms/Server.csproj",
+    "sha256": "85251b85d6b3bd8498316392349c406047738a172bc147fcae7c1edf1946ee0f"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/ConquestInfoForm.Designer.cs",
+    "sha256": "18f128939dbe8eaf48b79ecc706f79ee4d35d28cfc22cb7023846996d5343a54"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/ConquestInfoForm.cs",
+    "sha256": "06953c658b8ca53d95bd641086066555d327b65c3eb75cb210780443e8c564ea"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/ConquestInfoForm.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/DragonInfoForm.Designer.cs",
+    "sha256": "47a836ba9ad924f7d44adcadc31c139ef55e2f3254b011f43ae2da068a0a02a1"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/DragonInfoForm.cs",
+    "sha256": "bc8dcd23ce79befe116b027c219cbccc8018db859a1d3fb0b6753c540426aeea"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/DragonInfoForm.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/GuildInfoForm.Designer.cs",
+    "sha256": "cfa78c1e61928332798c45deff4765c663cc7e9fa86d0a7b33b7f95a6382df19"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/GuildInfoForm.cs",
+    "sha256": "e48b9d167bcbd10d311a602602b207ecd3d3653b381bad5f38241c3d664dc714"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/GuildInfoForm.resx",
+    "sha256": "a24a1cc57dad02fcbe8f1a91b95399acb50d687bddfc0fdae8e971ebe3b03de8"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/GuildItemForm.Designer.cs",
+    "sha256": "eb55a8a7ef31c658c1239e638d052ac7b2b47d6ebdcedcce8e6a39f4165c1e81"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/GuildItemForm.cs",
+    "sha256": "7af9aeb1a01b2e2d40efbf8cab31a2b31d2279e7116dce76686884ef3926fd19"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/GuildItemForm.resx",
+    "sha256": "db6c7c77958f430cbfe7480f3f4414cda98bf490e8b609073432b9061f0cff19"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/MiningInfoForm.Designer.cs",
+    "sha256": "ab3912db4cbe9de83ef1c4bd1a0898993c957e7ef1701232dda53747bfdd8e01"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/MiningInfoForm.cs",
+    "sha256": "26b2eedf910b26fa24c8c3a5b62ad2d8c8b2d4bf4ebcd4085b25107fc7cfb142"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/MiningInfoForm.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/MonsterTunerForm.Designer.cs",
+    "sha256": "10010840a373c026fda79d8f2afe5d0827e0b7aa2a50e8739a59bbdea461b0d2"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/MonsterTunerForm.cs",
+    "sha256": "919471c5648853e9baf74f2f3065c6292ecd82510d54935c57e5fc26c09865bc"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/MonsterTunerForm.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/SystemInfoForm.Designer.cs",
+    "sha256": "bebc8b4860a8bacc6fb623319795d609e0513c8f1071667b5e7e7dc67aa249b5"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/SystemInfoForm.cs",
+    "sha256": "2cfb76b6a607586761a01f78fe9c80203ba189b4343efc9d4df7c36bb3b7116d"
+  },
+  {
+    "path": "Source/Server.MirForms/Systems/SystemInfoForm.resx",
+    "sha256": "416a96f8a68f37404fc89dc246e9d4b4740dc7c9c1d31e36b09ef2a405687828"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Class/LockBitmap.cs",
+    "sha256": "bfb9f767a64924254b6fd327c0662c002b5e192d7b9eeaa5e924bd2175d903cb"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Class/ReadMap.cs",
+    "sha256": "4f3cc1f234c0a52e120bb5e51aab070c54c75f6718a3a66a40062736d4f45052"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Class/VisualizerGlobal.cs",
+    "sha256": "e8db6ba165966ccd179f4de71edb614e033fea6f8f71d90f03d3f3d42d1935bb"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/Forms/MiningDetailForm.Designer.cs",
+    "sha256": "f1de9fa9f3f0e901932f416548863364935c28bf1d0ca20d05c45dab66545c9a"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/Forms/MiningDetailForm.cs",
+    "sha256": "dceeba9f83b4a575fd0b532db888d4e518b5b01d1b89f2eedd07864ecfe60786"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/Forms/MiningDetailForm.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/Forms/RespawnsDetailForm.Designer.cs",
+    "sha256": "3a122c7d35d29a63eae437a344323fc8f9dd331d8c975555671cd0f13833ab98"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/Forms/RespawnsDetailForm.cs",
+    "sha256": "004a6c6a3e5c5d2d71bb3c567bd7e358bf0dc38d288169e3b0a9d35553ac03bd"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/Forms/RespawnsDetailForm.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/MapContainer.cs",
+    "sha256": "86d177db251ab7940cec20221f79ac6090fcb426c5901bda528ed572ba9a0cdf"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/MineEntry.Designer.cs",
+    "sha256": "249dbc67d6a8bf6182822367b4ed67625f1872cebff70321be3ff44892ebdee7"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/MineEntry.cs",
+    "sha256": "43d4c02ced9b0ca9e9cdea6aca8af9fec5aa65250dc4fc6f70a2b32931cfef93"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/MineEntry.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/RespawnEntry.Designer.cs",
+    "sha256": "c60a2e222bba0dc83da532ef9440ca7aa2557ad6fee82f30b1dd53637bcad117"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/RespawnEntry.cs",
+    "sha256": "3a5e7ab4740098d45ef194ace5fcb19ad6cc96cfd8d7074fe3a8d103e2f15fa3"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/Control/RespawnEntry.resx",
+    "sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/VForm.Designer.cs",
+    "sha256": "7eb0a1dd5cb7498cd5e34cab81d6eef21993de094d374d1b42cce92b467d5eb0"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/VForm.cs",
+    "sha256": "5ba26683bfb99e5634f136af5fd9231fc96e2df3ef9bcc82c36377c67d923f8d"
+  },
+  {
+    "path": "Source/Server.MirForms/VisualMapInfo/VForm.resx",
+    "sha256": "5a06cfbc84e57c7213780d1a635d63e3d50f6af2919b4aa1f363d07fc826d79d"
+  },
+  {
+    "path": "Source/Server.MirForms/log4net.config",
+    "sha256": "d0916d07f1d1144697574956880d7223efae3547c1a4d11c3199bfe2a470a66f"
+  },
+  {
+    "path": "Source/Shared/ActionTiming.cs",
+    "sha256": "be906d4e7cc29876ac344d71e888513dc973132784c8171f720cffc7d1613bed"
+  },
+  {
+    "path": "Source/Shared/BaseStats.cs",
+    "sha256": "cf11af922f62d21dfcb03d48f81f5eaff976713233d9948bb236442e4193cfe4"
+  },
+  {
+    "path": "Source/Shared/ClientPackets.cs",
+    "sha256": "f78d8e51e7520fa5e366ad4e831e70d96c991e556e18c8a50ef98b5512e30e5e"
+  },
+  {
+    "path": "Source/Shared/ContinuousMotion.cs",
+    "sha256": "7643e3682fdee923be841387d18840553c09ed9e361dde0951bef9ceee7b1057"
+  },
+  {
+    "path": "Source/Shared/Data/ClientData.cs",
+    "sha256": "e686b82ce9a5af6ae36b8fabcc96ce8dbad7c66d6c18f6da88e8db3537255021"
+  },
+  {
+    "path": "Source/Shared/Data/GuildData.cs",
+    "sha256": "30ade12727a19650f083160304a93c26d83506da57d46be4cdc763e169a6777b"
+  },
+  {
+    "path": "Source/Shared/Data/IntelligentCreatureData.cs",
+    "sha256": "18f5918ca036959102faa251c13cbc1b7ff61b76730bdfaf33a4216a9774d3c2"
+  },
+  {
+    "path": "Source/Shared/Data/ItemData.cs",
+    "sha256": "cb5a9d93acc4a4e6cf9619a848a06156e8937f68b6be6f672572fbcf850c5614"
+  },
+  {
+    "path": "Source/Shared/Data/MonsterData.cs",
+    "sha256": "0ec4d4e84e294b515379bc091a16dc09ac12d325d8873e50e3a70680112fab8a"
+  },
+  {
+    "path": "Source/Shared/Data/MonsterRarityData.cs",
+    "sha256": "9406ccb5ad5c2fdc7b36f5574e360be03cedd8b3dc84f3f94dca62a27f59f113"
+  },
+  {
+    "path": "Source/Shared/Data/Notice.cs",
+    "sha256": "754f7e34a6acde24bba154c5a7db668ac9afe52a08c3264c9515982f68343c5a"
+  },
+  {
+    "path": "Source/Shared/Data/SharedData.cs",
+    "sha256": "f3b9b056dd7803328e1a41662aeff33f9afa9395d243948327334ddce50fd82d"
+  },
+  {
+    "path": "Source/Shared/Data/Stat.cs",
+    "sha256": "91e3fd030f7391c1371c88693ad4d3273c56f79761d0ddaa79f082efb34d64c0"
+  },
+  {
+    "path": "Source/Shared/Enums.cs",
+    "sha256": "043e19795065d6011b89e901ece84ac11941a5899a1f04108953dc9781589cd1"
+  },
+  {
+    "path": "Source/Shared/Extensions/ExtensionMethods.cs",
+    "sha256": "0fc4384cb066bc938830976a088e565ceda99c1af863bb8a5f654d26212aca71"
+  },
+  {
+    "path": "Source/Shared/FreeGaitClock.cs",
+    "sha256": "d35e872ab652fbd84f66f9f2f7765cf8c2886bc056411fa4362ca3b6bb67caad"
+  },
+  {
+    "path": "Source/Shared/FreeSnapshotPolicy.cs",
+    "sha256": "2fed4ccbf4fcd93b5c4ce8ee1a2034287049b1089210338183672559787f2bad"
+  },
+  {
+    "path": "Source/Shared/FreeSteering.cs",
+    "sha256": "0fe485633c3151adf648a9651e49132ed3548ed51f6699be016315fc60ee3a11"
+  },
+  {
+    "path": "Source/Shared/FreeStopPosition.cs",
+    "sha256": "947c339542a1b694b9724ab249f58130de65c5799f676e153fd91ef6f058cdb8"
+  },
+  {
+    "path": "Source/Shared/FreeVisualCorrection.cs",
+    "sha256": "eec4608880737201d6efc798baaadc56807ebf51c401af2596480d046573bba3"
+  },
+  {
+    "path": "Source/Shared/Functions/Functions.cs",
+    "sha256": "e7660a248c1b1ef64a0b43957d081f1987a1a763e8258220fac480055ff65ac5"
+  },
+  {
+    "path": "Source/Shared/Functions/IniReader.cs",
+    "sha256": "00794a433bb03659141fd51201f7decfa3fb724ecea5fe1d1f478f1d51b0e79f"
+  },
+  {
+    "path": "Source/Shared/Functions/RegexFunctions.cs",
+    "sha256": "54d26d1d5790f904e8805ab32931cb8d4cb7205d89262da4d567fb09467029fe"
+  },
+  {
+    "path": "Source/Shared/Gameplay180Rules.cs",
+    "sha256": "7e209b343f95520bea46e152591be1627393cc9aa8ad22161c58eb1edefa91a1"
+  },
+  {
+    "path": "Source/Shared/Globals.cs",
+    "sha256": "efe0f5cea653b6316bbee51f5e139de130a896cbc5098be5faec99b35fb822a7"
+  },
+  {
+    "path": "Source/Shared/Helpers/FileIO.cs",
+    "sha256": "6137713d8c0154a6ae99449c7349e7d9269ef48383610f9774bd39f24445ba76"
+  },
+  {
+    "path": "Source/Shared/ItemQualityPresentation.cs",
+    "sha256": "9b5196c4ed550d2762339141103aa09b2e27f5e3006bfbdebbe4e1fd0356518e"
+  },
+  {
+    "path": "Source/Shared/Language.cs",
+    "sha256": "a196217d274d95db85559a0628152a42de48388f9e778e9daac4c952094c89e6"
+  },
+  {
+    "path": "Source/Shared/MovementIntentHistory.cs",
+    "sha256": "7566ac00c9fa6fb21247f601749d47d8dec27888bf9403958b3cd804081ade34"
+  },
+  {
+    "path": "Source/Shared/MovementPackets.cs",
+    "sha256": "900e16a0cb6aa32744a2994b5e5d88dfc4f4a6c6846735f234cf912167212c1e"
+  },
+  {
+    "path": "Source/Shared/Packet.cs",
+    "sha256": "8084979acf0129a0eb35ac673bf56609016c789e5b52525924491f174b34fb5d"
+  },
+  {
+    "path": "Source/Shared/ReferenceNames.cs",
+    "sha256": "e1ecee9936ce4d23ba99c39d6a1766c26525448a64c448d9ede86b2caace6223"
+  },
+  {
+    "path": "Source/Shared/ServerPackets.cs",
+    "sha256": "2c27e07e9d75c11540b5902b70b0d79b72be2c03ad4465eea8ffec71a1f0d8bf"
+  },
+  {
+    "path": "Source/Shared/Shared.csproj",
+    "sha256": "970afc299c60af34da3c07292f7d1a8d34ed79727cc42db1351484a30be790a8"
+  },
+  {
+    "path": "Source/SoundRules.txt",
+    "sha256": "ac8ed67b5f64e7c20f0fce6a1dbbf95a690b9d5ebd9785f3636dbfbb6f4785c7"
+  },
+  {
+    "path": "Source/Tools/ReferenceMigration/Program.cs",
+    "sha256": "2466cb81044be7fefbd1b0bb0b8acc00a48e8b5b24d9cd9131cf43c5aa012964"
+  },
+  {
+    "path": "Source/Tools/ReferenceMigration/ReferenceMigration.csproj",
+    "sha256": "8723624a6468207c2375b51b2328df759b58a591b644408eb3381b1ba9c8c13f"
+  },
+  {
+    "path": "Source/dotnet-upgrade.txt",
+    "sha256": "a0a2554a6e3c8f5b2f9f5ee02cce407dbb948af8704429b8efa387185882af51"
+  },
+  {
+    "path": "Source/global.json",
+    "sha256": "3e36a1b60c0a0ad88f0a1f2beab95d4037511d1c8a076eb9d80caffcd539a619"
+  },
+  {
+    "path": "Tools/Render-Loot-Previews.cmd",
+    "sha256": "76787a7d2bf4dc3bd0953e574773047eba918fbd4500aac062adf8c6a27a7211"
+  },
+  {
+    "path": "Tools/analyze_frame_log.py",
+    "sha256": "029a5dced4ac0639c3194433192a39443a35af5bbda92f6d927b9d61405abeb9"
+  },
+  {
+    "path": "Tools/build_loot_effects.py",
+    "sha256": "f24fd73c3334ef3092f27172e5dd87aceb70d437f06da88bef8e363f1aa9145b"
+  },
+  {
+    "path": "Tools/build_portrait_body.py",
+    "sha256": "111e80f494053c0d724dfca1832ad7432dd9321b90b8504029b8c1ff5c278e67"
+  },
+  {
+    "path": "Tools/loot-animation-template.html",
+    "sha256": "f190cf15148aa0db1d0ff377be43b30b0b913d832db1f19169761876537592c4"
+  },
+  {
+    "path": "Tools/loot-comparison-template.html",
+    "sha256": "83708baab5932988b9422522af3d5ddb214237f413b11d999df2ccc5c2778728"
+  },
+  {
+    "path": "Tools/package.json",
+    "sha256": "38d12ef4805793d91326aabed1647d097d42adb56b5c864f3c9677bba421023e"
+  },
+  {
+    "path": "Tools/portrait_library.py",
+    "sha256": "e8ce75f17b10322c0a5f0ffb99489438f7cd9a4e71082df045986f5f01ed8916"
+  },
+  {
+    "path": "Tools/portrait_pixels.py",
+    "sha256": "b31d8bcf55430c5eeef7a85dc163d81a63deee418e0eae3b0c7cdd3199270e28"
+  },
+  {
+    "path": "Tools/preview_skill_icons.py",
+    "sha256": "24648c99a2643ab8cd41c4b93a2dcc55db007d6c566dcbd27bd35215d1a63cb6"
+  },
+  {
+    "path": "Tools/render_loot_color_comparison.cjs",
+    "sha256": "193a0154254e3735a65ecdfa0a74499700dd34dd56a36d6a95d8d43a3ef2363b"
+  },
+  {
+    "path": "Tools/render_loot_comparison.cjs",
+    "sha256": "5f661c6b8642c3f75e75acd8b91e8d3defe7bb3d226a9fd8bd599ceb020bc6df"
+  },
+  {
+    "path": "Tools/render_r6_previews.py",
+    "sha256": "ac7ab9c452fffb35846a1d5bfbe61cabfb5f2b490148e97a0da7279ab65483c2"
+  },
+  {
+    "path": "Tools/render_v5_previews.py",
+    "sha256": "2d5cc05f7b96be1c3175bfcd9a662cb3014d134e596e3cbf29f47b21400950d8"
+  },
+  {
+    "path": "Tools/repack_skin_v5.py",
+    "sha256": "6f1147c31f3471ef1291d79a35b0e41337989fd3da4b56db336141f924044472"
+  },
+  {
+    "path": "Tools/update_manifest.py",
+    "sha256": "7307d7c4bb9133980cf374f3223689657d4cda3ecf5bdf34726694fc870134e3"
+  },
+  {
+    "path": "Tools/verify_blue_portrait.py",
+    "sha256": "96e3322c5f9aac52405e70e9a246f17cf915f6f6840d0457e6f50117c794ee1e"
+  },
+  {
+    "path": "Tools/verify_hairline.py",
+    "sha256": "6d403026ee9aa5ea40a7ddfb93b4423a674b96f84f1eea36be424a4db19d7b3c"
+  },
+  {
+    "path": "Tools/verify_native_portrait.py",
+    "sha256": "c03b9aa13c23b6c5bebccba9d71a60b89d0a86c3071289fedea85a82746ce929"
+  },
+  {
+    "path": "Tools/verify_package.py",
+    "sha256": "ebe70b1db00c620a448c05f301772939d9d562b70cde5ef0287c55b2d4515015"
+  },
+  {
+    "path": "Verification/CharacterCaptionRegression.cs",
+    "sha256": "d289c83f6d1df2e99e5f47a5ca7bca66b1c9e66278ac1f69bb4dce7c961c8152"
+  },
+  {
+    "path": "Verification/CodeReviewRegression.cs",
+    "sha256": "6d65792cf7437ea8f82f86959b6624d832092cc8f5dd001ac2885e7c9bfcc281"
+  },
+  {
+    "path": "Verification/CompanionRegression.cs",
+    "sha256": "d1a46350fed06c54b2fc2bee5102ba02f430ca74b7e9831854746f7f67cdc90e"
+  },
+  {
+    "path": "Verification/CursorAnimationRegression.cs",
+    "sha256": "187a1f9caa439835cf841af42722ab9fdd7de8c2e4100f75fcd93f34b4e9d5ac"
+  },
+  {
+    "path": "Verification/CursorLogicRegression.csproj",
+    "sha256": "fb955b23e4ac90317ec0c546db9d69dbd760abbceb812ed99936b7c9fba46b7b"
+  },
+  {
+    "path": "Verification/CursorRoutingRegression.cs",
+    "sha256": "b6783320f13658facf5bb32b5fcdff96890b26ad44ac620513c22ebdfdff83e1"
+  },
+  {
+    "path": "Verification/DirectLaunchRegression.cs",
+    "sha256": "d2a6b0f01c8c29a4f0002e7a3a2d6683454f2435e5923022741ed5b8c2007597"
+  },
+  {
+    "path": "Verification/DirectLaunchRegression.csproj",
+    "sha256": "dae3eabb2ea8afc6e39285b5c1630a010ec4b30ead5457d748c37a4690a9bdc4"
+  },
+  {
+    "path": "Verification/Directory.Build.props",
+    "sha256": "d80d925517122cc6568775f7ff1e0466c141913884c6b888c5bb47fdc679e399"
+  },
+  {
+    "path": "Verification/Fixtures/HairlineStateItem.Lib",
+    "sha256": "87046490955be9b06485423eac3f082c3f656d9cdbe03b8a1c68a3b5cee8e6b1"
+  },
+  {
+    "path": "Verification/Fixtures/PresentationStubs.cs",
+    "sha256": "0a449c975efbbf684ba24d7fd984a0896047f9f120fa2c9a0c586e71a26c5c67"
+  },
+  {
+    "path": "Verification/Fixtures/PreviousPortraitBody.Lib",
+    "sha256": "3dcde934d5d752f6dcbc444d9554827dca5f114fddb94d20d3d92f6d542db37e"
+  },
+  {
+    "path": "Verification/Fixtures/RuntimePrguse.Lib",
+    "sha256": "2b940ef192cda5fb7a60bb86be4603e01af11588b42c824fd321bc98a8404511"
+  },
+  {
+    "path": "Verification/Fixtures/RuntimeStateItem.Lib",
+    "sha256": "6a5bfac0e99e2721968c4871438b88b96fcca5bb51166db418d18f6083749533"
+  },
+  {
+    "path": "Verification/Fixtures/hairline-additional-sources.json",
+    "sha256": "10818a03df392109159370e689ce26d803ef4fe08988efbc45d92e394c4b686d"
+  },
+  {
+    "path": "Verification/Fixtures/native-body-masks.json",
+    "sha256": "7d8e1758d6df18b08e95d0c55477befa1a529a680fa7b9f8967b9379d1192922"
+  },
+  {
+    "path": "Verification/Fixtures/reviewed-hair-pixels.json",
+    "sha256": "77d7a7db9a371638395c5a94cdee7fe15631a264dd1d7d25a89c2f4424bdebd1"
+  },
+  {
+    "path": "Verification/Fixtures/runtime-portrait-sources.json",
+    "sha256": "48d2aeee80e6ac0319abb01427df1cf6a6ee26383543c46246ed30daf203edd7"
+  },
+  {
+    "path": "Verification/InventoryActionsRegression.cs",
+    "sha256": "083833eeba90bf8503adad5ae193d5907287082a6ac938537caca91aa36cb14e"
+  },
+  {
+    "path": "Verification/Loot/Regression.cs",
+    "sha256": "d77e514957565f94f66208ceb346fe30f5836e44d7283a2dd4252a855e7fab54"
+  },
+  {
+    "path": "Verification/Loot/Stubs.cs",
+    "sha256": "6ddf2fdda1154e69329ca0f35554bc6a2ac695faf6d3938972412c24b2ecc75d"
+  },
+  {
+    "path": "Verification/LootEffectsRegression.csproj",
+    "sha256": "d99d2c1fc899806147bcb04e511eb1c8efd65d0fdd7cb63bb316dd19b1238f8e"
+  },
+  {
+    "path": "Verification/NativePortraitGoldenRegression.cs",
+    "sha256": "a7b9c9aed4f0f423d436e18addd2504268c38f3d176cfa158b2f6ec5c4ac9117"
+  },
+  {
+    "path": "Verification/NativePortraitRegression.cs",
+    "sha256": "6658ea2f7ad44221e17e17b963f23b9111dc8ef6a526f7251497676c48f27dc5"
+  },
+  {
+    "path": "Verification/PortraitCompositeRegression.cs",
+    "sha256": "b6c97e9cadbb5e3f0b7bf548b140330bf44defd340382c1f4bd00d2dcdb9aafa"
+  },
+  {
+    "path": "Verification/PortraitEquipmentRegression.cs",
+    "sha256": "46c9b008df740316bcfcf6084f1e50eafdf686b7195eabed37639adce68b61e3"
+  },
+  {
+    "path": "Verification/PortraitPixelsRegression.cs",
+    "sha256": "434d02bb0ec8fa9e1d6be9cf6a7534ac556ae9b6e3afa6e97209a6387a0c7bc9"
+  },
+  {
+    "path": "Verification/PortraitRegression.cs",
+    "sha256": "0314100486981640947eacf0fc47500ae4c4326c63c0b65f110ab50032dc9aa6"
+  },
+  {
+    "path": "Verification/PortraitRenderHarness.cs",
+    "sha256": "da8b1525ad6b466bb0a5d5da7a7bc9b6b21778edaf914da1517f8838ffcb292a"
+  },
+  {
+    "path": "Verification/PresentationFollowupRegression.cs",
+    "sha256": "5f33f23f684f184e439ecf38c2e0c0aa5458fab2944e00c1f2c93e5a32806791"
+  },
+  {
+    "path": "Verification/PresentationRegression.cs",
+    "sha256": "0a8633f4fb36a66fe283260c663dac809ff9aaee241b5534f951ad30b4b6b864"
+  },
+  {
+    "path": "Verification/PresentationRegression.csproj",
+    "sha256": "57d151cbce67505deace17fbd778e6f799ef27c45a8b0ad093f76f878de99343"
+  },
+  {
+    "path": "Verification/Program.cs",
+    "sha256": "74320f4ac79605c91ab8721e3c15370432a27df11594b52540e42ba52ddb5fbe"
+  },
+  {
+    "path": "Verification/QuestDialogueRegression.cs",
+    "sha256": "f58b7cc02adcbeac2193d75e958cd40c6803227159123ffe0e4479cac61b1524"
+  },
+  {
+    "path": "Verification/RankingRegression.cs",
+    "sha256": "56d93e588b65e3cad509787c2fac7febabfb689d21c253c3290df687d012173b"
+  },
+  {
+    "path": "Verification/RenderingAuditRegression.cs",
+    "sha256": "f75b9fe922fbb94f8dc6cf7d80e1eb0e133974a7c6b630ccf57cc0ee72bc91e6"
+  },
+  {
+    "path": "Verification/Reproduce-R65.ps1",
+    "sha256": "8641466e70e2b6c86c5738e6315c058baf2edc2b20aa28641164e3da68928333"
+  },
+  {
+    "path": "Verification/RewardsRegression.cs",
+    "sha256": "e27a7d18f559dca80c4de8fc2cf0f7ec50344e745f5ff3f104fddf091a4547a7"
+  },
+  {
+    "path": "Verification/RewardsRegression.csproj",
+    "sha256": "b3427979a353b0c4e4fe832f2a746e45eb248080f6a2f80f5b8e728d5390dd1c"
+  },
+  {
+    "path": "Verification/ServiceFlowRegression.cs",
+    "sha256": "5eea71240652860e3d0c1d9bb896a368b59a4349b9d06f439234188473a3357d"
+  },
+  {
+    "path": "Verification/ServiceFlowRegression.csproj",
+    "sha256": "a69f9c5bb880dda104d805f2cebaf09d8671f80489b4b37999f1ada5cc03d2e0"
+  },
+  {
+    "path": "Verification/SkillArtwork/Regression.cs",
+    "sha256": "731459094c2e6523fb81fecc7d90bda8c81573c5239b826a91544b34708691e5"
+  },
+  {
+    "path": "Verification/SkillArtwork/Stubs.cs",
+    "sha256": "666a3ff5de77d2638e800e5d5d63eb6402426b2fa490d02a0b2d7950ce86e985"
+  },
+  {
+    "path": "Verification/SkillArtworkRegression.csproj",
+    "sha256": "1832485c1d605c299336b9d75c332cb4b2798730367edffb02b4e0d91182881b"
+  },
+  {
+    "path": "Verification/SpriteLifetimeRegression.cs",
+    "sha256": "f31586c38fe9ba8eb782475ca8c5ea6bd8e2fb46598a53b54114e22c2855560e"
+  },
+  {
+    "path": "Verification/Test-ClientDeployment.ps1",
+    "sha256": "77f895fa0d3584ac8f077a668fcd344bc992abc336892909534abb1bf9c28760"
+  },
+  {
+    "path": "Verification/Test-DirectLaunchIni.ps1",
+    "sha256": "65619d4b7f020a325dcf772f78f77f6cccd84740c939fe5f006fc809c1944064"
+  },
+  {
+    "path": "Verification/Test-PackageVerifier.ps1",
+    "sha256": "fff14edaeb7e8a2a1e4cb3dd0226ffecd04825dd7d70551f24a0309efeede050"
+  },
+  {
+    "path": "Verification/Test-RegressionBuildIsolation.ps1",
+    "sha256": "c80360a71b60540c16479ef2d9c5069d3e1f6bfe5d1fd749bd496abe8a7bc982"
+  },
+  {
+    "path": "Verification/UiRegression.csproj",
+    "sha256": "ddfc29b08d819ee060171ad0769de86bf90753adc75a3bcbf33de7da5fe99f19"
+  },
+  {
+    "path": "Verification/Windows/CursorAssetRegression.cs",
+    "sha256": "5e437734f02a9e10254acd4d0d130eef17df71457c94e1ed1528f7dce7d8f265"
+  },
+  {
+    "path": "Verification/Windows/CursorLogicRegression.cs",
+    "sha256": "7dbd9e2bfd6c27ada44f9ba3df8b2afbccf1eeef6be6f5dd9f1a603e90b6c049"
+  },
+  {
+    "path": "Verification/Windows/NativeFontRegression.cs",
+    "sha256": "3d2f1a5ad7c9bbc5048aa752da45efcbbbba96998468135ab85f2fabe9129cb2"
+  },
+  {
+    "path": "Verification/Windows/NativeFontRegression.csproj",
+    "sha256": "d5f95be346dc64f51863d0877c19bfbd82b56f017bbfabd7d20cfbde5d46f42c"
+  },
+  {
+    "path": "Verification/Windows/PortraitDisposalRegression.cs",
+    "sha256": "bd8760f8842a0d4672a33f6587190d61e70c476bfcc5ddffe7fd2787ab311723"
+  },
+  {
+    "path": "Verification/Windows/PortraitDisposalRegression.csproj",
+    "sha256": "57a5aa49113eacb5353c5c6ad560aafb443df3634f0cfe8f767156a9b1b0a112"
+  },
+  {
+    "path": "Verification/verify_loot_animation.cjs",
+    "sha256": "88ced410d260249d53db5470dad919057865cd30eeb006a0f7efa5a9baccc523"
+  },
+  {
+    "path": "Verification/verify_loot_preview.cjs",
+    "sha256": "1a85208fa088fb1a95e3c481eaa5da14ff96aa5740479e98f831de6c9033aff7"
+  },
+  {
+    "path": "Verification/verify_patch.py",
+    "sha256": "10859a1e55b79764c59e6c5c82a5c1d67e8454a0234ad1a53d18d342aa6bbc9c"
+  },
+  {
+    "path": "Verification/verify_r610_review.py",
+    "sha256": "29fbd4e5d6808640b06675f67df8d0cf89c722959164285709b596a5ddc85fcb"
+  },
+  {
+    "path": "Verification/verify_r62_review.py",
+    "sha256": "ad2096ee2806ba25aec199045591e77d710b048d47f3022e768b7a5a96a913dd"
+  },
+  {
+    "path": "Verification/verify_r63_review.py",
+    "sha256": "f2f17a8052371d03d5280e963490ee4aea7ccbd1881a869e387196028fc9b83e"
+  },
+  {
+    "path": "Verification/verify_r64_review.py",
+    "sha256": "f19f9431c4bb4f62dfa2febafe57d333ff4dd70bb353f33c6dd5c5a0b5d7f4e9"
+  },
+  {
+    "path": "Verification/verify_r65_review.py",
+    "sha256": "905999b517ea71a406982556937ba2bcda01d6e21c9bb0ef0649e3e0d4816ed4"
+  },
+  {
+    "path": "Verification/verify_r66_review.py",
+    "sha256": "10e183bc20b14a43c7458b5538c3d63ca12f8dae7fa9875efd1dba28b5c7d1f8"
+  },
+  {
+    "path": "Verification/verify_r67_review.py",
+    "sha256": "9940ffbf804f9a79621ed899082890d5ee40c15cdb283415bc6c464e5b06d473"
+  },
+  {
+    "path": "Verification/verify_r68_review.py",
+    "sha256": "1e790ab5350cbd75cb3931d758247a6103527671189a961a06e19ba173a13e2c"
+  },
+  {
+    "path": "Verification/verify_r69_review.py",
+    "sha256": "8d33f168de644864fb41d5e55c48565e40d20a229eb2cd121971cae0bcc641e1"
+  },
+  {
+    "path": "Verification/verify_r6_layout.py",
+    "sha256": "dc4b5e38dae3e14b913b3a41ad9bcf65f86c4128b21e3ca51c83e81627e1903e"
+  },
+  {
+    "path": "Verify-Package.ps1",
+    "sha256": "a710ce6230b656dea305aa1d9444d57f7962b6aef08c1f299e77a5cab6332c5a"
+  },
+  {
+    "path": "Verify-SkillPackage.ps1",
+    "sha256": "51b6207abfa3a9d5062bc724f2d494c77286c646e6fda26c0aa9d83fc4632699"
+  },
+  {
+    "path": "client/Data/UI/CompanionUI.Lib",
+    "sha256": "03417fecb86143cf8f32116b7a79c5d6a4d3a3c735ffa390cac9b7df4c6c81c0"
+  },
+  {
+    "path": "client/Data/UI/CursorsR4/Cursor_Compulsion_Atk.CUR",
+    "sha256": "43cafca03ede46d299df99bcbe11b5f816824145d2f27deb4d5c7ce6631e1281"
+  },
+  {
+    "path": "client/Data/UI/CursorsR4/Cursor_Default.CUR",
+    "sha256": "d8fa2e998a89ca29d228f9d00b4d43b67e5e32609d0ffae3cd8ab59e2bc34305"
+  },
+  {
+    "path": "client/Data/UI/CursorsR4/Cursor_Normal_Atk.CUR",
+    "sha256": "10ad5268d56700131fad73abde1c164b2fe36839f9cb97c026ea75297a3c146b"
+  },
+  {
+    "path": "client/Data/UI/CursorsR4/Cursor_Npc.CUR",
+    "sha256": "f3e7ca05cca5f49025f1546589167736c407ac46cf28e4fc79b6404a3132695f"
+  },
+  {
+    "path": "client/Data/UI/CursorsR4/Cursor_TextPrompt.CUR",
+    "sha256": "34b9d18857d0a245126cbb64cd4cba97995717ab758cf16095d17cd742dd1308"
+  },
+  {
+    "path": "client/Data/UI/CursorsR4/Cursor_Trash.CUR",
+    "sha256": "c176651ef5e729e3f338083295035ad04f3d6c848e400c73266aef271c9e6f82"
+  },
+  {
+    "path": "client/Data/UI/CursorsR4/Cursor_Upgrade.CUR",
+    "sha256": "b6a85ba4b28bf9f5c12a9119705d65e8f71f7ac9f75448fadec00b51af296514"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_00.cur",
+    "sha256": "b2d74cadec964eda11e0eb367db548890222ed452990697b4203a135d48a5ebc"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_01.cur",
+    "sha256": "e80a4ab1d75ae481fedf1942fc87f20aee31df26afd1244a7994a92097bf90ae"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_02.cur",
+    "sha256": "407ffbe4e983514ce816d7fca036b08bf87862b2c52719e7404ba03173f16c27"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_03.cur",
+    "sha256": "30008dc62e189b4676cafa5148367e756781c8c39921351b0b17a23a34134b29"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_04.cur",
+    "sha256": "eae22f22862abd36587909ada4dc17bf992290d0eff9c9adbcc05402f0b1bf6f"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_05.cur",
+    "sha256": "0c8d0f85bf1457b51bf1f6db9b8f946b313d1d22828c49e55d4babaae36cf5f3"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_06.cur",
+    "sha256": "0d96e3fc4e77167ce037b9ac119edba99539ff6eef0d7f869099313ac29c4004"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_07.cur",
+    "sha256": "1441edf0d79dd4124be28d840a58ca0e6073a1bd38b60b4704b6244b5cdaa280"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_08.cur",
+    "sha256": "cfd3cf86bbdd0bf1831e94bf584b7b0a0067a16b022eb7d3fad789c199ae4888"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_09.cur",
+    "sha256": "26a144383f60fa246271ba0f0e55a545d94865483a6988f9917586079c0fd082"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_10.cur",
+    "sha256": "b2d74cadec964eda11e0eb367db548890222ed452990697b4203a135d48a5ebc"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_00.cur",
+    "sha256": "10cedd1b1124c317d3fb65008c25d8a6ec0f28c937b180a083baf323ff6c2489"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_01.cur",
+    "sha256": "7667ee948e4bc03dff50a55a87faa64e44c4acc24170560be287c1206fd6a763"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_02.cur",
+    "sha256": "65f27e826af265c428c08bae27d01e886cdbc5a1b2c3f3ea1bf643df1ed4f469"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_03.cur",
+    "sha256": "f2cb16a0470fffba2c652f0bee537176bd66e5355282fddaacb038923eabd505"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_04.cur",
+    "sha256": "c56b7d6a91c3731b88b3355342db8f06bf30a46ae9773131c0aa309b9a60972b"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_05.cur",
+    "sha256": "4c9aa57222dc0c00eeebea2cbfb141c50acab114901614eb9838abacb6a52b6a"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_06.cur",
+    "sha256": "ff868dbd016ea8447dbb43ba4a9f46016b6e2b9ce17c12cc82d0062251bbda53"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_07.cur",
+    "sha256": "7cf452aee19dcf0256a075db82aca06d4cfe6bbc3948c582a3931fa0812ae73c"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_08.cur",
+    "sha256": "08c9e31919a9b120fe2da40dbc0cde0fb4a02ade1074382eef4ed2fab9b199ad"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_09.cur",
+    "sha256": "a800152d55d8f2bb73ded609713ae16e2a2dee8a33c6146e12f305c917bd9838"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/attack_red_10.cur",
+    "sha256": "10cedd1b1124c317d3fb65008c25d8a6ec0f28c937b180a083baf323ff6c2489"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/default_00.cur",
+    "sha256": "a9608946ad3eccaed904fd853f16d7f0bbd2fad8efcb1af93d0674e82ee88290"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/manifest.json",
+    "sha256": "df9248bebdeec6b75c7fa66832b979e790aa9babbefa34b944682c2dd17f8bce"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_00.cur",
+    "sha256": "1c6b59d16bbc57a1e3286410b1fab6227c6683d53328442c0da4bb9a93bbb466"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_01.cur",
+    "sha256": "e9cf00343afce67fe52c12332ed1bd0226d49814f16f8268a83d9951469b6932"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_02.cur",
+    "sha256": "d35ca1ff8f561adab1076b94c05fd7b6027f35e84c7d3dfcd047b5bfdf265dde"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_03.cur",
+    "sha256": "ade60433219b4b0d33f0e8351d5598873512ada5afc1a274624b4086db0975d0"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_04.cur",
+    "sha256": "3c68ebfda971ba052d69417a3eb7541b35f3a09e215baf6abad9204d0584cde5"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_05.cur",
+    "sha256": "211e79512db5e8075b9e9efb7ebea803068f0b6f17d4a2eb6aa5ebc573d8897b"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_06.cur",
+    "sha256": "271072eb82fba94df8a270e5627acdcddbb2f416c1a308782ca6d565aa22d26b"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_07.cur",
+    "sha256": "04fbc09c8c46ae74c09468dc3f0c4bc7dbcf74c5345a1672252444cc525a8069"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_08.cur",
+    "sha256": "1c6b59d16bbc57a1e3286410b1fab6227c6683d53328442c0da4bb9a93bbb466"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_09.cur",
+    "sha256": "1c6b59d16bbc57a1e3286410b1fab6227c6683d53328442c0da4bb9a93bbb466"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_10.cur",
+    "sha256": "1c6b59d16bbc57a1e3286410b1fab6227c6683d53328442c0da4bb9a93bbb466"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/npc_11.cur",
+    "sha256": "1c6b59d16bbc57a1e3286410b1fab6227c6683d53328442c0da4bb9a93bbb466"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/static/Cursor_Compulsion_Atk.CUR",
+    "sha256": "23b808b643a41fa82f60de39e84920a6ba0942f1db016f9e569fbafa146c46c3"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/static/Cursor_Default.CUR",
+    "sha256": "a9608946ad3eccaed904fd853f16d7f0bbd2fad8efcb1af93d0674e82ee88290"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/static/Cursor_Normal_Atk.CUR",
+    "sha256": "3bcf772ae901097aefe9b207afe1b2c63feaced56ed01fab90e968cd4998452d"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/static/Cursor_Npc.CUR",
+    "sha256": "1c6b59d16bbc57a1e3286410b1fab6227c6683d53328442c0da4bb9a93bbb466"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/static/Cursor_TextPrompt.CUR",
+    "sha256": "303214d2043e4520883a451728e7a32d73b267386cb137f1c3999f1778165631"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/static/Cursor_Trash.CUR",
+    "sha256": "ed518e3f0bfd8ee4bb3ba6d05e49dc8401d462ef55eb5679ce0ba30ae30dc260"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/static/Cursor_Upgrade.CUR",
+    "sha256": "64425d0f9b19f823f31c7ba1e1761527d3a1d11aa0c0c1974b4c73acd579b93c"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/text_00.cur",
+    "sha256": "303214d2043e4520883a451728e7a32d73b267386cb137f1c3999f1778165631"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/trash_00.cur",
+    "sha256": "387971ea190bd73a3c769f6f556f6e2932326a4c8acafb755ef2a781f60d2ce7"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/trash_01.cur",
+    "sha256": "f53b9a274c402b56d0c8cb108d11e69f5801d637d23ebc8636f0da41e92e3c45"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/trash_02.cur",
+    "sha256": "ee74fb6129a43894f12354d381e3f35f7cbca5469f1bb36c26fef06f9b7b35f8"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/trash_03.cur",
+    "sha256": "6c283b7fbbdd47f55550d25b426e8ad5085826a27b7e46a285f1bc7b3e0deb8d"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/trash_04.cur",
+    "sha256": "f1c9bae6905061b5fbd48e572e656fad0b8e816bc2785d8eb8d254c790e09736"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/trash_05.cur",
+    "sha256": "6c283b7fbbdd47f55550d25b426e8ad5085826a27b7e46a285f1bc7b3e0deb8d"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/trash_06.cur",
+    "sha256": "ee74fb6129a43894f12354d381e3f35f7cbca5469f1bb36c26fef06f9b7b35f8"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/trash_07.cur",
+    "sha256": "387971ea190bd73a3c769f6f556f6e2932326a4c8acafb755ef2a781f60d2ce7"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_00.cur",
+    "sha256": "64425d0f9b19f823f31c7ba1e1761527d3a1d11aa0c0c1974b4c73acd579b93c"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_01.cur",
+    "sha256": "64425d0f9b19f823f31c7ba1e1761527d3a1d11aa0c0c1974b4c73acd579b93c"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_02.cur",
+    "sha256": "0691aa421b18411663e6fb76243578aebb6517b564aebf74712821642cac9a9a"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_03.cur",
+    "sha256": "5fdae66f0bda6226d15385c24e480042b7d094fc19909db6716519e0a32ac72d"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_04.cur",
+    "sha256": "0691aa421b18411663e6fb76243578aebb6517b564aebf74712821642cac9a9a"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_05.cur",
+    "sha256": "64425d0f9b19f823f31c7ba1e1761527d3a1d11aa0c0c1974b4c73acd579b93c"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_06.cur",
+    "sha256": "64425d0f9b19f823f31c7ba1e1761527d3a1d11aa0c0c1974b4c73acd579b93c"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_07.cur",
+    "sha256": "0691aa421b18411663e6fb76243578aebb6517b564aebf74712821642cac9a9a"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_08.cur",
+    "sha256": "5fdae66f0bda6226d15385c24e480042b7d094fc19909db6716519e0a32ac72d"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_09.cur",
+    "sha256": "0691aa421b18411663e6fb76243578aebb6517b564aebf74712821642cac9a9a"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_10.cur",
+    "sha256": "64425d0f9b19f823f31c7ba1e1761527d3a1d11aa0c0c1974b4c73acd579b93c"
+  },
+  {
+    "path": "client/Data/UI/CursorsR5/upgrade_11.cur",
+    "sha256": "64425d0f9b19f823f31c7ba1e1761527d3a1d11aa0c0c1974b4c73acd579b93c"
+  },
+  {
+    "path": "client/Data/UI/EquipmentGhosts.Lib",
+    "sha256": "8703c3de20783a93c9a55f6147504c46d073e3ea4b55e6d98dd56f873491044a"
+  },
+  {
+    "path": "client/Data/UI/InventoryActions.Lib",
+    "sha256": "bbfe516534531b09572ddee7ebbd340ab9bc30ec83378c088177a5cd8ebcab14"
+  },
+  {
+    "path": "client/Data/UI/LootEffectsR65.Lib",
+    "sha256": "506fc914ee2b04a0dc36f0da1ead31d31bc27cbacf5636a27bfd3cb67df6ba26"
+  },
+  {
+    "path": "client/Data/UI/Original180.Lib",
+    "sha256": "108ade70db853b733eb2cf2a359bcf69d1e9f87619c50d7a39125992830b5f18"
+  },
+  {
+    "path": "client/Data/UI/Original180Character.Lib",
+    "sha256": "34d30544d476c7f7fed61da02a8fe6481dbbdd546e4593a9bde0df924570a60b"
+  },
+  {
+    "path": "client/Data/UI/PortraitBody.Lib",
+    "sha256": "7a9a2ca4406ffc87da42fd93b5da472d5870c2d5a29948850736ae438ff7ea4e"
+  },
+  {
+    "path": "client/Data/UI/RefinedSkinV4.Lib",
+    "sha256": "302c8a969d1119964c091038db5534d6d9afeacaf252febdf9057b7860cf06ba"
+  },
+  {
+    "path": "client/Data/UI/RefinedSkinV5.Lib",
+    "sha256": "384afe6a88efc2cb5ed3146f4f3fc253989d083682592c501ec721f07f6d0d20"
+  },
+  {
+    "path": "client/Data/UI/ServiceR6.Lib",
+    "sha256": "13e9bde3cce399d5482bf672c872874e82f8ffbd1c951cd84ca8b52074468bcf"
+  },
+  {
+    "path": "client/Data/UI/SkillIconsV6.Lib",
+    "sha256": "17fbe6ed0eff5c48ee1eb50c96e9b5041881287d175f58bd4533fee0ac2a177a"
+  },
+  {
+    "path": "client/Data/UI/WindowCloseR3.Lib",
+    "sha256": "0ece3f28c397a03ad42b65c1d90a564bf07b187bd53e3f07bf2ff4434684476b"
+  },
+  {
+    "path": "client/Data/UI_32bit.Lib",
+    "sha256": "8b6ae2c210257244c2ab6248fc2a4c51d4caddf45a52647bd9fc2b0f921a568a"
+  },
+  {
+    "path": "skills-sha256.json",
+    "sha256": "7583975bfbd3ef98adb6f592171305618030873c8779a8c60d1731d656b86722"
+  }
+]

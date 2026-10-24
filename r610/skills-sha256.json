@@ -1,0 +1,72 @@
+[
+  {
+    "path": "client/Data/UI/SkillIconsV6.Lib",
+    "bytes": 5494370,
+    "sha256": "17fbe6ed0eff5c48ee1eb50c96e9b5041881287d175f58bd4533fee0ac2a177a"
+  },
+  {
+    "path": "Evidence/v6/skills-runtime.json",
+    "bytes": 31373,
+    "sha256": "03ce283ea23f5f9ff022ac6a12f963fc1ec35cbcecaf532f3daaf23f53b19f5e"
+  },
+  {
+    "path": "Source/Client/MirControls/OriginalSkillArtwork.cs",
+    "bytes": 3405,
+    "sha256": "a024fadb27e3bcc0a95866aa19a4ce0a39c5401eded410267e858a79a7f14363"
+  },
+  {
+    "path": "Source/Client/MirControls/SkillIconsV6Module.cs",
+    "bytes": 819,
+    "sha256": "6c0b1e8894fa7c13a5258b22fdcfc634bfd54fce2980dc3be7d31a30a310084a"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/MainDialogs.cs",
+    "bytes": 170802,
+    "sha256": "f0bab325d88b7d637653914c83b41204504d6d23af08c6037004fc5d44314676"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalDialogs.cs",
+    "bytes": 25640,
+    "sha256": "f27e18bf8d6543634a1811ad734c6c1c249ca5945e8486bb7fea1b12443ea177"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalSkillBarControls.cs",
+    "bytes": 2389,
+    "sha256": "b0992905390ccaee90350768b6cc25353e55d8cbc408479844e95085337d84ab"
+  },
+  {
+    "path": "Source/Client/MirScenes/Dialogs/OriginalNativeOverlays.cs",
+    "bytes": 6930,
+    "sha256": "cb455792c78356fd8a2ce30f139db2f18583356eb4d15fbdb543ae4d4074cf20"
+  },
+  {
+    "path": "Build-R6.ps1",
+    "bytes": 8851,
+    "sha256": "6649064e3a8ea983074c97198e6180cb356af424c0ee7b70ca909b146342330a"
+  },
+  {
+    "path": "Verify-SkillPackage.ps1",
+    "bytes": 975,
+    "sha256": "51b6207abfa3a9d5062bc724f2d494c77286c646e6fda26c0aa9d83fc4632699"
+  },
+  {
+    "path": "Verification/SkillArtworkRegression.csproj",
+    "bytes": 871,
+    "sha256": "1832485c1d605c299336b9d75c332cb4b2798730367edffb02b4e0d91182881b"
+  },
+  {
+    "path": "Verification/SkillArtwork/Regression.cs",
+    "bytes": 7563,
+    "sha256": "731459094c2e6523fb81fecc7d90bda8c81573c5239b826a91544b34708691e5"
+  },
+  {
+    "path": "Verification/SkillArtwork/Stubs.cs",
+    "bytes": 4838,
+    "sha256": "666a3ff5de77d2638e800e5d5d63eb6402426b2fa490d02a0b2d7950ce86e985"
+  },
+  {
+    "path": "README-技能轻量包.md",
+    "bytes": 1477,
+    "sha256": "25e21fc843c183425b0215fd5e525339c9abf3fcdcaa3ab02dc4b5c9b99ee35d"
+  }
+]
