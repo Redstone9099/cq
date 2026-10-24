@@ -36,7 +36,7 @@ namespace Client.MirGraphics
         internal static void Draw(ItemObject item)
         {
             int grade=(int)ItemQualityPresentation.Normalize(item.Grade);
-            if(!Settings.Effect || item.LootEffectDetail==0 || item.LootHeight>6)return;
+            if(!Settings.Effect || item.LootEffectDetail==0 || item.Size.IsEmpty || item.LootHeight>6)return;
             var s=item.LootEffectSample;
             Point anchor=item.LootEffectAnchor;
             Color colour=ItemQualityPresentation.Colour(item.Grade);

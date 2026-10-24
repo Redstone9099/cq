@@ -33,7 +33,7 @@ namespace Client
             var screen=new Rectangle(Point.Empty,viewport);
             for(int i=0;i<objects.Count;i++)
             {
-                if(objects[i] is not ItemObject item || ((int)item.Grade<2 && !item.LootInArrival) || (int)item.Grade>5)continue;
+                if(objects[i] is not ItemObject item || item.Size.IsEmpty || ((int)item.Grade<2 && !item.LootInArrival) || (int)item.Grade>5)continue;
                 Point p=item.LootEffectAnchor;
                 // Ground footprints and short motes; no offscreen 192px beam budget.
                 if(!screen.IntersectsWith(new Rectangle(p.X-42,p.Y-32,84,56)))continue;

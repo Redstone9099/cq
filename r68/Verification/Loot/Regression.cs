@@ -110,6 +110,12 @@ internal static class LootEffectsRegression
         }
         Check(LootPresentation.Fit(new(48,48))==new Size(20,20),"Compact bottle/shield art should have a small ground footprint");
         Check(LootPresentation.Fit(new(8,12))==new Size(8,12),"Tiny original art must not be enlarged");
+        var savedBounds=MLibrary.VisibleBounds;MLibrary.VisibleBounds=Rectangle.Empty;
+        var missing=Item(9999,ItemGrade.Heroic,Point.Empty);missing.LootEffectDetail=2;
+        missing.LootEffectSample=LootEffectTimeline.At(9000,0,9999);
+        MLibrary.Calls.Clear();LootEffectRenderer.DrawShadow(missing);LootEffectRenderer.Draw(missing);
+        Check(MLibrary.Calls.Count==0,"Missing item art still draws a floating effect");
+        MLibrary.VisibleBounds=savedBounds;
         var random=new Random(68);
         for(int i=0;i<300;i++)
         {
